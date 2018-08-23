@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="boot-starter" />
+        <module name="cloud-discover" />
+        <module name="cloud-zuul-gateway" />
+        <module name="common-starter" />
+        <module name="component-activiti5-starter" />
+        <module name="component-activiti5-ui-starter" />
+        <module name="component-auth2.0-starter" />
+        <module name="component-mybatis-starter" />
+        <module name="component-redis-starter" />
+      </profile>
+    </annotationProcessing>
+  </component>
+</project>
