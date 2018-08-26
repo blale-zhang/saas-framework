@@ -8,6 +8,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="boot-starter" />
         <module name="cloud-discover" />
+        <module name="cloud-services" />
         <module name="cloud-zuul-gateway" />
         <module name="common-starter" />
         <module name="component-activiti5-starter" />
