@@ -16,7 +16,18 @@
         <module>component-auth2.0-starter</module>
         <module>component-activiti5-starter</module>
         <module>component-activiti5-ui-starter</module>
+        <module>component-blade-starter</module>
     </modules>
+
+    <dependencies>
+
+        <dependency>
+            <groupId>commons-logging</groupId>
+            <artifactId>commons-logging</artifactId>
+        </dependency>
+
+    </dependencies>
+
 
 
 </project>

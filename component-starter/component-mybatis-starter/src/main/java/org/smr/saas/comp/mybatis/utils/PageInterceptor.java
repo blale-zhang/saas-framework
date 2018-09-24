@@ -15,6 +15,7 @@ import org.apache.ibatis.reflection.wrapper.DefaultObjectWrapperFactory;
 import org.apache.ibatis.reflection.wrapper.ObjectWrapperFactory;
 import org.apache.ibatis.scripting.defaults.DefaultParameterHandler;
 import org.apache.ibatis.session.RowBounds;
+import org.blade.utils.Pager;
 
 import java.sql.Connection;
 import java.sql.PreparedStatement;

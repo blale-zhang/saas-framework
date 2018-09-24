@@ -14,6 +14,7 @@
         <module name="component-activiti5-starter" />
         <module name="component-activiti5-ui-starter" />
         <module name="component-auth2.0-starter" />
+        <module name="component-blade-starter" />
         <module name="component-mybatis-starter" />
         <module name="component-redis-starter" />
       </profile>

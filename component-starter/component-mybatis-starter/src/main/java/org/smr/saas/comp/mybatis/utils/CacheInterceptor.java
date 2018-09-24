@@ -22,6 +22,7 @@ import org.apache.ibatis.session.Configuration;
 import org.apache.ibatis.session.ResultHandler;
 import org.apache.ibatis.session.RowBounds;
 import org.apache.ibatis.type.TypeHandlerRegistry;
+import org.blade.utils.Pager;
 
 import java.sql.SQLException;
 import java.util.HashMap;

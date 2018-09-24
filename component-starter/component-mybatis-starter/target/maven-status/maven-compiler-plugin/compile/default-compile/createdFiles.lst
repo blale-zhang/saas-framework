@@ -6,8 +6,8 @@ org\smr\saas\comp\mybatis\utils\OraclePageSqlBuilder.class
 org\smr\saas\comp\mybatis\utils\PageSql.class
 org\smr\saas\comp\mybatis\conf\MyBatisProperties.class
 org\smr\saas\comp\mybatis\conf\MyBatisConfiguration.class
+org\smr\saas\comp\mybatis\MybatisStarterApplication.class
 org\smr\saas\comp\mybatis\conf\Druid.class
 org\smr\saas\comp\mybatis\conf\DruidConfig.class
 org\smr\saas\comp\mybatis\utils\MsSQLPageSqlBuilder.class
-org\smr\saas\comp\mybatis\utils\Pager.class
 org\smr\saas\comp\mybatis\utils\PageInterceptor.class

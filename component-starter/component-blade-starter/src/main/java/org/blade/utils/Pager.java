@@ -1,4 +1,4 @@
-package org.smr.saas.comp.mybatis.utils;
+package org.blade.utils;
 
 import java.util.List;
 

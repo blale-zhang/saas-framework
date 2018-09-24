@@ -10840,7 +10840,7 @@ function init() {
     // Else fetch the model from server and display editor
     else {
 		var modelId = window.location.search.substring(4);
-		var modelUrl = "./service/model/" + modelId + "/json";
+		var modelUrl = "./service/model/json/?modelId="+ modelId ;
 
         ORYX.Editor.createByUrl(modelUrl);
     }
