@@ -1,4 +1,0 @@
-org\smr\comp\redis\conf\RedisPool.class
-org\smr\comp\redis\init\RedisConfiguration.class
-org\smr\comp\redis\conf\RedisProperties.class
-org\smr\comp\redis\RedisStarterApplication.class
