@@ -1,0 +1,6 @@
+org\blade\dao\base\BaseMapper.class
+org\blade\dao\base\BizMapper.class
+org\blade\dao\base\PageQueryMapper.class
+org\blade\entities\base\BaseEntity.class
+org\blade\entities\base\BizEntity.class
+org\blade\utils\Pager.class
