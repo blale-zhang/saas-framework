@@ -5,6 +5,8 @@ import org.apache.ibatis.session.SqlSessionFactory;
 import org.mybatis.spring.SqlSessionFactoryBean;
 import org.mybatis.spring.annotation.MapperScan;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
+import org.springframework.boot.autoconfigure.condition.ConditionalOnClass;
 import org.springframework.boot.context.properties.EnableConfigurationProperties;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
@@ -21,7 +23,8 @@ import java.util.Properties;
  *
  */
 @Configuration
-@MapperScan(basePackages="org.smr")
+@EnableAutoConfiguration
+@MapperScan(basePackages={"com.smr.**.dao"})
 @EnableConfigurationProperties({DataSourceProperties.class, Druid.class, MyBatisProperties.class})
 public class MyBatisConfiguration {
 
@@ -29,10 +32,11 @@ public class MyBatisConfiguration {
     private DataSourceProperties dataSourceProperties;
 
     @Autowired
-    private Druid druid;
+    private MyBatisProperties myBatisProperties;
+
 
     @Autowired
-    private MyBatisProperties myBatisProperties;
+    private DataSource ds;
 
     /**
      * @Title: getDataSource
@@ -49,24 +53,24 @@ public class MyBatisConfiguration {
         props.put("username",dataSourceProperties.getUsername());
         props.put("password", dataSourceProperties.getPassword());
 
-        props.put("initialSize", druid.getInitialSize());
-        props.put("maxActive", druid.getMaxActive());
-        props.put("maxWait", druid.getMaxWait());
-        props.put("timeBetweenEvictionRunsMillis", druid.getTimeBetweenEvictionRunsMillis());
+        props.put("initialSize", dataSourceProperties.getDruid().getInitialSize());
+        props.put("maxActive", dataSourceProperties.getDruid().getMaxActive());
+        props.put("maxWait", dataSourceProperties.getDruid().getMaxWait());
+        props.put("timeBetweenEvictionRunsMillis", dataSourceProperties.getDruid().getTimeBetweenEvictionRunsMillis());
 
-        props.put("minEvictableIdleTimeMillis", druid.getMinEvictableIdleTimeMillis());
-        props.put("maxEvictableIdleTimeMillis", druid.getMaxEvictableIdleTimeMillis());
-        props.put("validationQuery", druid.getValidationQuery());
-        props.put("testWhileIdle", druid.getTestWhileIdle());
+        props.put("minEvictableIdleTimeMillis", dataSourceProperties.getDruid().getMinEvictableIdleTimeMillis());
+        props.put("maxEvictableIdleTimeMillis", dataSourceProperties.getDruid().getMaxEvictableIdleTimeMillis());
+        props.put("validationQuery", dataSourceProperties.getDruid().getValidationQuery());
+        props.put("testWhileIdle", dataSourceProperties.getDruid().getTestWhileIdle());
 
-        props.put("testOnBorrow", druid.getTestOnBorrow());
-        props.put("testOnReturn", druid.getTestOnReturn());
-        props.put("poolPreparedStatements", druid.getPoolPreparedStatements());
-        props.put("maxPoolPreparedStatementPerConnectionSize", druid.getMaxPoolPreparedStatementPerConnectionSize());
-        props.put("filters", druid.getFilters());
-        props.put("connectionProperties", druid.getConnectionProperties());
-        props.put("useGlobalDataSourceStat",druid.getUseGlobalDataSourceStat());
-        props.put("aopPatterns", druid.getAopPatterns());
+        props.put("testOnBorrow", dataSourceProperties.getDruid().getTestOnBorrow());
+        props.put("testOnReturn", dataSourceProperties.getDruid().getTestOnReturn());
+        props.put("poolPreparedStatements", dataSourceProperties.getDruid().getPoolPreparedStatements());
+        props.put("maxPoolPreparedStatementPerConnectionSize", dataSourceProperties.getDruid().getMaxPoolPreparedStatementPerConnectionSize());
+        props.put("filters", dataSourceProperties.getDruid().getFilters());
+        props.put("connectionProperties", dataSourceProperties.getDruid().getConnectionProperties());
+        props.put("useGlobalDataSourceStat",dataSourceProperties.getDruid().getUseGlobalDataSourceStat());
+        props.put("aopPatterns", dataSourceProperties.getDruid().getAopPatterns());
 
         try {
             return DruidDataSourceFactory.createDataSource(props);
@@ -86,7 +90,7 @@ public class MyBatisConfiguration {
      * @throws
      */
     @Bean
-    public SqlSessionFactory sqlSessionFactory(DataSource ds) throws Exception{
+    public SqlSessionFactory sqlSessionFactory() throws Exception{
         SqlSessionFactoryBean sfb = new SqlSessionFactoryBean();
         sfb.setDataSource(ds);
         //下边两句仅仅用于*.xml文件，如果整个持久层操作不需要使用到xml文件的话（只用注解就可以搞定），则不加
@@ -95,3 +99,4 @@ public class MyBatisConfiguration {
         return sfb.getObject();
     }
 }
+

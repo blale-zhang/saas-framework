@@ -1,6 +1,7 @@
 package org.smr.saas.comp.mybatis.conf;
 
 import com.alibaba.druid.support.http.StatViewServlet;
+import org.springframework.boot.context.properties.ConfigurationProperties;
 import org.springframework.boot.web.servlet.ServletRegistrationBean;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
@@ -26,5 +27,31 @@ public class DruidConfig {
 
         return bean;
     }
+
+/*    @Bean
+    //@ConfigurationProperties(prefix = "spring.datasource")
+    public DataSourceProperties initDataSourceProperties(){
+
+        return new DataSourceProperties();
+    }
+
+
+    @Bean
+    //@ConfigurationProperties(prefix = "spring.datasource.druid")
+    public Druid initDruid(){
+        return   new Druid();
+    }*//*    @Bean
+    //@ConfigurationProperties(prefix = "spring.datasource")
+    public DataSourceProperties initDataSourceProperties(){
+
+        return new DataSourceProperties();
+    }
+
+
+    @Bean
+    //@ConfigurationProperties(prefix = "spring.datasource.druid")
+    public Druid initDruid(){
+        return   new Druid();
+    }*/
 
 }

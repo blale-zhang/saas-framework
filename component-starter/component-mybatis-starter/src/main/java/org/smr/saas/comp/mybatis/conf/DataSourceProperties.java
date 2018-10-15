@@ -1,12 +1,16 @@
 package org.smr.saas.comp.mybatis.conf;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Value;
 import org.springframework.boot.context.properties.ConfigurationProperties;
-import org.springframework.stereotype.Component;
+import org.springframework.boot.context.properties.EnableConfigurationProperties;
+import org.springframework.context.annotation.Configuration;
 
-@Component
+@Configuration
 @ConfigurationProperties(prefix = "spring.datasource")
+@EnableConfigurationProperties({ Druid.class})
 public class DataSourceProperties {
+
 
     private String driverClassName;
     private String url;
@@ -15,6 +19,7 @@ public class DataSourceProperties {
 
     @Autowired
     private Druid druid;
+
 
     public String getDriverClassName() {
         return driverClassName;
@@ -55,4 +60,6 @@ public class DataSourceProperties {
     public void setDruid(Druid druid) {
         this.druid = druid;
     }
+
 }
+

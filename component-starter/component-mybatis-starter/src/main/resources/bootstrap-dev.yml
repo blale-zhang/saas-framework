@@ -22,3 +22,6 @@ spring:
       connection-properties: druid.stat.mergeSql=true;druid.stat.slowSqlMillis=5000 #通过connectProperties属性来打开mergeSql功能；慢SQL记录
       use-global-data-source-stat: true #合并多个DruidDataSource的监控数据
       aop-patterns: com.cmic.${sys.name}.*.service.*
+mybatis:
+  mapper-locations: classpath*:mapper/*.xml
+  type-aliases-package: org.smr.comp.mybatis.dao.entities
