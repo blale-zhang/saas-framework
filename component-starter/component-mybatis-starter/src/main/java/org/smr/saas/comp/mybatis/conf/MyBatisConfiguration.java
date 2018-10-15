@@ -10,6 +10,7 @@ import org.springframework.boot.autoconfigure.condition.ConditionalOnClass;
 import org.springframework.boot.context.properties.EnableConfigurationProperties;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
+import org.springframework.core.env.Environment;
 import org.springframework.core.io.support.PathMatchingResourcePatternResolver;
 
 import javax.sql.DataSource;
@@ -25,18 +26,18 @@ import java.util.Properties;
 @Configuration
 @EnableAutoConfiguration
 @MapperScan(basePackages={"com.smr.**.dao"})
-@EnableConfigurationProperties({DataSourceProperties.class, Druid.class, MyBatisProperties.class})
+@EnableConfigurationProperties({DataSourceProperties.class, MyBatisProperties.class})
 public class MyBatisConfiguration {
+
+
+    @Autowired
+    private Environment env;
 
     @Autowired
     private DataSourceProperties dataSourceProperties;
 
     @Autowired
     private MyBatisProperties myBatisProperties;
-
-
-    @Autowired
-    private DataSource ds;
 
     /**
      * @Title: getDataSource
@@ -90,7 +91,7 @@ public class MyBatisConfiguration {
      * @throws
      */
     @Bean
-    public SqlSessionFactory sqlSessionFactory() throws Exception{
+    public SqlSessionFactory sqlSessionFactory(DataSource ds) throws Exception{
         SqlSessionFactoryBean sfb = new SqlSessionFactoryBean();
         sfb.setDataSource(ds);
         //下边两句仅仅用于*.xml文件，如果整个持久层操作不需要使用到xml文件的话（只用注解就可以搞定），则不加

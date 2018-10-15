@@ -1,7 +1,0 @@
-org\smr\comp\activi5\controller\ModelSaveRestResource.class
-org\smr\comp\activi5\controller\ActivitiModelController.class
-org\smr\comp\activi5\MyApplication.class
-org\smr\comp\activi5\conf\MyWebSecurityConfigurerAdapter.class
-org\smr\comp\activi5\controller\ModelEditorJsonRestResource.class
-org\smr\comp\activi5\controller\StencilsetRestResource.class
-org\smr\comp\activi5\conf\ActitytiDataSourceConfig.class
