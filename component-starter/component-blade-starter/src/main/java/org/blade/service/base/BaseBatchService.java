@@ -13,7 +13,7 @@ import org.blade.entities.base.BaseEntity;
  * @author blade
  *
  */
-public interface BaseBatchService<T extends BaseEntity<Long>> {
+public interface BaseBatchService<ID ,T extends BaseEntity<ID>> {
 
 	/**
 	 * 批量保存操作

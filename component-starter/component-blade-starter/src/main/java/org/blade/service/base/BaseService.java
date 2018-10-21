@@ -11,7 +11,7 @@ import org.blade.entities.base.BaseEntity;
  * @author blade
  *
  */
-public interface BaseService<T extends BaseEntity<Long>> {
+public interface BaseService<ID ,T extends BaseEntity<ID>> {
 
 	/**
 	 * 保存
