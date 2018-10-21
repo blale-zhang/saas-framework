@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1747f34d-705b-4768-b87d-428a76ba95be" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/component-starter/component-blade-starter/src/main/java/org/blade/msg/ErrorCode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/component-starter/component-blade-starter/src/main/java/org/blade/msg/Message.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/component-starter/component-mybatis-starter/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/component-starter/component-mybatis-starter/pom.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -30,32 +31,47 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="MyBatisConfiguration.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/component-starter/component-mybatis-starter/src/main/java/org/smr/saas/comp/mybatis/conf/MyBatisConfiguration.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="178">
-              <caret line="49" column="38" selection-start-line="49" selection-start-column="38" selection-end-line="49" selection-end-column="38" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/component-starter/component-mybatis-starter/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="223">
-              <caret line="40" column="38" lean-forward="true" selection-start-line="40" selection-start-column="38" selection-end-line="40" selection-end-column="38" />
+            <state relative-caret-position="760">
+              <caret line="40" column="38" selection-start-line="40" selection-start-column="38" selection-end-line="40" selection-end-column="38" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="spring-cloud-context-1.1.7.RELEASE.pom" pinned="false" current-in-tab="true">
+      <file leaf-file-name="spring-cloud-context-1.1.7.RELEASE.pom" pinned="false" current-in-tab="false">
         <entry file="file://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-context/1.1.7.RELEASE/spring-cloud-context-1.1.7.RELEASE.pom">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="171">
-              <caret line="9" column="39" lean-forward="true" selection-start-line="9" selection-start-column="39" selection-end-line="9" selection-end-column="39" />
+              <caret line="9" column="39" selection-start-line="9" selection-start-column="39" selection-end-line="9" selection-end-column="39" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Pager.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/component-starter/component-blade-starter/src/main/java/org/blade/utils/Pager.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="23" selection-start-column="8" selection-end-column="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Message.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/component-starter/component-blade-starter/src/main/java/org/blade/msg/Message.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="133">
+              <caret line="7" column="22" lean-forward="true" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ErrorCode.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/component-starter/component-blade-starter/src/main/java/org/blade/msg/ErrorCode.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="659">
+              <caret line="37" column="1" lean-forward="true" selection-start-line="37" selection-start-column="1" selection-end-line="37" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -63,8 +79,8 @@
       <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-29">
-              <caret line="12" column="37" lean-forward="true" selection-start-line="12" selection-start-column="37" selection-end-line="12" selection-end-column="37" />
+            <state relative-caret-position="228">
+              <caret line="12" column="37" selection-start-line="12" selection-start-column="37" selection-end-line="12" selection-end-column="37" />
             </state>
           </provider>
         </entry>
@@ -82,22 +98,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MybatisStarterApplication.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/component-starter/component-mybatis-starter/src/main/java/org/smr/saas/comp/mybatis/MybatisStarterApplication.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="190">
-              <caret line="10" column="94" selection-start-line="10" selection-start-column="94" selection-end-line="10" selection-end-column="94" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="bootstrap-dev.yml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/component-starter/component-mybatis-starter/src/main/resources/bootstrap-dev.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="432">
+            <state relative-caret-position="437">
               <caret line="23" column="29" selection-start-line="23" selection-start-column="29" selection-end-line="23" selection-end-column="29" />
             </state>
           </provider>
@@ -112,29 +116,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DataSourceProperties.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/component-starter/component-mybatis-starter/src/main/java/org/smr/saas/comp/mybatis/conf/DataSourceProperties.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="36" selection-start-line="36" selection-end-line="36" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#570#571#0" expanded="true" />
-                <element signature="e#624#625#0" expanded="true" />
-                <element signature="e#748#749#0" expanded="true" />
-                <element signature="e#862#863#0" expanded="true" />
-                <element signature="e#902#903#0" expanded="true" />
-                <element signature="e#1156#1157#0" expanded="true" />
-                <element signature="e#1190#1191#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="Druid.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/component-starter/component-mybatis-starter/src/main/java/org/smr/saas/comp/mybatis/conf/Druid.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="101">
+            <state relative-caret-position="532">
               <caret line="31" selection-start-line="31" selection-end-line="31" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -184,8 +169,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/component-starter/component-activiti5-ui-starter/src/main/java/org/smr/comp/activi5/ModelEditorJsonRestResource.java" />
-        <option value="$PROJECT_DIR$/component-starter/component-activiti5-ui-starter/src/main/java/org/smr/comp/activi5/ModelSaveRestResource.java" />
         <option value="$PROJECT_DIR$/component-starter/component-activiti5-ui-starter/src/main/java/org/smr/comp/activi5/StencilsetRestResource.java" />
         <option value="$PROJECT_DIR$/component-starter/component-activiti5-ui-starter/src/main/resources/static/editor-app/app-cfg.js" />
         <option value="$PROJECT_DIR$/component-starter/component-activiti5-ui-starter/src/main/java/org/smr/comp/activi5/conf/dafads.java" />
@@ -235,6 +218,8 @@
         <option value="$PROJECT_DIR$/component-starter/component-mybatis-starter/src/main/java/org/smr/saas/comp/mybatis/conf/MyBatisConfiguration.java" />
         <option value="$PROJECT_DIR$/component-starter/component-mybatis-starter/src/main/resources/bootstrap-dev.yml" />
         <option value="$PROJECT_DIR$/component-starter/component-mybatis-starter/pom.xml" />
+        <option value="$PROJECT_DIR$/component-starter/component-blade-starter/src/main/java/org/blade/msg/Message.java" />
+        <option value="$PROJECT_DIR$/component-starter/component-blade-starter/src/main/java/org/blade/msg/ErrorCode.java" />
       </list>
     </option>
   </component>
@@ -277,9 +262,9 @@
     </packageJsonPaths>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="193" />
-    <option name="y" value="42" />
-    <option name="width" value="1807" />
+    <option name="x" value="-41" />
+    <option name="y" value="23" />
+    <option name="width" value="1940" />
     <option name="height" value="969" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -288,6 +273,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -299,6 +285,57 @@
               <item name="saas-framework" type="b2602c69:ProjectViewProjectNode" />
               <item name="saas-framework" type="462c0819:PsiDirectoryNode" />
               <item name="component-starter" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="saas-framework" type="b2602c69:ProjectViewProjectNode" />
+              <item name="saas-framework" type="462c0819:PsiDirectoryNode" />
+              <item name="component-starter" type="462c0819:PsiDirectoryNode" />
+              <item name="component-blade-starter" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="saas-framework" type="b2602c69:ProjectViewProjectNode" />
+              <item name="saas-framework" type="462c0819:PsiDirectoryNode" />
+              <item name="component-starter" type="462c0819:PsiDirectoryNode" />
+              <item name="component-blade-starter" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="saas-framework" type="b2602c69:ProjectViewProjectNode" />
+              <item name="saas-framework" type="462c0819:PsiDirectoryNode" />
+              <item name="component-starter" type="462c0819:PsiDirectoryNode" />
+              <item name="component-blade-starter" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="saas-framework" type="b2602c69:ProjectViewProjectNode" />
+              <item name="saas-framework" type="462c0819:PsiDirectoryNode" />
+              <item name="component-starter" type="462c0819:PsiDirectoryNode" />
+              <item name="component-blade-starter" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="saas-framework" type="b2602c69:ProjectViewProjectNode" />
+              <item name="saas-framework" type="462c0819:PsiDirectoryNode" />
+              <item name="component-starter" type="462c0819:PsiDirectoryNode" />
+              <item name="component-blade-starter" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="blade" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="saas-framework" type="b2602c69:ProjectViewProjectNode" />
+              <item name="saas-framework" type="462c0819:PsiDirectoryNode" />
+              <item name="component-starter" type="462c0819:PsiDirectoryNode" />
+              <item name="component-blade-starter" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="blade" type="462c0819:PsiDirectoryNode" />
+              <item name="msg" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="saas-framework" type="b2602c69:ProjectViewProjectNode" />
@@ -358,7 +395,9 @@
               <item name="component-mybatis-starter" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="mybatis" type="462c0819:PsiDirectoryNode" />
+              <item name="utils" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -366,7 +405,6 @@
       </pane>
       <pane id="PackagesPane" />
       <pane id="Scope" />
-      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -379,7 +417,7 @@
     <property name="RequestMappingsPanelWidth2" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../compmybatis" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -392,11 +430,11 @@
       <recent name="org.smr.comp.activi5" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\project\saas-framework\component-starter\component-blade-starter\src\main\java\org\blade\msg" />
       <recent name="D:\project\saas-framework\component-starter\component-mybatis-starter\src\main\java\org\smr\saas\comp\mybatis\utils" />
       <recent name="D:\project\saas-framework\component-starter\component-blade-starter\src\main\java\org\blade\dao\base" />
       <recent name="D:\project\saas-framework\component-starter\component-blade-starter\src\main\java\org\blade\entities\base" />
       <recent name="D:\project\saas-framework\component-starter\component-mybatis-starter\src\main\resources" />
-      <recent name="D:\project\saas-framework\component-starter\component-redis-starter\src\main\resources" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -497,12 +535,13 @@
       <workItem from="1539178352630" duration="2470000" />
       <workItem from="1539409394592" duration="2238000" />
       <workItem from="1539481076183" duration="13754000" />
-      <workItem from="1539605213760" duration="4414000" />
+      <workItem from="1539605213760" duration="4453000" />
+      <workItem from="1540123184414" duration="378000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="104984000" />
+    <option name="totallyTimeSpent" value="105401000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -520,16 +559,15 @@
       <window_info id="UI Designer" order="2" />
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.7574627" weight="0.40087146" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Messages" order="7" weight="0.43464053" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="bottom" id="Java Enterprise" order="7" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.8107676" visible="true" weight="0.28867102" />
       <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.8107676" weight="0.45315903" />
       <window_info anchor="bottom" id="Spring" order="7" />
       <window_info anchor="bottom" id="Terminal" order="7" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19722815" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21108742" />
       <window_info anchor="right" id="Bean Validation" order="3" />
       <window_info id="Web" order="2" side_tool="true" />
       <window_info anchor="right" id="Theme Preview" order="3" />
@@ -537,6 +575,7 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Messages" order="7" weight="0.43464053" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32946634" />
@@ -592,16 +631,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/component-starter/component-mybatis-starter/src/main/java/org/smr/saas/comp/mybatis/conf/DruidConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="703">
-          <caret line="41" column="29" lean-forward="true" selection-start-line="41" selection-start-column="29" selection-end-line="41" selection-end-column="29" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/component-starter/component-activiti5-ui-starter/src/main/java/org/smr/comp/activi5/controller/ModelEditorJsonRestResource.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="263">
@@ -862,15 +891,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/component-starter/component-mybatis-starter/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/component-starter/component-mybatis-starter/src/main/resources/bootstrap-pd.yml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/component-starter/component-mybatis-starter/src/main/java/org/smr/saas/comp/mybatis/MybatisStarterApplication.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
+        <state relative-caret-position="171">
           <caret line="10" column="94" selection-start-line="10" selection-start-column="94" selection-end-line="10" selection-end-column="94" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -880,24 +903,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/component-starter/component-mybatis-starter/src/main/java/org/smr/saas/comp/mybatis/conf/DataSourceProperties.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
+        <state relative-caret-position="494">
           <caret line="36" selection-start-line="36" selection-end-line="36" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#570#571#0" expanded="true" />
-            <element signature="e#624#625#0" expanded="true" />
-            <element signature="e#748#749#0" expanded="true" />
-            <element signature="e#862#863#0" expanded="true" />
-            <element signature="e#902#903#0" expanded="true" />
-            <element signature="e#1156#1157#0" expanded="true" />
-            <element signature="e#1190#1191#0" expanded="true" />
+            <element signature="e#1016#1017#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/component-starter/component-mybatis-starter/src/main/java/org/smr/saas/comp/mybatis/conf/MyBatisConfiguration.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="178">
+        <state relative-caret-position="665">
           <caret line="49" column="38" selection-start-line="49" selection-start-column="38" selection-end-line="49" selection-end-column="38" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -907,7 +924,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/component-starter/component-mybatis-starter/src/main/java/org/smr/saas/comp/mybatis/conf/Druid.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="101">
+        <state relative-caret-position="532">
           <caret line="31" selection-start-line="31" selection-end-line="31" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -936,29 +953,50 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/component-starter/component-mybatis-starter/src/main/resources/bootstrap-dev.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="432">
+        <state relative-caret-position="437">
           <caret line="23" column="29" selection-start-line="23" selection-start-column="29" selection-end-line="23" selection-end-column="29" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-29">
-          <caret line="12" column="37" lean-forward="true" selection-start-line="12" selection-start-column="37" selection-end-line="12" selection-end-column="37" />
+        <state relative-caret-position="228">
+          <caret line="12" column="37" selection-start-line="12" selection-start-column="37" selection-end-line="12" selection-end-column="37" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/component-starter/component-mybatis-starter/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="223">
-          <caret line="40" column="38" lean-forward="true" selection-start-line="40" selection-start-column="38" selection-end-line="40" selection-end-column="38" />
+        <state relative-caret-position="760">
+          <caret line="40" column="38" selection-start-line="40" selection-start-column="38" selection-end-line="40" selection-end-column="38" />
         </state>
       </provider>
     </entry>
     <entry file="file://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-context/1.1.7.RELEASE/spring-cloud-context-1.1.7.RELEASE.pom">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="171">
-          <caret line="9" column="39" lean-forward="true" selection-start-line="9" selection-start-column="39" selection-end-line="9" selection-end-column="39" />
+          <caret line="9" column="39" selection-start-line="9" selection-start-column="39" selection-end-line="9" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/component-starter/component-blade-starter/src/main/java/org/blade/utils/Pager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="23" selection-start-column="8" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/component-starter/component-blade-starter/src/main/java/org/blade/msg/Message.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" column="22" lean-forward="true" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/component-starter/component-blade-starter/src/main/java/org/blade/msg/ErrorCode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="659">
+          <caret line="37" column="1" lean-forward="true" selection-start-line="37" selection-start-column="1" selection-end-line="37" selection-end-column="1" />
         </state>
       </provider>
     </entry>
