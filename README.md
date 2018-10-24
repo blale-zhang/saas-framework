@@ -1,0 +1,3 @@
+# saas-framework
+这是快速开发框架，集成了spring cloud, mybatis-3.4.6, activit, redis-4, durid。
+配套有一个代码生成器，还在完善中……
