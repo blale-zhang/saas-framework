@@ -89,6 +89,7 @@
         <dockerregistry>http://192.168.185.164:5000</dockerregistry>
         <spring.active>local</spring.active>
 
+        <cloud.hystrix.version>1.4.6.RELEASE</cloud.hystrix.version>
         <docker.net></docker.net>
         <java.mem>-Xmx512m</java.mem>
         <project.company>smr</project.company>
@@ -128,6 +129,33 @@
                 <artifactId>spring-cloud-dashboard</artifactId>
                 <version>${dashboard.version}</version>
             </dependency>
+
+            <!-- hystrix -->
+            <dependency>
+                <groupId>org.springframework.cloud</groupId>
+                <artifactId>spring-cloud-starter-hystrix</artifactId>
+                <version>${cloud.hystrix.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>org.springframework.cloud</groupId>
+                <artifactId>spring-cloud-starter-hystrix-dashboard</artifactId>
+                <version>${cloud.hystrix.version}</version>
+
+            </dependency>
+
+            <dependency>
+                <groupId>org.springframework.cloud</groupId>
+                <artifactId>spring-cloud-starter-netflix-hystrix</artifactId>
+                <version>${cloud.hystrix.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.springframework.cloud</groupId>
+                <artifactId>spring-cloud-starter-netflix-hystrix-dashboard</artifactId>
+                <version>${cloud.hystrix.version}</version>
+            </dependency>
+
+
             <!-- Apache Camel-->
             <dependency>
                 <groupId>org.apache.camel</groupId>
@@ -139,6 +167,10 @@
                 <artifactId>camel-spring-boot-starter</artifactId>
                 <version>${camel.version}</version>
             </dependency>
+
+
+
+
             <!--Other-->
             <dependency>
                 <groupId>org.apache.commons</groupId>

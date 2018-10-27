@@ -9,5 +9,5 @@ import org.blade.utils.Pager;
  */
 public interface PaginationQueryService<ID,T extends BaseEntity<ID>>  {
 
-    public void paginate(Pager<T> page, T entity );
+    public Pager<T> paginate( T entity, Long pageSize, Long pageNum );
 }
