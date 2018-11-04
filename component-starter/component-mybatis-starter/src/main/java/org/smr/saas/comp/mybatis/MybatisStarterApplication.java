@@ -3,7 +3,7 @@ package org.smr.saas.comp.mybatis;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.boot.builder.SpringApplicationBuilder;
 
-@SpringBootApplication
+//@SpringBootApplication
 public class MybatisStarterApplication {
 
 
