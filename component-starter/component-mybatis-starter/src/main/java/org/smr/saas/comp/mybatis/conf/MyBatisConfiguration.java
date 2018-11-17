@@ -1,8 +1,10 @@
 package org.smr.saas.comp.mybatis.conf;
 
 import com.alibaba.druid.pool.DruidDataSourceFactory;
+import org.apache.ibatis.plugin.Interceptor;
 import org.apache.ibatis.session.SqlSessionFactory;
 import org.mybatis.spring.SqlSessionFactoryBean;
+import org.smr.saas.comp.mybatis.utils.PageInterceptor;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
 import org.springframework.boot.context.properties.EnableConfigurationProperties;
@@ -94,6 +96,7 @@ public class MyBatisConfiguration {
         //下边两句仅仅用于*.xml文件，如果整个持久层操作不需要使用到xml文件的话（只用注解就可以搞定），则不加
         sfb.setTypeAliasesPackage(myBatisProperties.getTypeAliasesPackage());
         sfb.setMapperLocations(new PathMatchingResourcePatternResolver().getResources(myBatisProperties.getMapperLocations()));
+        sfb.setPlugins(new Interceptor[]{new PageInterceptor()});
         return sfb.getObject();
     }
 }

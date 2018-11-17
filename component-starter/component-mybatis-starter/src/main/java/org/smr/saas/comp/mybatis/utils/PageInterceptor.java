@@ -55,6 +55,16 @@ public class PageInterceptor implements Interceptor {
 		}
 	}
 
+    /**
+     * 初始化，要求要对数据库进行配置
+     */
+    public PageInterceptor(){
+
+        pageSqlBuilder = new MySQLPageSqlBuilder ();
+        logger.debug(" mybatis 拦载器初始化，默认选中：MySQLPageSqlBuilder");
+
+    }
+
     public Object intercept(Invocation invocation) throws Throwable {
         StatementHandler statementHandler = (StatementHandler) invocation.getTarget();
         MetaObject metaStatementHandler = MetaObject.forObject(statementHandler, DEFAULT_OBJECT_FACTORY,DEFAULT_OBJECT_WRAPPER_FACTORY, new DefaultReflectorFactory());
