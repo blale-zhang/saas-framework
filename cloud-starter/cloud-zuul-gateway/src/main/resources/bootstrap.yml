@@ -1,0 +1,35 @@
+spring:
+  application:
+    name: zuul-gateway
+  profiles:
+    active: dev #环境配置- local：本地 dev：开发环境 qa：测试环境 uat：用户测试 pd：生产环境
+  aop:
+    proxy-target-class: true
+  http:
+    multipart:  #文件上传配置
+      maxFileSize: 10Mb
+      maxRequestSize: 10Mb
+  session:  #配置session保存方式
+    store-type: redis
+  mvc:  #日志格式
+    date-format: yyyy-MM-dd HH:mm:ss
+
+  redis: #Redis
+    host: 192.168.0.119
+    port: 6379
+    database: 0  #数据库索引
+    password: 123456 #密码
+    timeout: 60000  #连接超时时间
+    pool: #连接池
+      max-idle: 8 #最大空闲连接
+      min-idle: 0 #最小空闲连接
+      max-active: 10  #最大连接数
+      max-wait: -1  #最大阻塞等待时间
+
+mybatis:
+  mapper-locations: classpath*:mapper/*.xml
+  type-aliases-package: org.smr.ministore.entities.Organ
+
+eureka:
+  instance:
+    prefer-ip-address: true

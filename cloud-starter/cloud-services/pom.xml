@@ -11,5 +11,9 @@
 
     <artifactId>cloud-services</artifactId>
 
+    <dependencies>
+
+
+    </dependencies>
 
 </project>
