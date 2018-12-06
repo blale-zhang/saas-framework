@@ -35,6 +35,14 @@ public class ErrorCode {
         public static int  Invalid_orderId                        =     40002; // 无效的 orderId
     }
 
+    /**
+     * 持久化
+     */
+    public static class Persistence{
+        public static final int  NONE_EFFECT = 0;
+
+    }
+
 }
 
 

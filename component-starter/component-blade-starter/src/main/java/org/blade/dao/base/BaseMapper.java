@@ -3,7 +3,8 @@ package org.blade.dao.base;
 import java.util.List;
 
 import org.apache.ibatis.annotations.Param;
-import org.blade.entities.base.BaseEntity;
+import org.blade.entities.base.BizEntity;
+
 /**
  * 基础Mapper,包含基础操作
  * @author blade
@@ -11,7 +12,7 @@ import org.blade.entities.base.BaseEntity;
  * @param <ID>
  * @param <T>
  */
-public interface BaseMapper<ID,T extends BaseEntity<ID>> {
+public interface BaseMapper<ID,T extends BizEntity<ID>> {
 
 	/**
 	 * 根据Id查询
@@ -61,6 +62,6 @@ public interface BaseMapper<ID,T extends BaseEntity<ID>> {
 	 * @return
 	 */
 	public int batchUpdate(@Param("entities")List<T> entities);
-	
-	
+
+
 }
