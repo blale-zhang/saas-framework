@@ -1,27 +1,31 @@
 package org.smr.saas.comp.mybatis.conf;
 
-import com.alibaba.druid.pool.DruidDataSource;
 import com.alibaba.druid.pool.DruidDataSourceFactory;
 import org.apache.ibatis.plugin.Interceptor;
 import org.apache.ibatis.session.SqlSessionFactory;
 import org.mybatis.spring.SqlSessionFactoryBean;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.smr.saas.comp.mybatis.utils.PageInterceptor;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
+import org.springframework.boot.autoconfigure.condition.ConditionalOnClass;
+import org.springframework.boot.autoconfigure.condition.ConditionalOnSingleCandidate;
 import org.springframework.boot.bind.RelaxedPropertyResolver;
 import org.springframework.boot.context.properties.EnableConfigurationProperties;
-import org.springframework.context.ApplicationContextException;
+
 import org.springframework.context.EnvironmentAware;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.core.env.Environment;
+import org.springframework.core.io.Resource;
+import org.springframework.core.io.ResourceLoader;
 import org.springframework.core.io.support.PathMatchingResourcePatternResolver;
-import org.springframework.stereotype.Component;
+import org.springframework.util.Assert;
+import org.springframework.util.ObjectUtils;
 import org.springframework.util.StringUtils;
 
 import javax.sql.DataSource;
-import java.sql.SQLException;
-import java.util.Arrays;
 import java.util.Properties;
 
 /**
@@ -31,12 +35,18 @@ import java.util.Properties;
  * @date 2017年5月23日 上午9:59:56
  *
  */
-@Component
+@Configuration
 @EnableAutoConfiguration
+@ConditionalOnClass({ SqlSessionFactory.class, SqlSessionFactoryBean.class })
+@ConditionalOnSingleCandidate(DataSource.class)
 @EnableConfigurationProperties({DataSourceProperties.class, MyBatisProperties.class})
 public class MyBatisConfiguration  implements EnvironmentAware {
 
+    private Logger logger = LoggerFactory.getLogger(MyBatisConfiguration.class);
+
     private RelaxedPropertyResolver propertyResolver;
+
+    private  ResourceLoader resourceLoader;
 
     @Autowired
     private Environment env;
@@ -46,6 +56,11 @@ public class MyBatisConfiguration  implements EnvironmentAware {
 
     @Autowired
     private MyBatisProperties myBatisProperties;
+
+
+    public MyBatisConfiguration(ResourceLoader resourceLoader) {
+        this.resourceLoader = resourceLoader;
+    }
 
     /**
      * @Title: getDataSource
@@ -132,12 +147,31 @@ public class MyBatisConfiguration  implements EnvironmentAware {
      */
     @Bean
     public SqlSessionFactory sqlSessionFactory(DataSource ds) throws Exception{
+
+
+        if (this.myBatisProperties.isCheckConfigLocation() && StringUtils.hasText(this.myBatisProperties.getConfigLocation())) {
+            Resource resource = this.resourceLoader.getResource(this.myBatisProperties.getConfigLocation());
+            Assert.state(resource.exists(), "Cannot find config location: " + resource
+                    + " (please add config file or check your Mybatis configuration)");
+        }
+
+        logger.debug("初始化:{}",SqlSessionFactory.class);
         SqlSessionFactoryBean sfb = new SqlSessionFactoryBean();
         sfb.setDataSource(ds);
         //下边两句仅仅用于*.xml文件，如果整个持久层操作不需要使用到xml文件的话（只用注解就可以搞定），则不加
-        sfb.setTypeAliasesPackage(myBatisProperties.getTypeAliasesPackage());
-        sfb.setMapperLocations(new PathMatchingResourcePatternResolver().getResources(myBatisProperties.getMapperLocations()));
+        if (StringUtils.hasLength(myBatisProperties.getTypeAliasesPackage())) {
+            sfb.setTypeAliasesPackage(myBatisProperties.getTypeAliasesPackage());
+        }
+        logger.debug("SqlSessionFactory setTypeAliasesPackage:{}", myBatisProperties.getTypeAliasesPackage());
+
+        if (!ObjectUtils.isEmpty(myBatisProperties.getMapperLocations())) {
+            sfb.setMapperLocations(new PathMatchingResourcePatternResolver().getResources(myBatisProperties.getMapperLocations()));
+        }
+        logger.debug("SqlSessionFactory setMapperLocations:{}", myBatisProperties.getMapperLocations());
+
         sfb.setPlugins(new Interceptor[]{new PageInterceptor()});
+        logger.debug("SqlSessionFactory setPlugins:{}", PageInterceptor.class);
+
         return sfb.getObject();
     }
 

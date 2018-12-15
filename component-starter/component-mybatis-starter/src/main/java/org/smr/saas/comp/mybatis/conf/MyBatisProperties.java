@@ -11,6 +11,21 @@ public class MyBatisProperties {
    private String mapperLocations;
    private String typeAliasesPackage;
 
+    private boolean checkConfigLocation = false;
+
+    /**
+     * Location of MyBatis xml config file.
+     */
+    private String configLocation;
+
+    public String getConfigLocation() {
+        return configLocation;
+    }
+
+    public void setConfigLocation(String configLocation) {
+        this.configLocation = configLocation;
+    }
+
     public String getMapperLocations() {
         return mapperLocations;
     }
@@ -25,5 +40,13 @@ public class MyBatisProperties {
 
     public void setTypeAliasesPackage(String typeAliasesPackage) {
         this.typeAliasesPackage = typeAliasesPackage;
+    }
+
+    public boolean isCheckConfigLocation() {
+        return checkConfigLocation;
+    }
+
+    public void setCheckConfigLocation(boolean checkConfigLocation) {
+        this.checkConfigLocation = checkConfigLocation;
     }
 }

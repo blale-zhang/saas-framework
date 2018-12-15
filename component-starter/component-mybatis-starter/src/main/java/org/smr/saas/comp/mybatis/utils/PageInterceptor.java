@@ -1,7 +1,8 @@
 package org.smr.saas.comp.mybatis.utils;
 
-import org.apache.commons.logging.Log;
-import org.apache.commons.logging.LogFactory;
+import org.apache.ibatis.executor.resultset.ResultSetHandler;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.apache.ibatis.executor.parameter.ParameterHandler;
 import org.apache.ibatis.executor.statement.StatementHandler;
 import org.apache.ibatis.mapping.BoundSql;
@@ -17,10 +18,7 @@ import org.apache.ibatis.scripting.defaults.DefaultParameterHandler;
 import org.apache.ibatis.session.RowBounds;
 import org.blade.utils.Pager;
 
-import java.sql.Connection;
-import java.sql.PreparedStatement;
-import java.sql.ResultSet;
-import java.sql.SQLException;
+import java.sql.*;
 import java.util.Properties;
 
 /**
@@ -30,10 +28,11 @@ import java.util.Properties;
  * @author 湖畔微风
  * 
  */
-@Intercepts({ @Signature(type = StatementHandler.class, method = "prepare", args = { Connection.class,Integer.class }) })
+@Intercepts({ @Signature(type = StatementHandler.class, method = "prepare", args = { Connection.class}),
+        @Signature(type = ResultSetHandler.class, method = "handleResultSets", args = {Statement.class})})
 public class PageInterceptor implements Interceptor {
 	
-    private static final Log logger = LogFactory.getLog(PageInterceptor.class);
+    private static final Logger logger = LoggerFactory.getLogger(PageInterceptor.class);
     private static final ObjectFactory DEFAULT_OBJECT_FACTORY = new DefaultObjectFactory();
     private static final ObjectWrapperFactory DEFAULT_OBJECT_WRAPPER_FACTORY = new DefaultObjectWrapperFactory();
     
@@ -101,6 +100,7 @@ public class PageInterceptor implements Interceptor {
                 Connection connection = (Connection) invocation.getArgs()[0];
                 // 重设分页参数里的总页数等
                 setPageParameter(sql, connection, mappedStatement, boundSql, page);
+
             }
         }
         // 将执行权交给下一个拦截器
@@ -121,8 +121,11 @@ public class PageInterceptor implements Interceptor {
      */
     private void setPageParameter(String sql, Connection connection, MappedStatement mappedStatement,
             BoundSql boundSql, Pager page) {
+
+
         // 记录总记录数
         String countSql = pageSqlBuilder.getCountSql(sql);
+        logger.debug("记录总记录数 sql:{}", countSql);
         PreparedStatement countStmt = null;
         ResultSet rs = null;
         try {
@@ -136,6 +139,7 @@ public class PageInterceptor implements Interceptor {
                 totalCount = rs.getLong(1);
             }
             page.setTotalCount(totalCount);
+            logger.debug(" totalCount = {}" , totalCount);
         } catch (SQLException e) {
             logger.error("Ignore this exception", e);
         } finally {
