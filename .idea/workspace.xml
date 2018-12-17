@@ -2,12 +2,26 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1747f34d-705b-4768-b87d-428a76ba95be" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/component-starter/component-mybatis-starter/src/main/java/org/smr/comp/mybatis/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/component-starter/component-mybatis-starter/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/component-starter/component-mybatis-starter/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/component-starter/component-mybatis-starter/src/main/java/org/smr/saas/comp/mybatis/conf/MyBatisConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/component-starter/component-mybatis-starter/src/main/java/org/smr/saas/comp/mybatis/conf/MyBatisConfiguration.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/component-starter/component-mybatis-starter/src/main/java/org/smr/saas/comp/mybatis/conf/MyBatisProperties.java" beforeDir="false" afterPath="$PROJECT_DIR$/component-starter/component-mybatis-starter/src/main/java/org/smr/saas/comp/mybatis/conf/MyBatisProperties.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/component-starter/component-mybatis-starter/src/main/java/org/smr/saas/comp/mybatis/utils/PageInterceptor.java" beforeDir="false" afterPath="$PROJECT_DIR$/component-starter/component-mybatis-starter/src/main/java/org/smr/saas/comp/mybatis/utils/PageInterceptor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/component-starter/component-mybatis-starter/src/main/java/org/smr/saas/comp/mybatis/MybatisStarterApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/component-starter/component-mybatis-starter/src/main/java/org/smr/comp/mybatis/MybatisStarterApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/component-starter/component-mybatis-starter/src/main/java/org/smr/saas/comp/mybatis/conf/DataSourceProperties.java" beforeDir="false" afterPath="$PROJECT_DIR$/component-starter/component-mybatis-starter/src/main/java/org/smr/comp/mybatis/conf/DataSourceProperties.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/component-starter/component-mybatis-starter/src/main/java/org/smr/saas/comp/mybatis/conf/Druid.java" beforeDir="false" afterPath="$PROJECT_DIR$/component-starter/component-mybatis-starter/src/main/java/org/smr/comp/mybatis/conf/Druid.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/component-starter/component-mybatis-starter/src/main/java/org/smr/saas/comp/mybatis/conf/DruidConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/component-starter/component-mybatis-starter/src/main/java/org/smr/comp/mybatis/conf/DruidConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/component-starter/component-mybatis-starter/src/main/java/org/smr/saas/comp/mybatis/conf/MyBatisConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/component-starter/component-mybatis-starter/src/main/java/org/smr/comp/mybatis/conf/MyBatisConfiguration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/component-starter/component-mybatis-starter/src/main/java/org/smr/saas/comp/mybatis/conf/MyBatisProperties.java" beforeDir="false" afterPath="$PROJECT_DIR$/component-starter/component-mybatis-starter/src/main/java/org/smr/comp/mybatis/conf/MyBatisProperties.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/component-starter/component-mybatis-starter/src/main/java/org/smr/saas/comp/mybatis/utils/CacheInterceptor.java" beforeDir="false" afterPath="$PROJECT_DIR$/component-starter/component-mybatis-starter/src/main/java/org/smr/comp/mybatis/utils/CacheInterceptor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/component-starter/component-mybatis-starter/src/main/java/org/smr/saas/comp/mybatis/utils/MsSQLPageSqlBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/component-starter/component-mybatis-starter/src/main/java/org/smr/comp/mybatis/utils/MsSQLPageSqlBuilder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/component-starter/component-mybatis-starter/src/main/java/org/smr/saas/comp/mybatis/utils/MySQLPageSqlBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/component-starter/component-mybatis-starter/src/main/java/org/smr/comp/mybatis/utils/MySQLPageSqlBuilder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/component-starter/component-mybatis-starter/src/main/java/org/smr/saas/comp/mybatis/utils/OraclePageSqlBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/component-starter/component-mybatis-starter/src/main/java/org/smr/comp/mybatis/utils/OraclePageSqlBuilder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/component-starter/component-mybatis-starter/src/main/java/org/smr/saas/comp/mybatis/utils/PageInterceptor.java" beforeDir="false" afterPath="$PROJECT_DIR$/component-starter/component-mybatis-starter/src/main/java/org/smr/comp/mybatis/utils/PageInterceptor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/component-starter/component-mybatis-starter/src/main/java/org/smr/saas/comp/mybatis/utils/PageSql.java" beforeDir="false" afterPath="$PROJECT_DIR$/component-starter/component-mybatis-starter/src/main/java/org/smr/comp/mybatis/utils/PageSql.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/component-starter/component-mybatis-starter/src/main/java/org/smr/saas/comp/mybatis/utils/PagerSqlBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/component-starter/component-mybatis-starter/src/main/java/org/smr/comp/mybatis/utils/PagerSqlBuilder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/component-starter/component-mybatis-starter/src/main/resources/META-INF/spring.factories" beforeDir="false" afterPath="$PROJECT_DIR$/component-starter/component-mybatis-starter/src/main/resources/META-INF/spring.factories" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/component-starter/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/component-starter/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -35,106 +49,66 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="MyBatisConfiguration.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/component-starter/component-mybatis-starter/src/main/java/org/smr/saas/comp/mybatis/conf/MyBatisConfiguration.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="152" column="51" selection-start-line="152" selection-start-column="37" selection-end-line="152" selection-end-column="51" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#2250#2251#0" expanded="true" />
-                <element signature="e#2302#2303#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MyBatisProperties.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/component-starter/component-mybatis-starter/src/main/java/org/smr/saas/comp/mybatis/conf/MyBatisProperties.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="152">
-              <caret line="10" column="34" selection-start-line="10" selection-start-column="34" selection-end-line="10" selection-end-column="34" />
-              <folding>
-                <element signature="e#580#581#0" expanded="true" />
-                <element signature="e#617#618#0" expanded="true" />
-                <element signature="e#677#678#0" expanded="true" />
-                <element signature="e#729#730#0" expanded="true" />
-                <element signature="e#903#904#0" expanded="true" />
-                <element signature="e#945#946#0" expanded="true" />
-                <element signature="e#1016#1017#0" expanded="true" />
-                <element signature="e#1078#1079#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ServiceDiscoverApplication.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cloud-starter/cloud-discover/src/main/java/org/smr/service/discover/ServiceDiscoverApplication.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="152">
-              <caret line="8" column="41" selection-start-line="8" selection-start-column="41" selection-end-line="8" selection-end-column="41" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#360#361#0" expanded="true" />
-                <element signature="e#437#438#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="application.yml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cloud-starter/cloud-discover/src/main/resources/application.yml">
+      <file leaf-file-name="component-redis-starter.iml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/component-starter/component-redis-starter/component-redis-starter.iml">
           <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file leaf-file-name="MybatisStarterApplication.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/component-starter/component-mybatis-starter/src/main/java/org/smr/comp/mybatis/MybatisStarterApplication.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="228">
+              <caret line="12" column="48" selection-start-line="12" selection-start-column="48" selection-end-line="12" selection-end-column="48" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Main.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/component-starter/component-mybatis-starter/src/main/java/org/smr/comp/mybatis/Main.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="114">
+              <caret line="6" column="5" lean-forward="true" selection-start-line="6" selection-start-column="5" selection-end-line="6" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="bootstrap-dev.yml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/component-starter/component-mybatis-starter/src/main/resources/bootstrap-dev.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="209">
+              <caret line="11" column="62" selection-start-line="11" selection-start-column="62" selection-end-line="11" selection-end-column="62" />
+            </state>
+          </provider>
         </entry>
       </file>
       <file leaf-file-name="bootstrap.yml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cloud-starter/cloud-discover/src/main/resources/bootstrap.yml">
+        <entry file="file://$PROJECT_DIR$/component-starter/component-mybatis-starter/src/main/resources/bootstrap.yml">
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/component-starter/component-mybatis-starter/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="380">
-              <caret line="56" column="8" selection-start-line="56" selection-start-column="8" selection-end-line="56" selection-end-column="8" />
-            </state>
-          </provider>
+      <file leaf-file-name="application.yml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/component-starter/component-mybatis-starter/src/main/resources/application.yml">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/component-starter/component-blade-starter/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="847">
-              <caret line="50" column="10" selection-start-line="50" selection-start-column="10" selection-end-line="50" selection-end-column="10" />
-            </state>
-          </provider>
+      <file leaf-file-name="bootstrap-pd.yml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/component-starter/component-mybatis-starter/src/main/resources/bootstrap-pd.yml">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
-      <file leaf-file-name="DruidConfig.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/component-starter/component-mybatis-starter/src/main/java/org/smr/saas/comp/mybatis/conf/DruidConfig.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-380">
-              <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-            </state>
-          </provider>
+      <file leaf-file-name="component-starter.iml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/component-starter/component-starter.iml">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
-      <file leaf-file-name="Druid.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/component-starter/component-mybatis-starter/src/main/java/org/smr/saas/comp/mybatis/conf/Druid.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-57">
-              <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-            </state>
-          </provider>
+      <file leaf-file-name="component-auth2.0-starter.iml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/component-starter/component-auth2.0-starter/component-auth2.0-starter.iml">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
-      <file leaf-file-name="DataSourceProperties.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/component-starter/component-mybatis-starter/src/main/java/org/smr/saas/comp/mybatis/conf/DataSourceProperties.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="133">
-              <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-            </state>
-          </provider>
+      <file leaf-file-name="saas-framework.iml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/saas-framework.iml">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
@@ -173,6 +147,8 @@
       <find>my</find>
       <find>mysql</find>
       <find>totalPageNum</find>
+      <find>druid</find>
+      <find>MybatisAutoConfiguration</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -184,16 +160,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/component-starter/component-blade-starter/src/main/java/org/blade/msg/Message.java" />
-        <option value="$PROJECT_DIR$/component-starter/component-blade-starter/src/main/java/org/blade/service/base/BaseService.java" />
-        <option value="$PROJECT_DIR$/component-starter/component-blade-starter/src/main/java/org/blade/service/base/BaseBatchService.java" />
-        <option value="$PROJECT_DIR$/cloud-starter/cloud-discover/src/main/java/org/smr/service/discover/ServiceDiscoverApplication.java" />
-        <option value="$PROJECT_DIR$/cloud-starter/cloud-discover/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/component-starter/component-blade-starter/src/main/java/org/blade/service/base/PaginationQueryService.java" />
-        <option value="$PROJECT_DIR$/component-starter/component-mybatis-starter/src/main/java/org/smr/saas/comp/mybatis/MybatisStarterApplication.java" />
-        <option value="$PROJECT_DIR$/component-starter/component-mybatis-starter/src/main/resources/bootstrap-dev.yml" />
-        <option value="$PROJECT_DIR$/component-starter/component-mybatis-starter/src/main/resources/META-INF/spring.factories" />
-        <option value="$PROJECT_DIR$/cloud-starter/cloud-zuul-gateway/src/main/java/org/smr/cloud/gateway/filter/SimpleFilter.java" />
         <option value="$PROJECT_DIR$/cloud-starter/cloud-zuul-gateway/src/main/java/org/smr/cloud/gateway/filter/GatewatApplication.java" />
         <option value="$PROJECT_DIR$/cloud-starter/cloud-zuul-gateway/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/cloud-starter/cloud-services/src/main/java/org/smr/gateway/filter/AccessFilter.java" />
@@ -216,7 +182,6 @@
         <option value="$PROJECT_DIR$/cloud-starter/cloud-zuul-gateway/src/main/java/org/smr/cloud/gateway/filter/PostZuulFilter.java" />
         <option value="$PROJECT_DIR$/cloud-starter/cloud-zuul-gateway/src/main/java/org/smr/cloud/gateway/filter/ApiVersionFilter.java" />
         <option value="$PROJECT_DIR$/cloud-starter/cloud-zuul-gateway/pom.xml" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/cloud-starter/cloud-sleuth-zipkin/pom.xml" />
         <option value="$PROJECT_DIR$/component-starter/component-blade-starter/src/main/java/org/blade/utils/IdGenerator.java" />
         <option value="$PROJECT_DIR$/component-starter/component-blade-starter/src/main/java/org/blade/utils/SnowFlake.java" />
@@ -230,11 +195,22 @@
         <option value="$PROJECT_DIR$/component-starter/component-blade-starter/src/main/java/org/blade/utils/TimeUtils.java" />
         <option value="$PROJECT_DIR$/component-starter/component-blade-starter/src/main/java/org/blade/dao/base/PageQueryMapper.java" />
         <option value="$PROJECT_DIR$/component-starter/component-blade-starter/src/main/java/org/blade/service/base/AbstarctService.java" />
-        <option value="$PROJECT_DIR$/component-starter/pom.xml" />
-        <option value="$PROJECT_DIR$/component-starter/component-mybatis-starter/src/main/java/org/smr/saas/comp/mybatis/utils/PageInterceptor.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/component-starter/component-mybatis-starter/src/main/java/org/smr/saas/comp/mybatis/conf/df.java" />
         <option value="$PROJECT_DIR$/component-starter/component-mybatis-starter/src/main/java/org/smr/saas/comp/mybatis/conf/MyBatisProperties.java" />
+        <option value="$PROJECT_DIR$/component-starter/component-mybatis-starter/src/main/java/org/smr/saas/comp/mybatis/conf/MapperScannerRegistrarNotFoundConfiguration.java" />
+        <option value="$PROJECT_DIR$/component-starter/component-mybatis-starter/src/main/java/org/smr/saas/comp/mybatis/conf/AutoConfiguredMapperScannerRegistrar.java" />
         <option value="$PROJECT_DIR$/component-starter/component-mybatis-starter/src/main/java/org/smr/saas/comp/mybatis/conf/MyBatisConfiguration.java" />
+        <option value="$PROJECT_DIR$/component-starter/component-mybatis-starter/src/main/java/org/smr/saas/comp/mybatis/utils/PageInterceptor.java" />
+        <option value="$PROJECT_DIR$/component-starter/component-mybatis-starter/src/main/java/org/smr/comp/mybatis/utils/PageInterceptor.java" />
+        <option value="$PROJECT_DIR$/component-starter/component-mybatis-starter/src/main/java/org/smr/comp/mybatis/conf/MyBatisConfiguration.java" />
+        <option value="$PROJECT_DIR$/component-starter/pom.xml" />
         <option value="$PROJECT_DIR$/component-starter/component-mybatis-starter/pom.xml" />
+        <option value="$PROJECT_DIR$/component-starter/component-redis-starter/src/main/java/org/smr/comp/redis/conf/Test.java" />
+        <option value="$PROJECT_DIR$/component-starter/component-redis-starter/pom.xml" />
+        <option value="$PROJECT_DIR$/component-starter/component-mybatis-starter/src/main/java/org/smr/comp/mybatis/MybatisStarterApplication.java" />
+        <option value="$PROJECT_DIR$/component-starter/component-mybatis-starter/src/main/java/org/smr/comp/mybatis/main.java" />
+        <option value="$PROJECT_DIR$/component-starter/component-mybatis-starter/src/main/java/org/smr/comp/mybatis/Main.java" />
       </list>
     </option>
   </component>
@@ -245,6 +221,13 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="C:\Users\Administrator.PC--20170730TVS\.m2\repository" />
+        <option name="mavenHome" value="D:/software/apache-maven-3.5.3" />
+        <option name="userSettingsFile" value="D:\software\apache-maven-3.5.3\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
     <option name="importingSettings">
       <MavenImportingSettings>
         <option name="importAutomatically" value="true" />
@@ -254,10 +237,6 @@
   <component name="MavenProjectNavigator">
     <treeState>
       <expand>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="cloud-discover" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-        </path>
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
           <item name="component-mybatis-starter" type="9519ce18:MavenProjectsStructure$ProjectNode" />
@@ -285,7 +264,8 @@
       <path value="$PROJECT_DIR$/component-starter/component-activiti5-ui-starter/src/main/resources/static/editor-app/libs/es5-shim-15.3.4.5/package.json" />
     </packageJsonPaths>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-31" />
     <option name="width" value="1920" />
     <option name="height" value="1040" />
   </component>
@@ -305,34 +285,74 @@
             <path>
               <item name="saas-framework" type="b2602c69:ProjectViewProjectNode" />
               <item name="saas-framework" type="462c0819:PsiDirectoryNode" />
-              <item name="cloud-starter" type="462c0819:PsiDirectoryNode" />
+              <item name="component-starter" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="saas-framework" type="b2602c69:ProjectViewProjectNode" />
               <item name="saas-framework" type="462c0819:PsiDirectoryNode" />
-              <item name="cloud-starter" type="462c0819:PsiDirectoryNode" />
-              <item name="cloud-discover" type="462c0819:PsiDirectoryNode" />
+              <item name="component-starter" type="462c0819:PsiDirectoryNode" />
+              <item name="component-blade-starter" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="saas-framework" type="b2602c69:ProjectViewProjectNode" />
               <item name="saas-framework" type="462c0819:PsiDirectoryNode" />
-              <item name="cloud-starter" type="462c0819:PsiDirectoryNode" />
-              <item name="cloud-discover" type="462c0819:PsiDirectoryNode" />
+              <item name="component-starter" type="462c0819:PsiDirectoryNode" />
+              <item name="component-blade-starter" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="saas-framework" type="b2602c69:ProjectViewProjectNode" />
               <item name="saas-framework" type="462c0819:PsiDirectoryNode" />
-              <item name="cloud-starter" type="462c0819:PsiDirectoryNode" />
-              <item name="cloud-discover" type="462c0819:PsiDirectoryNode" />
+              <item name="component-starter" type="462c0819:PsiDirectoryNode" />
+              <item name="component-blade-starter" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="saas-framework" type="b2602c69:ProjectViewProjectNode" />
               <item name="saas-framework" type="462c0819:PsiDirectoryNode" />
-              <item name="cloud-starter" type="462c0819:PsiDirectoryNode" />
-              <item name="cloud-discover" type="462c0819:PsiDirectoryNode" />
+              <item name="component-starter" type="462c0819:PsiDirectoryNode" />
+              <item name="component-blade-starter" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="saas-framework" type="b2602c69:ProjectViewProjectNode" />
+              <item name="saas-framework" type="462c0819:PsiDirectoryNode" />
+              <item name="component-starter" type="462c0819:PsiDirectoryNode" />
+              <item name="component-blade-starter" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="blade" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="saas-framework" type="b2602c69:ProjectViewProjectNode" />
+              <item name="saas-framework" type="462c0819:PsiDirectoryNode" />
+              <item name="component-starter" type="462c0819:PsiDirectoryNode" />
+              <item name="component-mybatis-starter" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="saas-framework" type="b2602c69:ProjectViewProjectNode" />
+              <item name="saas-framework" type="462c0819:PsiDirectoryNode" />
+              <item name="component-starter" type="462c0819:PsiDirectoryNode" />
+              <item name="component-mybatis-starter" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="saas-framework" type="b2602c69:ProjectViewProjectNode" />
+              <item name="saas-framework" type="462c0819:PsiDirectoryNode" />
+              <item name="component-starter" type="462c0819:PsiDirectoryNode" />
+              <item name="component-mybatis-starter" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="saas-framework" type="b2602c69:ProjectViewProjectNode" />
+              <item name="saas-framework" type="462c0819:PsiDirectoryNode" />
+              <item name="component-starter" type="462c0819:PsiDirectoryNode" />
+              <item name="component-mybatis-starter" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -340,18 +360,18 @@
             <path>
               <item name="saas-framework" type="b2602c69:ProjectViewProjectNode" />
               <item name="saas-framework" type="462c0819:PsiDirectoryNode" />
-              <item name="cloud-starter" type="462c0819:PsiDirectoryNode" />
-              <item name="cloud-discover" type="462c0819:PsiDirectoryNode" />
+              <item name="component-starter" type="462c0819:PsiDirectoryNode" />
+              <item name="component-mybatis-starter" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="discover" type="462c0819:PsiDirectoryNode" />
+              <item name="mybatis" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="saas-framework" type="b2602c69:ProjectViewProjectNode" />
               <item name="saas-framework" type="462c0819:PsiDirectoryNode" />
-              <item name="cloud-starter" type="462c0819:PsiDirectoryNode" />
-              <item name="cloud-discover" type="462c0819:PsiDirectoryNode" />
+              <item name="component-starter" type="462c0819:PsiDirectoryNode" />
+              <item name="component-mybatis-starter" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
@@ -359,66 +379,15 @@
             <path>
               <item name="saas-framework" type="b2602c69:ProjectViewProjectNode" />
               <item name="saas-framework" type="462c0819:PsiDirectoryNode" />
-              <item name="component-starter" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="saas-framework" type="b2602c69:ProjectViewProjectNode" />
-              <item name="saas-framework" type="462c0819:PsiDirectoryNode" />
-              <item name="component-starter" type="462c0819:PsiDirectoryNode" />
-              <item name="component-mybatis-starter" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="saas-framework" type="b2602c69:ProjectViewProjectNode" />
-              <item name="saas-framework" type="462c0819:PsiDirectoryNode" />
-              <item name="component-starter" type="462c0819:PsiDirectoryNode" />
-              <item name="component-mybatis-starter" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="saas-framework" type="b2602c69:ProjectViewProjectNode" />
-              <item name="saas-framework" type="462c0819:PsiDirectoryNode" />
-              <item name="component-starter" type="462c0819:PsiDirectoryNode" />
-              <item name="component-mybatis-starter" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="saas-framework" type="b2602c69:ProjectViewProjectNode" />
-              <item name="saas-framework" type="462c0819:PsiDirectoryNode" />
-              <item name="component-starter" type="462c0819:PsiDirectoryNode" />
-              <item name="component-mybatis-starter" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="saas-framework" type="b2602c69:ProjectViewProjectNode" />
-              <item name="saas-framework" type="462c0819:PsiDirectoryNode" />
-              <item name="component-starter" type="462c0819:PsiDirectoryNode" />
-              <item name="component-mybatis-starter" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="mybatis" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="saas-framework" type="b2602c69:ProjectViewProjectNode" />
-              <item name="saas-framework" type="462c0819:PsiDirectoryNode" />
-              <item name="component-starter" type="462c0819:PsiDirectoryNode" />
-              <item name="component-mybatis-starter" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="mybatis" type="462c0819:PsiDirectoryNode" />
-              <item name="conf" type="462c0819:PsiDirectoryNode" />
+              <item name="log" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
       <pane id="AndroidView" />
       <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -432,13 +401,13 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/cloud-starter/cloud-zuul-gateway/src/main/java/org/smr" />
-    <property name="last_opened_file_path" value="D:/codegen/authority" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.38368246" />
-    <property name="settings.editor.selected.configurable" value="spring.boot" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -466,6 +435,17 @@
     </option>
   </component>
   <component name="RunManager" selected="Application.ServiceDiscoverApplication">
+    <configuration name="MybatisStarterApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.smr.comp.mybatis.MybatisStarterApplication" />
+      <module name="component-mybatis-starter" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.smr.comp.mybatis.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
     <configuration name="ServiceDiscoverApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.smr.service.discover.ServiceDiscoverApplication" />
       <module name="cloud-discover" />
@@ -568,10 +548,12 @@
       <item itemvalue="Application.ServiceDiscoverApplication" />
       <item itemvalue="Spring Boot.GatewatApplication" />
       <item itemvalue="Application.SnowFlake" />
+      <item itemvalue="Application.MybatisStarterApplication" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="Application.ServiceDiscoverApplication" />
+        <item itemvalue="Application.MybatisStarterApplication" />
         <item itemvalue="Spring Boot.MybatisStarterApplication" />
         <item itemvalue="Application.SnowFlake" />
         <item itemvalue="Spring Boot.GatewatApplication" />
@@ -622,20 +604,25 @@
       <workItem from="1544235912278" duration="5659000" />
       <workItem from="1544598102813" duration="12515000" />
       <workItem from="1544773091477" duration="9838000" />
-      <workItem from="1544853262945" duration="4146000" />
+      <workItem from="1544853262945" duration="7940000" />
+      <workItem from="1544863734850" duration="11100000" />
+      <workItem from="1545020056942" duration="2354000" />
+      <workItem from="1545022711945" duration="533000" />
+      <workItem from="1545023537294" duration="651000" />
+      <workItem from="1545035450423" duration="970000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="232992000" />
+    <option name="totallyTimeSpent" value="252394000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1920" height="1040" extended-state="0" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.24253732" side_tool="true" weight="0.2603486" />
-      <window_info active="true" anchor="right" id="Maven Projects" order="3" visible="true" weight="0.25860214" />
+      <window_info anchor="right" id="Maven Projects" order="3" visible="true" weight="0.14498934" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
@@ -643,25 +630,25 @@
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.7574627" weight="0.5232816" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.7574627" weight="0.13968958" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Messages" order="7" weight="0.4345898" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="bottom" id="Java Enterprise" order="7" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.8107676" visible="true" weight="0.32150775" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.8107676" visible="true" weight="0.32026145" />
       <window_info anchor="bottom" id="Spring" order="7" />
       <window_info anchor="bottom" id="Terminal" order="7" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.23333333" />
-      <window_info anchor="right" id="Bean Validation" order="3" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23667377" />
+      <window_info anchor="right" id="Bean Validation" order="3" weight="0.32995737" />
       <window_info id="Web" order="2" side_tool="true" />
       <window_info anchor="right" id="Theme Preview" order="3" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Messages" order="7" weight="0.4345898" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32946634" />
@@ -689,7 +676,7 @@
           <option name="timeStamp" value="4" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/component-starter/component-mybatis-starter/src/main/java/org/smr/saas/comp/mybatis/conf/DataSourceProperties.java</url>
+          <url>file://$PROJECT_DIR$/component-starter/component-mybatis-starter/src/main/java/org/smr/comp/mybatis/conf/DataSourceProperties.java</url>
           <line>60</line>
           <properties />
           <option name="timeStamp" value="14" />
@@ -731,170 +718,34 @@
           <option name="timeStamp" value="27" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/component-starter/component-mybatis-starter/src/main/java/org/smr/saas/comp/mybatis/utils/PageInterceptor.java</url>
-          <line>101</line>
+          <url>file://$PROJECT_DIR$/component-starter/component-mybatis-starter/src/main/java/org/smr/comp/mybatis/conf/MyBatisConfiguration.java</url>
+          <line>76</line>
           <properties />
-          <option name="timeStamp" value="28" />
+          <option name="timeStamp" value="30" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/component-starter/component-mybatis-starter/src/main/java/org/smr/comp/mybatis/conf/MyBatisConfiguration.java</url>
+          <line>128</line>
+          <properties />
+          <option name="timeStamp" value="31" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/mybatis/spring/boot/mybatis-spring-boot-autoconfigure/1.3.2/mybatis-spring-boot-autoconfigure-1.3.2.jar!/org/mybatis/spring/boot/autoconfigure/MybatisAutoConfiguration.class</url>
+          <line>61</line>
+          <properties />
+          <option name="timeStamp" value="33" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/mybatis/spring/boot/mybatis-spring-boot-autoconfigure/1.3.2/mybatis-spring-boot-autoconfigure-1.3.2.jar!/org/mybatis/spring/boot/autoconfigure/MybatisAutoConfiguration.class</url>
+          <line>80</line>
+          <properties />
+          <option name="timeStamp" value="34" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="29" />
+      <option name="time" value="35" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/component-starter/component-activiti5-ui-starter/src/main/java/org/smr/comp/activi5/controller/ModelSaveRestResource.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="40" column="13" selection-start-line="40" selection-start-column="13" selection-end-line="40" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/component-starter/component-mybatis-starter/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1406">
-          <caret line="74" column="21" lean-forward="true" selection-start-line="74" selection-start-column="21" selection-end-line="74" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/netflix/zuul/zuul-core/1.3.0/zuul-core-1.3.0.jar!/com/netflix/zuul/ZuulFilter.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="722">
-          <caret line="56" column="35" selection-start-line="56" selection-start-column="35" selection-end-line="56" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-starter/cloud-zuul-gateway/src/main/java/org/smr/GatewatApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="16" selection-start-line="16" selection-end-line="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-starter/cloud-zuul-gateway/src/main/java/org/smr/cloud/gateway/filter/ApiVersionFilter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-57">
-          <caret line="6" column="38" selection-start-line="6" selection-end-line="6" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-starter/cloud-zuul-gateway/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="13" selection-start-line="13" selection-end-line="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-starter/cloud-discover/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1159">
-          <caret line="61" selection-start-line="45" selection-end-line="61" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-starter/cloud-sleuth-zipkin/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="513">
-          <caret line="27" column="46" selection-start-line="27" selection-start-column="41" selection-end-line="27" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/component-starter/component-mybatis-starter/src/main/java/org/smr/saas/comp/mybatis/utils/PageSql.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/component-starter/component-blade-starter/src/main/java/org/blade/service/base/PaginationQueryService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/component-starter/component-blade-starter/src/main/java/org/blade/service/base/BaseService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="8" column="3" lean-forward="true" selection-start-line="8" selection-start-column="3" selection-end-line="8" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/component-starter/component-blade-starter/src/main/java/org/blade/utils/SnowFlake.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-285">
-          <caret line="57" column="29" selection-start-line="57" selection-start-column="29" selection-end-line="57" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/component-starter/component-blade-starter/src/main/java/org/blade/utils/impl/LongIdGenerator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/component-starter/component-blade-starter/src/main/java/org/blade/service/base/BaseBatchService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="15" column="63" lean-forward="true" selection-start-line="15" selection-start-column="33" selection-end-line="15" selection-end-column="63" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/component-starter/component-blade-starter/src/main/java/org/blade/utils/IdGenerator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" column="28" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/component-starter/component-blade-starter/src/main/java/org/blade/utils/IdGenUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="12" column="39" lean-forward="true" selection-start-line="12" selection-start-column="39" selection-end-line="12" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/component-starter/component-blade-starter/src/main/java/org/blade/msg/ErrorCode.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="532">
-          <caret line="31" column="34" selection-start-line="31" selection-start-column="34" selection-end-line="31" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/component-starter/component-blade-starter/src/main/java/org/blade/entities/base/BizEntity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="6" column="51" selection-start-line="6" selection-start-column="51" selection-end-line="6" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/component-starter/component-blade-starter/src/main/java/org/blade/utils/TimeUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="7" column="24" selection-start-line="7" selection-start-column="24" selection-end-line="7" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/component-starter/component-blade-starter/src/main/java/org/blade/entities/base/BaseEntity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="13" selection-start-line="13" selection-end-line="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/component-starter/component-blade-starter/src/main/java/org/blade/dao/base/PageQueryMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="16" column="17" selection-start-line="16" selection-start-column="17" selection-end-line="16" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/component-starter/component-blade-starter/src/main/java/org/blade/dao/base/BizMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="10" column="52" selection-start-line="10" selection-start-column="3" selection-end-line="10" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/component-starter/component-blade-starter/src/main/java/org/blade/service/base/AbstractService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="38">
@@ -906,13 +757,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="57">
           <caret line="3" column="108" selection-start-line="3" selection-start-column="108" selection-end-line="3" selection-end-column="108" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="7733">
-          <caret line="407" column="56" selection-start-line="407" selection-start-column="56" selection-end-line="407" selection-end-column="56" />
         </state>
       </provider>
     </entry>
@@ -930,48 +774,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/component-starter/component-mybatis-starter/src/main/java/org/smr/saas/comp/mybatis/utils/PagerSqlBuilder.java">
+    <entry file="file://$PROJECT_DIR$/component-starter/component-mybatis-starter/src/main/java/org/smr/comp/mybatis/utils/PagerSqlBuilder.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="275">
           <caret line="16" column="18" selection-start-line="16" selection-start-column="18" selection-end-line="16" selection-end-column="18" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/component-starter/component-mybatis-starter/src/main/java/org/smr/saas/comp/mybatis/utils/CacheInterceptor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="227">
-          <caret line="40" column="13" selection-start-line="40" selection-start-column="13" selection-end-line="40" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/component-starter/component-mybatis-starter/src/main/java/org/smr/saas/comp/mybatis/utils/MsSQLPageSqlBuilder.java">
+    <entry file="file://$PROJECT_DIR$/component-starter/component-mybatis-starter/src/main/java/org/smr/comp/mybatis/utils/OraclePageSqlBuilder.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="38">
           <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/component-starter/component-mybatis-starter/src/main/java/org/smr/saas/comp/mybatis/utils/MySQLPageSqlBuilder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/component-starter/component-mybatis-starter/src/main/java/org/smr/saas/comp/mybatis/utils/OraclePageSqlBuilder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/component-starter/component-mybatis-starter/src/main/java/org/smr/saas/comp/mybatis/utils/PageInterceptor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1311">
-          <caret line="88" column="57" selection-start-line="88" selection-start-column="37" selection-end-line="88" selection-end-column="57" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1015,99 +828,228 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/component-starter/component-mybatis-starter/src/main/java/org/smr/saas/comp/mybatis/MybatisStarterApplication.java">
+    <entry file="file://$PROJECT_DIR$/component-starter/component-mybatis-starter/src/main/java/org/smr/saas/comp/mybatis/conf/MapperScannerRegistrarNotFoundConfiguration.java" />
+    <entry file="file://$PROJECT_DIR$/component-starter/component-mybatis-starter/src/main/java/org/smr/saas/comp/mybatis/conf/AutoConfiguredMapperScannerRegistrar.java" />
+    <entry file="file://$PROJECT_DIR$/component-starter/component-blade-starter/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="14" column="67" selection-start-line="14" selection-start-column="67" selection-end-line="14" selection-end-column="67" />
+        <state relative-caret-position="854">
+          <caret line="50" column="10" selection-start-line="50" selection-start-column="10" selection-end-line="50" selection-end-column="10" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/component-starter/pom.xml">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/mybatis/spring/boot/mybatis-spring-boot-autoconfigure/1.3.2/mybatis-spring-boot-autoconfigure-1.3.2.jar!/org/mybatis/spring/boot/autoconfigure/MybatisAutoConfiguration.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="282">
-          <caret line="22" selection-start-line="22" selection-end-line="22" />
+        <state relative-caret-position="209">
+          <caret line="52" column="37" selection-start-line="52" selection-start-column="13" selection-end-line="52" selection-end-column="37" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/component-starter/component-mybatis-starter/src/main/java/org/smr/saas/comp/mybatis/conf/MyBatisProperties.java">
+    <entry file="file://$MAVEN_REPOSITORY$/org/mybatis/spring/boot/mybatis-spring-boot-starter/1.3.2/mybatis-spring-boot-starter-1.3.2.pom">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="10" column="34" selection-start-line="10" selection-start-column="34" selection-end-line="10" selection-end-column="34" />
-          <folding>
-            <element signature="e#580#581#0" expanded="true" />
-            <element signature="e#617#618#0" expanded="true" />
-            <element signature="e#677#678#0" expanded="true" />
-            <element signature="e#729#730#0" expanded="true" />
-            <element signature="e#903#904#0" expanded="true" />
-            <element signature="e#945#946#0" expanded="true" />
-            <element signature="e#1016#1017#0" expanded="true" />
-            <element signature="e#1078#1079#0" expanded="true" />
-          </folding>
-        </state>
+        <state relative-caret-position="-285" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/cloud-starter/cloud-discover/src/main/java/org/smr/service/discover/ServiceDiscoverApplication.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="152">
-          <caret line="8" column="41" selection-start-line="8" selection-start-column="41" selection-end-line="8" selection-end-column="41" />
+          <caret line="10" column="44" selection-start-line="10" selection-start-column="44" selection-end-line="10" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="7315">
+          <caret line="385" column="24" selection-start-line="385" selection-start-column="24" selection-end-line="385" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/component-starter/component-mybatis-starter/src/main/java/org/smr/comp/mybatis/conf/DataSourceProperties.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#360#361#0" expanded="true" />
-            <element signature="e#437#438#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-starter/cloud-discover/src/main/resources/bootstrap.yml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-starter/cloud-discover/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/component-starter/component-mybatis-starter/src/main/java/org/smr/saas/comp/mybatis/conf/DruidConfig.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/4.3.6.RELEASE/spring-context-4.3.6.RELEASE.jar!/org/springframework/context/annotation/Configuration.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-380">
-          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+        <state relative-caret-position="57">
+          <caret line="3" column="2" lean-forward="true" selection-start-line="3" selection-start-column="2" selection-end-line="3" selection-end-column="2" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/component-starter/component-mybatis-starter/src/main/java/org/smr/saas/comp/mybatis/conf/DataSourceProperties.java">
+    <entry file="file://$PROJECT_DIR$/common-starter/src/main/java/org/smr/common/cons/RedisUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common-starter/src/main/java/org/smr/common/cons/RestStatus.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="10" column="12" selection-start-line="10" selection-start-column="12" selection-end-line="10" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common-starter/src/main/java/org/smr/common/cons/StringUtils.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="133">
-          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/component-starter/component-mybatis-starter/src/main/java/org/smr/saas/comp/mybatis/conf/Druid.java">
+    <entry file="file://$PROJECT_DIR$/common-starter/src/main/java/org/smr/common/cons/RSAUtils.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-57">
+        <state relative-caret-position="1083">
+          <caret line="65" column="78" selection-start-line="65" selection-start-column="78" selection-end-line="65" selection-end-column="78" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/component-starter/component-mybatis-starter/src/main/java/org/smr/comp/mybatis/utils/PageInterceptor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1026">
+          <caret line="72" column="9" selection-start-line="72" selection-start-column="9" selection-end-line="72" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/component-starter/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="475">
+          <caret line="25" selection-start-line="25" selection-end-line="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/component-starter/component-redis-starter/src/main/java/org/smr/comp/redis/conf/RedisProperties.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
           <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/component-starter/component-mybatis-starter/src/main/java/org/smr/saas/comp/mybatis/conf/MyBatisConfiguration.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="152" column="51" selection-start-line="152" selection-start-column="37" selection-end-line="152" selection-end-column="51" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#2250#2251#0" expanded="true" />
-            <element signature="e#2302#2303#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/component-starter/component-blade-starter/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="847">
-          <caret line="50" column="10" selection-start-line="50" selection-start-column="10" selection-end-line="50" selection-end-column="10" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/component-starter/component-mybatis-starter/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="56" column="8" selection-start-line="56" selection-start-column="8" selection-end-line="56" selection-end-column="8" />
+        <state relative-caret-position="190">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/component-starter/component-redis-starter/src/main/java/org/smr/comp/redis/conf/Test.java" />
+    <entry file="file://$PROJECT_DIR$/component-starter/component-redis-starter/src/main/java/org/smr/comp/redis/conf/RedisPool.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/component-starter/component-redis-starter/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="456">
+          <caret line="24" column="21" selection-start-line="24" selection-start-column="21" selection-end-line="24" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/component-starter/component-mybatis-starter/src/main/java/org/smr/comp/mybatis/conf/Druid.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/component-starter/component-mybatis-starter/src/main/java/org/smr/comp/mybatis/conf/DruidConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/component-starter/component-mybatis-starter/src/main/java/org/smr/comp/mybatis/conf/MyBatisConfiguration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="589">
+          <caret line="63" column="11" selection-start-line="63" selection-start-column="11" selection-end-line="63" selection-end-column="11" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#2037#2038#0" expanded="true" />
+            <element signature="e#2089#2090#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/component-starter/component-mybatis-starter/src/main/java/org/smr/comp/mybatis/conf/MyBatisProperties.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="874">
+          <caret line="67" column="5" selection-start-line="67" selection-start-column="5" selection-end-line="67" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/component-starter/component-mybatis-starter/src/main/java/org/smr/comp/mybatis/utils/CacheInterceptor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="40" column="13" selection-start-line="40" selection-start-column="13" selection-end-line="40" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/component-starter/component-mybatis-starter/src/main/java/org/smr/comp/mybatis/utils/MsSQLPageSqlBuilder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/component-starter/component-mybatis-starter/src/main/java/org/smr/comp/mybatis/utils/MySQLPageSqlBuilder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/component-starter/component-mybatis-starter/component-mybatis-starter.iml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/component-starter/component-starter.iml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/log/demo.log">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/component-starter/component-auth2.0-starter/component-auth2.0-starter.iml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/saas-framework.iml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/component-starter/component-redis-starter/component-redis-starter.iml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/component-starter/component-mybatis-starter/src/main/resources/bootstrap-dev.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="11" column="62" selection-start-line="11" selection-start-column="62" selection-end-line="11" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/component-starter/component-mybatis-starter/src/main/resources/bootstrap.yml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/component-starter/component-mybatis-starter/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/component-starter/component-mybatis-starter/src/main/resources/bootstrap-pd.yml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/component-starter/component-mybatis-starter/src/main/java/org/smr/comp/mybatis/MybatisStarterApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="12" column="48" selection-start-line="12" selection-start-column="48" selection-end-line="12" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/component-starter/component-mybatis-starter/src/main/java/org/smr/comp/mybatis/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" column="5" lean-forward="true" selection-start-line="6" selection-start-column="5" selection-end-line="6" selection-end-column="5" />
         </state>
       </provider>
     </entry>
