@@ -18,13 +18,13 @@ public class AbstractService {
 
         Long id = IdGenUtils.getNextLongId();
         entity.setId(id);
-        entity.setCreateTime(TimeUtils.getNowTime());
-        entity.setModifyTime(TimeUtils.getNowTime());
+        entity.setCreateDate(TimeUtils.getNowTime());
+        entity.setUpdateDate(TimeUtils.getNowTime());
     }
 
     public void modifyAttach( BizEntity entity ){
 
-        entity.setModifyTime(TimeUtils.getNowTime());
+        entity.setUpdateDate(TimeUtils.getNowTime());
     }
 
 

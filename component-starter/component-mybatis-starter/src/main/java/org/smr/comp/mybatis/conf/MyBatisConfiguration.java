@@ -146,11 +146,6 @@ public class MyBatisConfiguration  implements EnvironmentAware {
         return sfb.getObject();
     }
 
-    @Bean
-    public Interceptor initPageInterceptor(){
-        return new PageInterceptor();
-    }
-
     @Override
     public void setEnvironment(Environment environment) {
         this.env = environment;

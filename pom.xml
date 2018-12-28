@@ -33,11 +33,11 @@
         <java.version>1.8.0_144</java.version>
         <spring.boot.version>1.4.4.RELEASE</spring.boot.version>
         <spring.version>4.3.6.RELEASE</spring.version>
-        <spring.cloud.version>Camden.SR5</spring.cloud.version>
+        <spring.cloud.version>Edgware.SR4</spring.cloud.version>
         <spring.cloud.netflix.version>1.2.5.RELEASE</spring.cloud.netflix.version>
         <spring.cloud.context.version>1.1.7.RELEASE</spring.cloud.context.version>
         <spring.cloud.security.version>1.2.1.RELEASE</spring.cloud.security.version>
-        <spring.cloud.oauth2.version>1.2.1.RELEASE</spring.cloud.oauth2.version>
+        <spring.cloud.oauth2.version>1.2.3.RELEASE</spring.cloud.oauth2.version>
         <mysql.version>5.1.39</mysql.version>
         <commons.lang3.version>3.8</commons.lang3.version>
         <commons.io.version>2.4</commons.io.version>
@@ -59,6 +59,7 @@
         <dom4j.version>1.6.1</dom4j.version>
         <poi.version>3.10.1</poi.version>
         <jxls.version>1.0.6</jxls.version>
+        <jjwt.version>0.9.0</jjwt.version>
         <jsqlparser.version>0.9.5</jsqlparser.version>
         <commons-net.version>3.4</commons-net.version>
         <cxf.version>3.1.6</cxf.version>
@@ -75,6 +76,8 @@
         <netty.version>4.1.6.Final</netty.version>
         <gson.version>2.3</gson.version>
         <slf4j.version>1.7.7</slf4j.version>
+        <lombok.version>1.16.22</lombok.version>
+
         <LDSMSAPI.version>1.0.0-SNAPSHOT</LDSMSAPI.version>
         <aliyun-sdk-oss.version>2.5.0</aliyun-sdk-oss.version>
         <json-smart.version>2.2.1</json-smart.version>
@@ -198,6 +201,13 @@
                 <version>2.11.7</version>
             </dependency>
 
+            <!--oauth2.0-->
+            <dependency>
+                <groupId>org.springframework.cloud</groupId>
+                <artifactId>spring-cloud-starter-oauth2</artifactId>
+                <version>${spring.cloud.oauth2.version}</version>
+            </dependency>
+
             <!-- Apache Camel-->
             <dependency>
                 <groupId>org.apache.camel</groupId>
@@ -208,6 +218,13 @@
                 <groupId>org.apache.camel</groupId>
                 <artifactId>camel-spring-boot-starter</artifactId>
                 <version>${camel.version}</version>
+            </dependency>
+
+            <!--JWT-->
+            <dependency>
+                <groupId>io.jsonwebtoken</groupId>
+                <artifactId>jjwt</artifactId>
+                <version>${jjwt.version}</version>
             </dependency>
 
 
@@ -228,6 +245,15 @@
                 <artifactId>log4j</artifactId>
                 <version>${log4j.version}</version>
             </dependency>
+
+            <!-- https://mvnrepository.com/artifact/org.projectlombok/lombok -->
+            <dependency>
+                <groupId>org.projectlombok</groupId>
+                <artifactId>lombok</artifactId>
+                <version>${lombok.version}</version>
+                <scope>provided</scope>
+            </dependency>
+
             <dependency>
                 <groupId>org.mockito</groupId>
                 <artifactId>mockito-all</artifactId>
