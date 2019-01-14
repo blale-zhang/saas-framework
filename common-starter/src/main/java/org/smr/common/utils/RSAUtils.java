@@ -1,4 +1,4 @@
-package org.smr.common.cons;
+package org.smr.common.utils;
 
 
 import org.springframework.util.Base64Utils;

@@ -1,4 +1,4 @@
-package org.smr.common.cons;
+package org.smr.common.utils;
 
 import org.blade.entities.base.BaseEntity;
 import org.springframework.beans.factory.annotation.Autowired;

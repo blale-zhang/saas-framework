@@ -1,4 +1,4 @@
-package org.smr.common.cons;
+package org.smr.common.utils;
 
 import com.google.common.collect.Lists;
 import com.google.common.collect.Maps;

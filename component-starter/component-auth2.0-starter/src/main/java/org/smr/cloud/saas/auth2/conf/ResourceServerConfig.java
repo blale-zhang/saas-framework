@@ -6,6 +6,7 @@ import org.springframework.security.oauth2.config.annotation.web.configuration.E
 import org.springframework.security.oauth2.config.annotation.web.configuration.ResourceServerConfigurerAdapter;
 import javax.servlet.http.HttpServletResponse;
 /**
+ * 一般在资源服务器初始化
  * Resource Server
  */
 @Configuration

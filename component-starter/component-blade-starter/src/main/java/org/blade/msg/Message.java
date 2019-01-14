@@ -26,6 +26,31 @@ public class Message {
 	public void setDescription(String description) {
 		this.description = description;
 	}
-	
-	
+
+	public Message(int status, String description) {
+		this.status = status;
+		this.description = description;
+	}
+
+	/**
+	 * 成功消息
+	 * @param description
+	 * @return
+	 */
+	public static Message success(String description){
+
+		return new Message(ErrorCode.Success.SUCCESS,description);
+	}
+
+	/**
+	 * 失败消息
+	 * @param failCode
+	 * @param description
+	 * @return
+	 */
+	public static Message fail(Integer failCode, String description){
+
+		return new Message(failCode,description);
+	}
+
 }

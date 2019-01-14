@@ -4,8 +4,8 @@ package org.smr.cloud.gateway.filter;
 import com.netflix.zuul.context.RequestContext;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-import org.smr.common.cons.RedisUtils;
-import org.smr.common.cons.RestStatus;
+import org.smr.common.utils.RedisUtils;
+import org.smr.common.utils.RestStatus;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.context.annotation.Configuration;
 
