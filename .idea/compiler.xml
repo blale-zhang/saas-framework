@@ -19,5 +19,21 @@
         <module name="component-redis-starter" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="boot-starter" target="1.8" />
+      <module name="cloud-discover" target="1.8" />
+      <module name="cloud-services" target="1.8" />
+      <module name="cloud-starter" target="1.8" />
+      <module name="cloud-zuul-gateway" target="1.8" />
+      <module name="common-starter" target="1.8" />
+      <module name="component-activiti5-starter" target="1.8" />
+      <module name="component-activiti5-ui-starter" target="1.8" />
+      <module name="component-auth2.0-starter" target="1.8" />
+      <module name="component-blade-starter" target="1.8" />
+      <module name="component-mybatis-starter" target="1.8" />
+      <module name="component-redis-starter" target="1.8" />
+      <module name="component-starter" target="1.8" />
+      <module name="framework" target="1.8" />
+    </bytecodeTargetLevel>
   </component>
 </project>

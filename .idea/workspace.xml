@@ -2,8 +2,397 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1747f34d-705b-4768-b87d-428a76ba95be" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/component-starter/component-mybatis-starter/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/component-starter/component-mybatis-starter/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/boot-starter/target/boot-starter-1.0-SNAPSHOT.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/boot-starter/target/maven-archiver/pom.properties" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/boot-starter/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/boot-starter/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cloud-starter/cloud-discover/cloud-discover.iml" afterPath="$PROJECT_DIR$/cloud-starter/cloud-discover/cloud-discover.iml" />
+      <change beforePath="$PROJECT_DIR$/cloud-starter/cloud-discover/target/cloud-discover-1.0-SNAPSHOT.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cloud-starter/cloud-discover/target/maven-archiver/pom.properties" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cloud-starter/cloud-discover/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cloud-starter/cloud-discover/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cloud-starter/cloud-services/cloud-services.iml" afterPath="$PROJECT_DIR$/cloud-starter/cloud-services/cloud-services.iml" />
+      <change beforePath="$PROJECT_DIR$/cloud-starter/cloud-services/target/cloud-services-1.0-SNAPSHOT.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cloud-starter/cloud-services/target/maven-archiver/pom.properties" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cloud-starter/cloud-services/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cloud-starter/cloud-services/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cloud-starter/cloud-zuul-gateway/cloud-zuul-gateway.iml" afterPath="$PROJECT_DIR$/cloud-starter/cloud-zuul-gateway/cloud-zuul-gateway.iml" />
+      <change beforePath="$PROJECT_DIR$/cloud-starter/cloud-zuul-gateway/target/cloud-zuul-gateway-1.0-SNAPSHOT.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cloud-starter/cloud-zuul-gateway/target/maven-archiver/pom.properties" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cloud-starter/cloud-zuul-gateway/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cloud-starter/cloud-zuul-gateway/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/common-starter/common-starter.iml" afterPath="$PROJECT_DIR$/common-starter/common-starter.iml" />
+      <change beforePath="$PROJECT_DIR$/common-starter/target/common-starter-1.0-SNAPSHOT.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/common-starter/target/maven-archiver/pom.properties" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/common-starter/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/common-starter/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/component-starter/component-activiti5-starter/component-activiti5-starter.iml" afterPath="$PROJECT_DIR$/component-starter/component-activiti5-starter/component-activiti5-starter.iml" />
+      <change beforePath="$PROJECT_DIR$/component-starter/component-activiti5-starter/target/classes/application.properties" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/component-starter/component-activiti5-starter/target/classes/org/smr/comp/acitivti/MyApplication.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/component-starter/component-activiti5-starter/target/classes/org/smr/comp/acitivti/conf/ActivitiConfig.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/component-starter/component-activiti5-starter/target/component-activiti5-starter-1.0-SNAPSHOT.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/component-starter/component-activiti5-starter/target/component-activiti5-starter-1.0-SNAPSHOT.jar.original" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/component-starter/component-activiti5-starter/target/maven-archiver/pom.properties" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/component-starter/component-activiti5-starter/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/component-starter/component-activiti5-starter/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/component-starter/component-activiti5-starter/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/component-starter/component-activiti5-ui-starter/component-activiti5-ui-starter.iml" afterPath="$PROJECT_DIR$/component-starter/component-activiti5-ui-starter/component-activiti5-ui-starter.iml" />
+      <change beforePath="$PROJECT_DIR$/component-starter/component-activiti5-ui-starter/target/classes/application.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/component-starter/component-activiti5-ui-starter/target/classes/log4j2.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/component-starter/component-activiti5-ui-starter/target/classes/logback-root.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/component-starter/component-activiti5-ui-starter/target/classes/org/smr/comp/activi5/MyApplication.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/component-starter/component-activiti5-ui-starter/target/classes/org/smr/comp/activi5/conf/ActitytiDataSourceConfig.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/component-starter/component-activiti5-ui-starter/target/classes/org/smr/comp/activi5/conf/MyWebSecurityConfigurerAdapter.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/component-starter/component-activiti5-ui-starter/target/classes/org/smr/comp/activi5/controller/ActivitiModelController.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/component-starter/component-activiti5-ui-starter/target/classes/org/smr/comp/activi5/controller/ModelEditorJsonRestResource.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/component-starter/component-activiti5-ui-starter/target/classes/org/smr/comp/activi5/controller/ModelSaveRestResource.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/component-starter/component-activiti5-ui-starter/target/classes/org/smr/comp/activi5/controller/StencilsetRestResource.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/component-starter/component-activiti5-ui-starter/target/classes/static/diagram-viewer/images/bg.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/component-starter/component-activiti5-ui-starter/target/classes/static/diagram-viewer/images/breadcrumbs.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/component-starter/component-activiti5-ui-starter/target/classes/static/diagram-viewer/images/checker-bg.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/component-starter/component-activiti5-ui-starter/target/classes/static/diagram-viewer/images/deployer/blue/message_catch.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/component-starter/component-activiti5-ui-starter/target/classes/static/diagram-viewer/images/deployer/business_rule.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/component-starter/component-activiti5-ui-starter/target/classes/static/diagram-viewer/images/deployer/error_catch.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/component-starter/component-activiti5-ui-starter/target/classes/static/diagram-viewer/images/deployer/error_throw.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/component-starter/component-activiti5-ui-starter/target/classes/static/diagram-viewer/images/deployer/manual.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/component-starter/component-activiti5-ui-starter/target/classes/static/diagram-viewer/images/deployer/message_catch.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/component-starter/component-activiti5-ui-starter/target/classes/static/diagram-viewer/images/deployer/message_throw.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/component-starter/component-activiti5-ui-starter/target/classes/static/diagram-viewer/images/deployer/receive.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/component-starter/component-activiti5-ui-starter/target/classes/static/diagram-viewer/images/deployer/script.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/component-starter/component-activiti5-ui-starter/target/classes/static/diagram-viewer/images/deployer/send.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/component-starter/component-activiti5-ui-starter/target/classes/static/diagram-viewer/images/deployer/service.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/component-starter/component-activiti5-ui-starter/target/classes/static/diagram-viewer/images/deployer/signal_catch.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/component-starter/component-activiti5-ui-starter/target/classes/static/diagram-viewer/images/deployer/signal_throw.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/component-starter/component-activiti5-ui-starter/target/classes/static/diagram-viewer/images/deployer/timer.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/component-starter/component-activiti5-ui-starter/target/classes/static/diagram-viewer/images/deployer/user.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/component-starter/component-activiti5-ui-starter/target/classes/static/diagram-viewer/index.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/component-starter/component-activiti5-ui-starter/target/classes/static/diagram-viewer/js/ActivitiRest.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/component-starter/component-activiti5-ui-starter/target/classes/static/diagram-viewer/js/ActivityImpl.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/component-starter/component-activiti5-ui-starter/target/classes/static/diagram-viewer/js/Color.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/component-starter/component-activiti5-ui-starter/target/classes/static/diagram-viewer/js/LineBreakMeasurer.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/component-starter/component-activiti5-ui-starter/target/classes/static/diagram-viewer/js/Polyline.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/component-starter/component-activiti5-ui-starter/target/classes/static/diagram-viewer/js/ProcessDiagramCanvas.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/component-starter/component-activiti5-ui-starter/target/classes/static/diagram-viewer/js/ProcessDiagramGenerator.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/component-starter/component-activiti5-ui-starter/target/classes/static/diagram-viewer/js/jquery/jquery.asyncqueue.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/component-starter/component-activiti5-ui-starter/target/classes/static/diagram-viewer/js/jquery/jquery.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/component-starter/component-activiti5-ui-starter/target/classes/static/diagram-viewer/js/jquery/jquery.progressbar.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/component-starter/component-activiti5-ui-starter/target/classes/static/diagram-viewer/js/jstools.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/component-starter/component-activiti5-ui-starter/target/classes/static/diagram-viewer/js/raphael.2.1.1.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/component-starter/component-activiti5-ui-starter/target/classes/static/diagram-viewer/js/raphael.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/component-starter/component-activiti5-ui-starter/target/classes/static/diagram-viewer/js/raphael_uncompressed.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/component-starter/component-activiti5-ui-starter/target/classes/static/diagram-viewer/js/textlayout.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/component-starter/component-activiti5-ui-starter/target/classes/static/diagram-viewer/style.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/component-starter/component-activiti5-ui-starter/target/classes/static/editor-app/app-cfg.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/component-starter/component-activiti5-ui-starter/target/classes/static/editor-app/app.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/component-starter/component-activiti5-ui-starter/target/classes/static/editor-app/configuration/properties-assignment-controller.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/component-starter/component-activiti5-ui-starter/target/classes/static/editor-app/configuration/properties-condition-expression-controller.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/component-starter/component-activiti5-ui-starter/target/classes/static/editor-app/configuration/properties-custom-controllers.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/component-starter/component-activiti5-ui-starter/target/classes/static/editor-app/configuration/properties-default-controllers.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/component-starter/component-activiti5-ui-starter/target/classes/static/editor-app/configuration/properties-event-listeners-controller.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/component-starter/component-activiti5-ui-starter/target/classes/static/editor-app/configuration/properties-execution-listeners-controller.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/component-starter/component-activiti5-ui-starter/target/classes/static/editor-app/configuration/properties-fields-controller.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/component-starter/component-activiti5-ui-starter/target/classes/static/editor-app/configuration/properties-form-properties-controller.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/component-starter/component-activiti5-ui-starter/target/classes/static/editor-app/configuration/properties-in-parameters-controller.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/component-starter/component-activiti5-ui-starter/target/classes/static/editor-app/configuration/properties-message-definitions-controller.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/component-starter/component-activiti5-ui-starter/target/classes/static/editor-app/configuration/properties-message-scope-controller.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/component-starter/component-activiti5-ui-starter/target/classes/static/editor-app/configuration/properties-multiinstance-controller.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/component-starter/component-activiti5-ui-starter/target/classes/static/editor-app/configuration/properties-out-parameters-controller.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/component-starter/component-activiti5-ui-starter/target/classes/static/editor-app/configuration/properties-sequenceflow-order-controller.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/component-starter/component-activiti5-ui-starter/target/classes/static/editor-app/configuration/properties-signal-definitions-controller.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/component-starter/component-activiti5-ui-starter/target/classes/static/editor-app/configuration/properties-signal-scope-controller.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/component-starter/component-activiti5-ui-starter/target/classes/static/editor-app/configuration/properties-task-listeners-controller.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/component-starter/component-activiti5-ui-starter/target/classes/static/editor-app/configuration/properties.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/component-starter/component-activiti5-ui-starter/target/classes/static/editor-app/configuration/properties/assignment-display-template.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/component-starter/component-activiti5-ui-starter/target/classes/static/editor-app/configuration/properties/assignment-popup.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/component-starter/component-activiti5-ui-starter/target/classes/static/editor-app/configuration/properties/assignment-write-template.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/component-starter/component-activiti5-ui-starter/target/classes/static/editor-app/configuration/properties/boolean-property-template.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/component-starter/component-activiti5-ui-starter/target/classes/static/editor-app/configuration/properties/condition-expression-display-template.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/component-starter/component-activiti5-ui-starter/target/classes/static/editor-app/configuration/properties/condition-expression-popup.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/component-starter/component-activiti5-ui-starter/target/classes/static/editor-app/configuration/properties/condition-expression-write-template.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/component-starter/component-activiti5-ui-starter/target/classes/static/editor-app/configuration/properties/default-value-display-template.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/component-starter/component-activiti5-ui-starter/target/classes/static/editor-app/configuration/properties/event-listeners-display-template.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/component-starter/component-activiti5-ui-starter/target/classes/static/editor-app/configuration/properties/event-listeners-popup.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/component-starter/component-activiti5-ui-starter/target/classes/static/editor-app/configuration/properties/event-listeners-write-template.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/component-starter/component-activiti5-ui-starter/target/classes/static/editor-app/configuration/properties/execution-listeners-display-template.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/component-starter/component-activiti5-ui-starter/target/classes/static/editor-app/configuration/properties/execution-listeners-popup.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/component-starter/component-activiti5-ui-starter/target/classes/static/editor-app/configuration/properties/execution-listeners-write-template.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/component-starter/component-activiti5-ui-starter/target/classes/static/editor-app/configuration/properties/feedback-popup.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/component-starter/component-activiti5-ui-starter/target/classes/static/editor-app/configuration/properties/fields-display-template.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/component-starter/component-activiti5-ui-starter/target/classes/static/editor-app/configuration/properties/fields-popup.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/component-starter/component-activiti5-ui-starter/target/classes/static/editor-app/configuration/properties/fields-write-template.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/component-starter/component-activiti5-ui-starter/target/classes/static/editor-app/configuration/properties/form-properties-display-template.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/component-starter/component-activiti5-ui-starter/target/classes/static/editor-app/configuration/properties/form-properties-popup.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/component-starter/component-activiti5-ui-starter/target/classes/static/editor-app/configuration/properties/form-properties-write-template.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/component-starter/component-activiti5-ui-starter/target/classes/static/editor-app/configuration/properties/in-parameters-display-template.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/component-starter/component-activiti5-ui-starter/target/classes/static/editor-app/configuration/properties/in-parameters-popup.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/component-starter/component-activiti5-ui-starter/target/classes/static/editor-app/configuration/properties/in-parameters-write-template.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/component-starter/component-activiti5-ui-starter/target/classes/static/editor-app/configuration/properties/message-definitions-display-template.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/component-starter/component-activiti5-ui-starter/target/classes/static/editor-app/configuration/properties/message-definitions-popup.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/component-starter/component-activiti5-ui-starter/target/classes/static/editor-app/configuration/properties/message-definitions-write-template.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/component-starter/component-activiti5-ui-starter/target/classes/static/editor-app/configuration/properties/message-property-write-template.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/component-starter/component-activiti5-ui-starter/target/classes/static/editor-app/configuration/properties/multiinstance-property-write-template.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/component-starter/component-activiti5-ui-starter/target/classes/static/editor-app/configuration/properties/out-parameters-display-template.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/component-starter/component-activiti5-ui-starter/target/classes/static/editor-app/configuration/properties/out-parameters-popup.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/component-starter/component-activiti5-ui-starter/target/classes/static/editor-app/configuration/properties/out-parameters-write-template.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/component-starter/component-activiti5-ui-starter/target/classes/static/editor-app/configuration/properties/sequenceflow-order-display-template.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/component-starter/component-activiti5-ui-starter/target/classes/static/editor-app/configuration/properties/sequenceflow-order-popup.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/component-starter/component-activiti5-ui-starter/target/classes/static/editor-app/configuration/properties/sequenceflow-order-write-template.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/component-starter/component-activiti5-ui-starter/target/classes/static/editor-app/configuration/properties/signal-definitions-display-template.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/component-starter/component-activiti5-ui-starter/target/classes/static/editor-app/configuration/properties/signal-definitions-popup.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/component-starter/component-activiti5-ui-starter/target/classes/static/editor-app/configuration/properties/signal-definitions-write-template.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/component-starter/component-activiti5-ui-starter/target/classes/static/editor-app/configuration/properties/signal-property-write-template.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/component-starter/component-activiti5-ui-starter/target/classes/static/editor-app/configuration/properties/string-property-write-mode-template.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/component-starter/component-activiti5-ui-starter/target/classes/static/editor-app/configuration/properties/subprocess-reference-display-template.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/component-starter/component-activiti5-ui-starter/target/classes/static/editor-app/configuration/properties/subprocess-reference-popup.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/component-starter/component-activiti5-ui-starter/target/classes/static/editor-app/configuration/properties/subprocess-reference-write-template.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/component-starter/component-activiti5-ui-starter/target/classes/static/editor-app/configuration/properties/task-listeners-display-template.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/component-starter/component-activiti5-ui-starter/target/classes/static/editor-app/configuration/properties/task-listeners-popup.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/component-starter/component-activiti5-ui-starter/target/classes/static/editor-app/configuration/properties/task-listeners-write-template.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/component-starter/component-activiti5-ui-starter/target/classes/static/editor-app/configuration/properties/text-popup.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/component-starter/component-activiti5-ui-starter/target/classes/static/editor-app/configuration/properties/text-property-write-template.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/component-starter/component-activiti5-ui-starter/target/classes/static/editor-app/configuration/toolbar-custom-actions.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/component-starter/component-activiti5-ui-starter/target/classes/static/editor-app/configuration/toolbar-default-actions.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/component-starter/component-activiti5-ui-starter/target/classes/static/editor-app/configuration/toolbar.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/component-starter/component-activiti5-ui-starter/target/classes/static/editor-app/configuration/url-config.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/component-starter/component-activiti5-ui-starter/target/classes/static/editor-app/css/style-common.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/component-starter/component-activiti5-ui-starter/target/classes/static/editor-app/css/style-editor.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/component-starter/component-activiti5-ui-starter/target/classes/static/editor-app/css/style.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/component-starter/component-activiti5-ui-starter/target/classes/static/editor-app/editor-config.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/component-starter/component-activiti5-ui-starter/target/classes/static/editor-app/editor-controller.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/component-starter/component-activiti5-ui-starter/target/classes/static/editor-app/editor-utils.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/component-starter/component-activiti5-ui-starter/target/classes/static/editor-app/editor.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/component-starter/component-activiti5-ui-starter/target/classes/static/editor-app/editor/css/editor.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/component-starter/component-activiti5-ui-starter/target/classes/static/editor-app/editor/i18n/translation_de.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/component-starter/component-activiti5-ui-starter/target/classes/static/editor-app/editor/i18n/translation_en_us.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/component-starter/component-activiti5-ui-starter/target/classes/static/editor-app/editor/i18n/translation_signavio_de.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/component-starter/component-activiti5-ui-starter/target/classes/static/editor-app/editor/i18n/translation_signavio_en_us.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/component-starter/component-activiti5-ui-starter/target/classes/static/editor-app/editor/oryx.debug.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/component-starter/component-activiti5-ui-starter/target/classes/static/editor-app/editor/oryx.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/component-starter/component-activiti5-ui-starter/target/classes/static/editor-app/eventbus.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/component-starter/component-activiti5-ui-starter/target/classes/static/editor-app/fonts/activiti-admin-webfont.eot" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/component-starter/component-activiti5-ui-starter/target/classes/static/editor-app/fonts/activiti-admin-webfont.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/component-starter/component-activiti5-ui-starter/target/classes/static/editor-app/fonts/activiti-admin-webfont.ttf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/component-starter/component-activiti5-ui-starter/target/classes/static/editor-app/fonts/activiti-admin-webfont.woff" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/component-starter/component-activiti5-ui-starter/target/classes/static/editor-app/fonts/glyphicons-halflings-regular.eot" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/component-starter/component-activiti5-ui-starter/target/classes/static/editor-app/fonts/glyphicons-halflings-regular.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/component-starter/component-activiti5-ui-starter/target/classes/static/editor-app/fonts/glyphicons-halflings-regular.ttf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/component-starter/component-activiti5-ui-starter/target/classes/static/editor-app/fonts/glyphicons-halflings-regular.woff" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/component-starter/component-activiti5-ui-starter/target/classes/static/editor-app/header-controller.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/component-starter/component-activiti5-ui-starter/target/classes/static/editor-app/i18n/en.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/component-starter/component-activiti5-ui-starter/target/classes/static/editor-app/images/bpmn-error.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/component-starter/component-activiti5-ui-starter/target/classes/static/editor-app/images/bpmn-warning.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/component-starter/component-activiti5-ui-starter/target/classes/static/editor-app/images/datadefinition.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/component-starter/component-activiti5-ui-starter/target/classes/static/editor-app/images/delete.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/component-starter/component-activiti5-ui-starter/target/classes/static/editor-app/images/loading.gif" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/component-starter/component-activiti5-ui-starter/target/classes/static/editor-app/images/logo-2x.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/component-starter/component-activiti5-ui-starter/target/classes/static/editor-app/images/logo.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/component-starter/component-activiti5-ui-starter/target/classes/static/editor-app/images/nw-handle-dark.gif" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/component-starter/component-activiti5-ui-starter/target/classes/static/editor-app/images/se-handle-dark.gif" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/component-starter/component-activiti5-ui-starter/target/classes/static/editor-app/images/shapemenu_highlight.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/component-starter/component-activiti5-ui-starter/target/classes/static/editor-app/images/wrench.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/component-starter/component-activiti5-ui-starter/target/classes/static/editor-app/libs/angular-cookies_1.2.13/angular-cookies.min.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/component-starter/component-activiti5-ui-starter/target/classes/static/editor-app/libs/angular-cookies_1.2.13/angular-cookies.min.js.map" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/component-starter/component-activiti5-ui-starter/target/classes/static/editor-app/libs/angular-dragdrop.min-1.0.3.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/component-starter/component-activiti5-ui-starter/target/classes/static/editor-app/libs/angular-dragdrop_1.0.7/angular-dragdrop.min.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/component-starter/component-activiti5-ui-starter/target/classes/static/editor-app/libs/angular-mocks_1.2.13/angular-mocks.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/component-starter/component-activiti5-ui-starter/target/classes/static/editor-app/libs/angular-resource_1.2.13/angular-resource.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/component-starter/component-activiti5-ui-starter/target/classes/static/editor-app/libs/angular-resource_1.2.13/angular-resource.min.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/component-starter/component-activiti5-ui-starter/target/classes/static/editor-app/libs/angular-resource_1.2.13/angular-resource.min.js.map" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/component-starter/component-activiti5-ui-starter/target/classes/static/editor-app/libs/angular-route_1.2.13/angular-route.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/component-starter/component-activiti5-ui-starter/target/classes/static/editor-app/libs/angular-route_1.2.13/angular-route.min.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/component-starter/component-activiti5-ui-starter/target/classes/static/editor-app/libs/angular-route_1.2.13/angular-route.min.js.map" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/component-starter/component-activiti5-ui-starter/target/classes/static/editor-app/libs/angular-sanitize_1.2.13/angular-sanitize.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/component-starter/component-activiti5-ui-starter/target/classes/static/editor-app/libs/angular-sanitize_1.2.13/angular-sanitize.min.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/component-starter/component-activiti5-ui-starter/target/classes/static/editor-app/libs/angular-sanitize_1.2.13/angular-sanitize.min.js.map" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/component-starter/component-activiti5-ui-starter/target/classes/static/editor-app/libs/angular-scroll_0.5.7/angular-scroll.min.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/component-starter/component-activiti5-ui-starter/target/classes/static/editor-app/libs/angular-strap_2.0.5/angular-strap.min.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/component-starter/component-activiti5-ui-starter/target/classes/static/editor-app/libs/angular-strap_2.0.5/angular-strap.tpl.min.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/component-starter/component-activiti5-ui-starter/target/classes/static/editor-app/libs/angular-translate-loader-static-files/.bower.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/component-starter/component-activiti5-ui-starter/target/classes/static/editor-app/libs/angular-translate-loader-static-files/angular-translate-loader-static-files.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/component-starter/component-activiti5-ui-starter/target/classes/static/editor-app/libs/angular-translate-loader-static-files/angular-translate-loader-static-files.min.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/component-starter/component-activiti5-ui-starter/target/classes/static/editor-app/libs/angular-translate-storage-cookie/.bower.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/component-starter/component-activiti5-ui-starter/target/classes/static/editor-app/libs/angular-translate-storage-cookie/angular-translate-storage-cookie.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/component-starter/component-activiti5-ui-starter/target/classes/static/editor-app/libs/angular-translate-storage-cookie/angular-translate-storage-cookie.min.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/component-starter/component-activiti5-ui-starter/target/classes/static/editor-app/libs/angular-translate_2.4.2/angular-translate.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/component-starter/component-activiti5-ui-starter/target/classes/static/editor-app/libs/angular-translate_2.4.2/angular-translate.min.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/component-starter/component-activiti5-ui-starter/target/classes/static/editor-app/libs/angular_1.2.13/angular-animate.min.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/component-starter/component-activiti5-ui-starter/target/classes/static/editor-app/libs/angular_1.2.13/angular.min.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/component-starter/component-activiti5-ui-starter/target/classes/static/editor-app/libs/bootstrap-daterangepicker_1.3.7/daterangepicker-bs3.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/component-starter/component-activiti5-ui-starter/target/classes/static/editor-app/libs/bootstrap-daterangepicker_1.3.7/daterangepicker.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/component-starter/component-activiti5-ui-starter/target/classes/static/editor-app/libs/bootstrap_3.1.1/css/bootstrap-theme.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/component-starter/component-activiti5-ui-starter/target/classes/static/editor-app/libs/bootstrap_3.1.1/css/bootstrap-theme.css.map" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/component-starter/component-activiti5-ui-starter/target/classes/static/editor-app/libs/bootstrap_3.1.1/css/bootstrap-theme.min.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/component-starter/component-activiti5-ui-starter/target/classes/static/editor-app/libs/bootstrap_3.1.1/css/bootstrap.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/component-starter/component-activiti5-ui-starter/target/classes/static/editor-app/libs/bootstrap_3.1.1/css/bootstrap.css.map" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/component-starter/component-activiti5-ui-starter/target/classes/static/editor-app/libs/bootstrap_3.1.1/css/bootstrap.min.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/component-starter/component-activiti5-ui-starter/target/classes/static/editor-app/libs/bootstrap_3.1.1/fonts/glyphicons-halflings-regular.eot" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/component-starter/component-activiti5-ui-starter/target/classes/static/editor-app/libs/bootstrap_3.1.1/fonts/glyphicons-halflings-regular.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/component-starter/component-activiti5-ui-starter/target/classes/static/editor-app/libs/bootstrap_3.1.1/fonts/glyphicons-halflings-regular.ttf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/component-starter/component-activiti5-ui-starter/target/classes/static/editor-app/libs/bootstrap_3.1.1/fonts/glyphicons-halflings-regular.woff" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/component-starter/component-activiti5-ui-starter/target/classes/static/editor-app/libs/bootstrap_3.1.1/js/bootstrap.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/component-starter/component-activiti5-ui-starter/target/classes/static/editor-app/libs/bootstrap_3.1.1/js/bootstrap.min.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/component-starter/component-activiti5-ui-starter/target/classes/static/editor-app/libs/es5-shim-15.3.4.5/.bower.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/component-starter/component-activiti5-ui-starter/target/classes/static/editor-app/libs/es5-shim-15.3.4.5/.gitignore" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/component-starter/component-activiti5-ui-starter/target/classes/static/editor-app/libs/es5-shim-15.3.4.5/CHANGES" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/component-starter/component-activiti5-ui-starter/target/classes/static/editor-app/libs/es5-shim-15.3.4.5/CONTRIBUTORS.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/component-starter/component-activiti5-ui-starter/target/classes/static/editor-app/libs/es5-shim-15.3.4.5/LICENSE" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/component-starter/component-activiti5-ui-starter/target/classes/static/editor-app/libs/es5-shim-15.3.4.5/README.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/component-starter/component-activiti5-ui-starter/target/classes/static/editor-app/libs/es5-shim-15.3.4.5/es5-sham.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/component-starter/component-activiti5-ui-starter/target/classes/static/editor-app/libs/es5-shim-15.3.4.5/es5-sham.map" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/component-starter/component-activiti5-ui-starter/target/classes/static/editor-app/libs/es5-shim-15.3.4.5/es5-sham.min.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/component-starter/component-activiti5-ui-starter/target/classes/static/editor-app/libs/es5-shim-15.3.4.5/es5-shim.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/component-starter/component-activiti5-ui-starter/target/classes/static/editor-app/libs/es5-shim-15.3.4.5/es5-shim.map" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/component-starter/component-activiti5-ui-starter/target/classes/static/editor-app/libs/es5-shim-15.3.4.5/es5-shim.min.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/component-starter/component-activiti5-ui-starter/target/classes/static/editor-app/libs/es5-shim-15.3.4.5/package.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/component-starter/component-activiti5-ui-starter/target/classes/static/editor-app/libs/es5-shim-15.3.4.5/tests/helpers/h-kill.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/component-starter/component-activiti5-ui-starter/target/classes/static/editor-app/libs/es5-shim-15.3.4.5/tests/helpers/h-matchers.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/component-starter/component-activiti5-ui-starter/target/classes/static/editor-app/libs/es5-shim-15.3.4.5/tests/helpers/h.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/component-starter/component-activiti5-ui-starter/target/classes/static/editor-app/libs/es5-shim-15.3.4.5/tests/index.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/component-starter/component-activiti5-ui-starter/target/classes/static/editor-app/libs/es5-shim-15.3.4.5/tests/index.min.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/component-starter/component-activiti5-ui-starter/target/classes/static/editor-app/libs/es5-shim-15.3.4.5/tests/lib/jasmine-html.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/component-starter/component-activiti5-ui-starter/target/classes/static/editor-app/libs/es5-shim-15.3.4.5/tests/lib/jasmine.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/component-starter/component-activiti5-ui-starter/target/classes/static/editor-app/libs/es5-shim-15.3.4.5/tests/lib/jasmine.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/component-starter/component-activiti5-ui-starter/target/classes/static/editor-app/libs/es5-shim-15.3.4.5/tests/lib/jasmine_favicon.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/component-starter/component-activiti5-ui-starter/target/classes/static/editor-app/libs/es5-shim-15.3.4.5/tests/lib/json2.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/component-starter/component-activiti5-ui-starter/target/classes/static/editor-app/libs/es5-shim-15.3.4.5/tests/spec/s-array.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/component-starter/component-activiti5-ui-starter/target/classes/static/editor-app/libs/es5-shim-15.3.4.5/tests/spec/s-date.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/component-starter/component-activiti5-ui-starter/target/classes/static/editor-app/libs/es5-shim-15.3.4.5/tests/spec/s-function.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/component-starter/component-activiti5-ui-starter/target/classes/static/editor-app/libs/es5-shim-15.3.4.5/tests/spec/s-number.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/component-starter/component-activiti5-ui-starter/target/classes/static/editor-app/libs/es5-shim-15.3.4.5/tests/spec/s-object.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/component-starter/component-activiti5-ui-starter/target/classes/static/editor-app/libs/es5-shim-15.3.4.5/tests/spec/s-string.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/component-starter/component-activiti5-ui-starter/target/classes/static/editor-app/libs/jquery-ui-1.10.3.custom.min.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/component-starter/component-activiti5-ui-starter/target/classes/static/editor-app/libs/jquery.autogrow-textarea.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/component-starter/component-activiti5-ui-starter/target/classes/static/editor-app/libs/jquery_1.11.0/jquery.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/component-starter/component-activiti5-ui-starter/target/classes/static/editor-app/libs/jquery_1.11.0/jquery.min.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/component-starter/component-activiti5-ui-starter/target/classes/static/editor-app/libs/jquery_1.11.0/jquery.min.map" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/component-starter/component-activiti5-ui-starter/target/classes/static/editor-app/libs/json3_3.2.6/LICENSE" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/component-starter/component-activiti5-ui-starter/target/classes/static/editor-app/libs/json3_3.2.6/lib/json3.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/component-starter/component-activiti5-ui-starter/target/classes/static/editor-app/libs/json3_3.2.6/lib/json3.min.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/component-starter/component-activiti5-ui-starter/target/classes/static/editor-app/libs/momentjs_2.5.1/momentjs.min.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/component-starter/component-activiti5-ui-starter/target/classes/static/editor-app/libs/mousetrap-1.4.5.min.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/component-starter/component-activiti5-ui-starter/target/classes/static/editor-app/libs/ng-grid-2.0.7-min.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/component-starter/component-activiti5-ui-starter/target/classes/static/editor-app/libs/ng-grid-2.0.7.min.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/component-starter/component-activiti5-ui-starter/target/classes/static/editor-app/libs/path_parser.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/component-starter/component-activiti5-ui-starter/target/classes/static/editor-app/libs/prototype-1.5.1.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/component-starter/component-activiti5-ui-starter/target/classes/static/editor-app/libs/ui-utils.min-0.0.4.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/component-starter/component-activiti5-ui-starter/target/classes/static/editor-app/partials/root-stencil-item-template.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/component-starter/component-activiti5-ui-starter/target/classes/static/editor-app/partials/stencil-item-template.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/component-starter/component-activiti5-ui-starter/target/classes/static/editor-app/plugins.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/component-starter/component-activiti5-ui-starter/target/classes/static/editor-app/popups/icon-template.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/component-starter/component-activiti5-ui-starter/target/classes/static/editor-app/popups/save-model.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/component-starter/component-activiti5-ui-starter/target/classes/static/editor-app/popups/select-shape.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/component-starter/component-activiti5-ui-starter/target/classes/static/editor-app/popups/unsaved-changes.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/component-starter/component-activiti5-ui-starter/target/classes/static/editor-app/select-shape-controller.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/component-starter/component-activiti5-ui-starter/target/classes/static/editor-app/stencil-controller.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/component-starter/component-activiti5-ui-starter/target/classes/static/editor-app/stencilsets/bpmn2.0/icons/activity/event.subprocess.collapsed.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/component-starter/component-activiti5-ui-starter/target/classes/static/editor-app/stencilsets/bpmn2.0/icons/activity/event.subprocess.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/component-starter/component-activiti5-ui-starter/target/classes/static/editor-app/stencilsets/bpmn2.0/icons/activity/expanded.subprocess.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/component-starter/component-activiti5-ui-starter/target/classes/static/editor-app/stencilsets/bpmn2.0/icons/activity/list/type.business.rule.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/component-starter/component-activiti5-ui-starter/target/classes/static/editor-app/stencilsets/bpmn2.0/icons/activity/list/type.camel.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/component-starter/component-activiti5-ui-starter/target/classes/static/editor-app/stencilsets/bpmn2.0/icons/activity/list/type.manual.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/component-starter/component-activiti5-ui-starter/target/classes/static/editor-app/stencilsets/bpmn2.0/icons/activity/list/type.mule.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/component-starter/component-activiti5-ui-starter/target/classes/static/editor-app/stencilsets/bpmn2.0/icons/activity/list/type.receive.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/component-starter/component-activiti5-ui-starter/target/classes/static/editor-app/stencilsets/bpmn2.0/icons/activity/list/type.script.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/component-starter/component-activiti5-ui-starter/target/classes/static/editor-app/stencilsets/bpmn2.0/icons/activity/list/type.send.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/component-starter/component-activiti5-ui-starter/target/classes/static/editor-app/stencilsets/bpmn2.0/icons/activity/list/type.service.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/component-starter/component-activiti5-ui-starter/target/classes/static/editor-app/stencilsets/bpmn2.0/icons/activity/list/type.shell.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/component-starter/component-activiti5-ui-starter/target/classes/static/editor-app/stencilsets/bpmn2.0/icons/activity/list/type.user.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/component-starter/component-activiti5-ui-starter/target/classes/static/editor-app/stencilsets/bpmn2.0/icons/activity/subprocess.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/component-starter/component-activiti5-ui-starter/target/classes/static/editor-app/stencilsets/bpmn2.0/icons/activity/task.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/component-starter/component-activiti5-ui-starter/target/classes/static/editor-app/stencilsets/bpmn2.0/icons/artifact/text.annotation.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/component-starter/component-activiti5-ui-starter/target/classes/static/editor-app/stencilsets/bpmn2.0/icons/catching/cancel.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/component-starter/component-activiti5-ui-starter/target/classes/static/editor-app/stencilsets/bpmn2.0/icons/catching/compensation.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/component-starter/component-activiti5-ui-starter/target/classes/static/editor-app/stencilsets/bpmn2.0/icons/catching/error.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/component-starter/component-activiti5-ui-starter/target/classes/static/editor-app/stencilsets/bpmn2.0/icons/catching/message.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/component-starter/component-activiti5-ui-starter/target/classes/static/editor-app/stencilsets/bpmn2.0/icons/catching/signal.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/component-starter/component-activiti5-ui-starter/target/classes/static/editor-app/stencilsets/bpmn2.0/icons/catching/timer.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/component-starter/component-activiti5-ui-starter/target/classes/static/editor-app/stencilsets/bpmn2.0/icons/connector/association.undirected.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/component-starter/component-activiti5-ui-starter/target/classes/static/editor-app/stencilsets/bpmn2.0/icons/connector/association.unidirectional.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/component-starter/component-activiti5-ui-starter/target/classes/static/editor-app/stencilsets/bpmn2.0/icons/connector/messageflow.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/component-starter/component-activiti5-ui-starter/target/classes/static/editor-app/stencilsets/bpmn2.0/icons/connector/sequenceflow.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/component-starter/component-activiti5-ui-starter/target/classes/static/editor-app/stencilsets/bpmn2.0/icons/dataobject/data.store.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/component-starter/component-activiti5-ui-starter/target/classes/static/editor-app/stencilsets/bpmn2.0/icons/diagram.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/component-starter/component-activiti5-ui-starter/target/classes/static/editor-app/stencilsets/bpmn2.0/icons/endevent/cancel.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/component-starter/component-activiti5-ui-starter/target/classes/static/editor-app/stencilsets/bpmn2.0/icons/endevent/error.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/component-starter/component-activiti5-ui-starter/target/classes/static/editor-app/stencilsets/bpmn2.0/icons/endevent/none.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/component-starter/component-activiti5-ui-starter/target/classes/static/editor-app/stencilsets/bpmn2.0/icons/endevent/terminate.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/component-starter/component-activiti5-ui-starter/target/classes/static/editor-app/stencilsets/bpmn2.0/icons/gateway/eventbased.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/component-starter/component-activiti5-ui-starter/target/classes/static/editor-app/stencilsets/bpmn2.0/icons/gateway/exclusive.databased.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/component-starter/component-activiti5-ui-starter/target/classes/static/editor-app/stencilsets/bpmn2.0/icons/gateway/inclusive.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/component-starter/component-activiti5-ui-starter/target/classes/static/editor-app/stencilsets/bpmn2.0/icons/gateway/parallel.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/component-starter/component-activiti5-ui-starter/target/classes/static/editor-app/stencilsets/bpmn2.0/icons/startevent/error.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/component-starter/component-activiti5-ui-starter/target/classes/static/editor-app/stencilsets/bpmn2.0/icons/startevent/message.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/component-starter/component-activiti5-ui-starter/target/classes/static/editor-app/stencilsets/bpmn2.0/icons/startevent/none.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/component-starter/component-activiti5-ui-starter/target/classes/static/editor-app/stencilsets/bpmn2.0/icons/startevent/signal.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/component-starter/component-activiti5-ui-starter/target/classes/static/editor-app/stencilsets/bpmn2.0/icons/startevent/timer.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/component-starter/component-activiti5-ui-starter/target/classes/static/editor-app/stencilsets/bpmn2.0/icons/swimlane/lane.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/component-starter/component-activiti5-ui-starter/target/classes/static/editor-app/stencilsets/bpmn2.0/icons/swimlane/pool.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/component-starter/component-activiti5-ui-starter/target/classes/static/editor-app/stencilsets/bpmn2.0/icons/throwing/none.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/component-starter/component-activiti5-ui-starter/target/classes/static/editor-app/stencilsets/bpmn2.0/icons/throwing/signal.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/component-starter/component-activiti5-ui-starter/target/classes/static/editor-app/toolbar-controller.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/component-starter/component-activiti5-ui-starter/target/classes/static/modeler.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/component-starter/component-activiti5-ui-starter/target/classes/stencilset.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/component-starter/component-activiti5-ui-starter/target/component-activiti5-ui-starter-1.0-SNAPSHOT.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/component-starter/component-activiti5-ui-starter/target/maven-archiver/pom.properties" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/component-starter/component-activiti5-ui-starter/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/component-starter/component-activiti5-ui-starter/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/component-starter/component-activiti5-ui-starter/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/component-starter/component-auth2.0-starter/component-auth2.0-starter.iml" afterPath="$PROJECT_DIR$/component-starter/component-auth2.0-starter/component-auth2.0-starter.iml" />
+      <change beforePath="$PROJECT_DIR$/component-starter/component-auth2.0-starter/target/component-auth2.0-starter-1.0-SNAPSHOT.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/component-starter/component-auth2.0-starter/target/maven-archiver/pom.properties" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/component-starter/component-auth2.0-starter/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/component-starter/component-auth2.0-starter/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/component-starter/component-blade-starter/target/classes/org/blade/dao/base/BaseMapper.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/component-starter/component-blade-starter/target/classes/org/blade/dao/base/BizMapper.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/component-starter/component-blade-starter/target/classes/org/blade/dao/base/PageQueryMapper.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/component-starter/component-blade-starter/target/classes/org/blade/entities/base/BaseEntity.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/component-starter/component-blade-starter/target/classes/org/blade/entities/base/BizEntity.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/component-starter/component-blade-starter/target/classes/org/blade/utils/Pager.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/component-starter/component-blade-starter/target/component-blade-starter-1.0.0-SNAPSHOT.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/component-starter/component-blade-starter/target/maven-archiver/pom.properties" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/component-starter/component-blade-starter/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/component-starter/component-blade-starter/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/component-starter/component-blade-starter/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/component-starter/component-mybatis-starter/component-mybatis-starter.iml" afterPath="$PROJECT_DIR$/component-starter/component-mybatis-starter/component-mybatis-starter.iml" />
+      <change beforePath="$PROJECT_DIR$/component-starter/component-mybatis-starter/target/classes/application.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/component-starter/component-mybatis-starter/target/classes/bootstrap-dev.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/component-starter/component-mybatis-starter/target/classes/bootstrap-pd.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/component-starter/component-mybatis-starter/target/classes/bootstrap.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/component-starter/component-mybatis-starter/target/classes/org/smr/saas/comp/mybatis/MybatisStarterApplication.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/component-starter/component-mybatis-starter/target/classes/org/smr/saas/comp/mybatis/conf/DataSourceProperties.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/component-starter/component-mybatis-starter/target/classes/org/smr/saas/comp/mybatis/conf/Druid.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/component-starter/component-mybatis-starter/target/classes/org/smr/saas/comp/mybatis/conf/DruidConfig.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/component-starter/component-mybatis-starter/target/classes/org/smr/saas/comp/mybatis/conf/MyBatisConfiguration.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/component-starter/component-mybatis-starter/target/classes/org/smr/saas/comp/mybatis/conf/MyBatisProperties.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/component-starter/component-mybatis-starter/target/classes/org/smr/saas/comp/mybatis/utils/CacheInterceptor.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/component-starter/component-mybatis-starter/target/classes/org/smr/saas/comp/mybatis/utils/MsSQLPageSqlBuilder.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/component-starter/component-mybatis-starter/target/classes/org/smr/saas/comp/mybatis/utils/MySQLPageSqlBuilder.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/component-starter/component-mybatis-starter/target/classes/org/smr/saas/comp/mybatis/utils/OraclePageSqlBuilder.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/component-starter/component-mybatis-starter/target/classes/org/smr/saas/comp/mybatis/utils/PageInterceptor.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/component-starter/component-mybatis-starter/target/classes/org/smr/saas/comp/mybatis/utils/PageSql.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/component-starter/component-mybatis-starter/target/classes/org/smr/saas/comp/mybatis/utils/PagerSqlBuilder.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/component-starter/component-mybatis-starter/target/component-mybatis-starter-1.0.0-SNAPSHOT.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/component-starter/component-mybatis-starter/target/maven-archiver/pom.properties" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/component-starter/component-mybatis-starter/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/component-starter/component-mybatis-starter/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/component-starter/component-mybatis-starter/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/component-starter/component-redis-starter/component-redis-starter.iml" afterPath="$PROJECT_DIR$/component-starter/component-redis-starter/component-redis-starter.iml" />
+      <change beforePath="$PROJECT_DIR$/component-starter/component-redis-starter/target/classes/application.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/component-starter/component-redis-starter/target/classes/bootstrap-dev.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/component-starter/component-redis-starter/target/classes/bootstrap-pd.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/component-starter/component-redis-starter/target/classes/bootstrap.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/component-starter/component-redis-starter/target/classes/org/smr/comp/redis/RedisStarterApplication.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/component-starter/component-redis-starter/target/classes/org/smr/comp/redis/conf/RedisPool.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/component-starter/component-redis-starter/target/classes/org/smr/comp/redis/conf/RedisProperties.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/component-starter/component-redis-starter/target/classes/org/smr/comp/redis/init/RedisConfiguration.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/component-starter/component-redis-starter/target/component-redis-starter-1.0-SNAPSHOT.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/component-starter/component-redis-starter/target/maven-archiver/pom.properties" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/component-starter/component-redis-starter/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/component-starter/component-redis-starter/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/component-starter/component-redis-starter/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/component-starter/component-starter.iml" afterPath="$PROJECT_DIR$/component-starter/component-starter.iml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -29,66 +418,23 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="646">
-              <caret line="34" selection-start-line="33" selection-end-line="34" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/component-starter/component-blade-starter/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="209">
-              <caret line="11" selection-start-line="11" selection-end-line="12" selection-end-column="37" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MyBatisConfiguration.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/component-starter/component-mybatis-starter/src/main/java/org/smr/saas/comp/mybatis/conf/MyBatisConfiguration.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="228">
-              <caret line="23" column="35" selection-start-line="23" selection-end-line="24" />
-            </state>
-          </provider>
-        </entry>
-      </file>
+    <leaf>
       <file leaf-file-name="pom.xml" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/component-starter/component-mybatis-starter/pom.xml">
+        <entry file="file://$PROJECT_DIR$/component-starter/component-auth2.0-starter/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="494">
-              <caret line="38" selection-start-line="38" selection-end-line="38" />
+            <state relative-caret-position="210">
+              <caret line="14" column="6" lean-forward="true" selection-start-line="14" selection-start-column="6" selection-end-line="14" selection-end-column="6" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DruidConfig.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/component-starter/component-mybatis-starter/src/main/java/org/smr/saas/comp/mybatis/conf/DruidConfig.java">
+      <file leaf-file-name="component-auth2.0-starter.iml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/component-starter/component-auth2.0-starter/component-auth2.0-starter.iml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="228">
-              <caret line="15" column="39" selection-start-line="15" selection-start-column="39" selection-end-line="15" selection-end-column="39" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MyBatisProperties.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/component-starter/component-mybatis-starter/src/main/java/org/smr/saas/comp/mybatis/conf/MyBatisProperties.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="171">
-              <caret line="10" column="36" selection-start-line="10" selection-start-column="18" selection-end-line="10" selection-end-column="36" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="bootstrap-dev.yml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/component-starter/component-mybatis-starter/src/main/resources/bootstrap-dev.yml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="38">
-              <caret line="2" column="82" selection-start-line="2" selection-start-column="62" selection-end-line="2" selection-end-column="82" />
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -124,6 +470,11 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GradleLocalSettings">
+    <option name="externalProjectsViewState">
+      <projects_view />
+    </option>
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -200,7 +551,12 @@
       <expand>
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="component-mybatis-starter" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="framework" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="framework" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
         </path>
       </expand>
       <select />
@@ -211,15 +567,24 @@
       <path value="$PROJECT_DIR$/component-starter/component-activiti5-ui-starter/src/main/resources/static/editor-app/libs/es5-shim-15.3.4.5/package.json" />
     </packageJsonPaths>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="74" />
-    <option name="y" value="21" />
-    <option name="width" value="1807" />
-    <option name="height" value="969" />
+  <component name="ProjectFrameBounds">
+    <option name="y" value="23" />
+    <option name="width" value="1280" />
+    <option name="height" value="737" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
-    <navigator proportions="" version="1">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
@@ -235,13 +600,20 @@
               <item name="saas-framework" type="462c0819:PsiDirectoryNode" />
               <item name="component-starter" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="saas-framework" type="b2602c69:ProjectViewProjectNode" />
+              <item name="saas-framework" type="462c0819:PsiDirectoryNode" />
+              <item name="component-starter" type="462c0819:PsiDirectoryNode" />
+              <item name="component-auth2.0-starter" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="AndroidView" />
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -253,7 +625,7 @@
     <property name="RequestMappingsPanelWidth2" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../compmybatis" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -287,9 +659,22 @@
   </component>
   <component name="RunManager" selected="Spring Boot.RedisStarterApplication">
     <configuration default="true" type="Application" factoryName="Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
     </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" />
@@ -299,43 +684,50 @@
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="ENV_VARIABLES" />
       <option name="PASS_PARENT_ENVS" value="true" />
       <option name="TEST_SEARCH_SCOPE">
         <value defaultName="singleModule" />
       </option>
+      <envs />
       <patterns />
     </configuration>
     <configuration name="MyApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="component-activiti5-ui-starter" />
-      <extension name="coverage">
+      <extension name="coverage" enabled="false" merge="false" runner="idea">
         <pattern>
           <option name="PATTERN" value="org.smr.comp.activi5.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="SPRING_BOOT_MAIN_CLASS" value="org.smr.comp.activi5.MyApplication" />
+      <module name="component-activiti5-ui-starter" />
+      <envs />
     </configuration>
     <configuration name="MyApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="component-activiti5-starter" />
-      <extension name="coverage">
+      <extension name="coverage" enabled="false" merge="false" runner="idea">
         <pattern>
           <option name="PATTERN" value="org.smr.comp.acitivti.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="SPRING_BOOT_MAIN_CLASS" value="org.smr.comp.acitivti.MyApplication" />
+      <module name="component-activiti5-starter" />
+      <envs />
     </configuration>
     <configuration name="RedisStarterApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="component-redis-starter" />
-      <extension name="coverage">
+      <extension name="coverage" enabled="false" merge="false" runner="idea">
         <pattern>
           <option name="PATTERN" value="org.smr.comp.redis.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="SPRING_BOOT_MAIN_CLASS" value="org.smr.comp.redis.RedisStarterApplication" />
+      <module name="component-redis-starter" />
+      <envs />
     </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="SUITE_NAME" />
@@ -348,27 +740,33 @@
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
       <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
       <option name="PASS_PARENT_ENVS" value="true" />
       <option name="TEST_SEARCH_SCOPE">
         <value defaultName="singleModule" />
       </option>
       <option name="USE_DEFAULT_REPORTERS" value="false" />
       <option name="PROPERTIES_FILE" />
+      <envs />
       <properties />
       <listeners />
     </configuration>
-    <list>
-      <item itemvalue="Spring Boot.MyApplication" />
-      <item itemvalue="Spring Boot.MyApplication (1)" />
-      <item itemvalue="Spring Boot.RedisStarterApplication" />
+    <list size="3">
+      <item index="0" class="java.lang.String" itemvalue="Spring Boot.MyApplication" />
+      <item index="1" class="java.lang.String" itemvalue="Spring Boot.MyApplication (1)" />
+      <item index="2" class="java.lang.String" itemvalue="Spring Boot.RedisStarterApplication" />
     </list>
     <recent_temporary>
-      <list>
-        <item itemvalue="Spring Boot.RedisStarterApplication" />
-        <item itemvalue="Spring Boot.MyApplication (1)" />
-        <item itemvalue="Spring Boot.MyApplication" />
+      <list size="3">
+        <item index="0" class="java.lang.String" itemvalue="Spring Boot.RedisStarterApplication" />
+        <item index="1" class="java.lang.String" itemvalue="Spring Boot.MyApplication (1)" />
+        <item index="2" class="java.lang.String" itemvalue="Spring Boot.MyApplication" />
       </list>
     </recent_temporary>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -389,48 +787,90 @@
       <workItem from="1537969448705" duration="1084000" />
       <workItem from="1538056565032" duration="4215000" />
       <workItem from="1538179437039" duration="1792000" />
+      <workItem from="1538453274832" duration="465000" />
+      <workItem from="1538729823543" duration="373000" />
+      <workItem from="1550560028963" duration="2643000" />
+      <workItem from="1550644691561" duration="1360000" />
+      <workItem from="1551428374516" duration="726000" />
+      <workItem from="1551782177700" duration="40000" />
+      <workItem from="1551782250435" duration="646000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="72036000" />
+    <option name="totallyTimeSpent" value="78289000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="0" y="23" width="1280" height="737" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
-      <window_info active="true" anchor="right" id="Maven Projects" order="3" visible="true" weight="0.17004265" />
-      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info id="Capture Tool" order="2" />
-      <window_info id="Designer" order="2" />
-      <window_info anchor="right" id="Database" order="3" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info id="UI Designer" order="2" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.23549885" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Palette&#9;" order="3" />
-      <window_info id="Image Layers" order="2" />
-      <window_info anchor="bottom" id="Java Enterprise" order="7" />
-      <window_info anchor="right" id="Capture Analysis" order="3" />
-      <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.46296296" />
-      <window_info anchor="bottom" id="Spring" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="7" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19402985" />
-      <window_info anchor="right" id="Bean Validation" order="3" />
-      <window_info id="Web" order="2" side_tool="true" />
-      <window_info anchor="right" id="Theme Preview" order="3" />
-      <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Messages" order="7" weight="0.6013072" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32946634" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15024233" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2211838" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.29644588" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.23549885" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Database Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.6013072" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32946634" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
+    <layout-to-restore>
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.054119546" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Database Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.23549885" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.6013072" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.46296296" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23909532" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32946634" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -456,40 +896,13 @@
       </breakpoints>
       <option name="time" value="7" />
     </breakpoint-manager>
+    <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/component-starter/component-mybatis-starter/src/main/java/org/smr/saas/comp/mybatis/conf/MyBatisProperties.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="10" column="36" selection-start-line="10" selection-start-column="18" selection-end-line="10" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/component-starter/component-mybatis-starter/src/main/resources/bootstrap-dev.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" column="82" selection-start-line="2" selection-start-column="62" selection-end-line="2" selection-end-column="82" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/component-starter/component-mybatis-starter/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1102">
-          <caret line="58" column="42" lean-forward="true" selection-start-line="58" selection-start-column="42" selection-end-line="58" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/component-starter/component-mybatis-starter/src/main/java/org/smr/saas/comp/mybatis/utils/MsSQLPageSqlBuilder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/component-starter/component-mybatis-starter/src/main/java/org/smr/saas/comp/mybatis/utils/CacheInterceptor.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1216">
-          <caret line="91" column="57" selection-start-line="91" selection-start-column="52" selection-end-line="91" selection-end-column="57" />
+          <caret line="91" column="57" lean-forward="false" selection-start-line="91" selection-start-column="52" selection-end-line="91" selection-end-column="57" />
         </state>
       </provider>
     </entry>
@@ -503,42 +916,42 @@
     <entry file="file://$PROJECT_DIR$/component-starter/component-activiti5-ui-starter/src/main/resources/static/editor-app/editor/oryx.debug.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="236">
-          <caret line="10842" column="66" selection-start-line="10842" selection-start-column="66" selection-end-line="10842" selection-end-column="66" />
+          <caret line="10842" column="66" lean-forward="false" selection-start-line="10842" selection-start-column="66" selection-end-line="10842" selection-end-column="66" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/component-starter/component-activiti5-ui-starter/src/main/resources/static/editor-app/configuration/url-config.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="114">
-          <caret line="23" column="46" selection-start-line="23" selection-start-column="46" selection-end-line="23" selection-end-column="57" />
+          <caret line="23" column="46" lean-forward="false" selection-start-line="23" selection-start-column="46" selection-end-line="23" selection-end-column="57" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/component-starter/component-activiti5-ui-starter/src/main/resources/static/editor-app/editor/oryx.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="177">
-          <caret line="29" column="138312" selection-start-line="29" selection-start-column="138312" selection-end-line="29" selection-end-column="138312" />
+          <caret line="29" column="138312" lean-forward="false" selection-start-line="29" selection-start-column="138312" selection-end-line="29" selection-end-column="138312" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/component-starter/component-activiti5-ui-starter/src/main/java/org/smr/comp/activi5/controller/ModelSaveRestResource.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="171">
-          <caret line="57" selection-start-line="57" selection-end-line="57" />
+          <caret line="57" column="0" lean-forward="false" selection-start-line="57" selection-start-column="0" selection-end-line="57" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/component-starter/component-activiti5-ui-starter/src/main/java/org/smr/comp/activi5/controller/ModelEditorJsonRestResource.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="263">
-          <caret line="49" column="54" selection-start-line="49" selection-start-column="54" selection-end-line="49" selection-end-column="54" />
+          <caret line="49" column="54" lean-forward="false" selection-start-line="49" selection-start-column="54" selection-end-line="49" selection-end-column="54" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/component-starter/component-activiti5-ui-starter/src/main/java/org/smr/comp/activi5/controller/ActivitiModelController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="317">
-          <caret line="134" column="27" selection-start-line="134" selection-start-column="27" selection-end-line="134" selection-end-column="27" />
+          <caret line="134" column="27" lean-forward="false" selection-start-line="134" selection-start-column="27" selection-end-line="134" selection-end-column="27" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -548,14 +961,14 @@
     <entry file="file://$PROJECT_DIR$/component-starter/component-activiti5-starter/src/main/java/org/smr/comp/acitivti/conf/ActivitiConfig.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
-          <caret line="15" column="3" selection-start-line="15" selection-start-column="3" selection-end-line="15" selection-end-column="3" />
+          <caret line="15" column="3" lean-forward="false" selection-start-line="15" selection-start-column="3" selection-end-line="15" selection-end-column="3" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/component-starter/component-activiti5-ui-starter/src/main/java/org/smr/comp/activi5/MyApplication.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="361">
-          <caret line="19" column="51" selection-start-line="19" selection-start-column="51" selection-end-line="19" selection-end-column="51" />
+          <caret line="19" column="51" lean-forward="false" selection-start-line="19" selection-start-column="51" selection-end-line="19" selection-end-column="51" />
         </state>
       </provider>
     </entry>
@@ -569,105 +982,105 @@
     <entry file="file://$PROJECT_DIR$/cloud-starter/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="266">
-          <caret line="14" column="30" selection-start-line="14" selection-start-column="22" selection-end-line="14" selection-end-column="30" />
+          <caret line="14" column="30" lean-forward="false" selection-start-line="14" selection-start-column="22" selection-end-line="14" selection-end-column="30" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/component-starter/component-activiti5-starter/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="342">
-          <caret line="18" column="18" selection-start-line="18" selection-start-column="3" selection-end-line="18" selection-end-column="18" />
+          <caret line="18" column="18" lean-forward="false" selection-start-line="18" selection-start-column="3" selection-end-line="18" selection-end-column="18" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/component-starter/component-activiti5-ui-starter/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="399">
-          <caret line="21" column="21" selection-start-line="21" selection-start-column="21" selection-end-line="21" selection-end-column="21" />
+          <caret line="21" column="21" lean-forward="false" selection-start-line="21" selection-start-column="21" selection-end-line="21" selection-end-column="21" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/component-starter/component-redis-starter/src/main/resources/bootstrap-pd.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="209">
-          <caret line="11" column="43" selection-start-line="11" selection-start-column="43" selection-end-line="11" selection-end-column="43" />
+          <caret line="11" column="43" lean-forward="false" selection-start-line="11" selection-start-column="43" selection-end-line="11" selection-end-column="43" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/component-starter/component-redis-starter/src/main/java/org/smr/comp/redis/conf/RedisPool.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="247">
-          <caret line="13" column="2" selection-start-line="13" selection-start-column="2" selection-end-line="16" />
+          <caret line="13" column="2" lean-forward="false" selection-start-line="13" selection-start-column="2" selection-end-line="16" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/component-starter/component-redis-starter/src/main/java/org/smr/comp/redis/conf/RedisProperties.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="209">
-          <caret line="11" column="24" selection-start-line="11" selection-start-column="16" selection-end-line="11" selection-end-column="24" />
+          <caret line="11" column="24" lean-forward="false" selection-start-line="11" selection-start-column="16" selection-end-line="11" selection-end-column="24" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/component-starter/component-redis-starter/src/main/resources/bootstrap.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="38">
-          <caret line="2" column="65" selection-start-line="2" selection-start-column="65" selection-end-line="2" selection-end-column="65" />
+          <caret line="2" column="65" lean-forward="false" selection-start-line="2" selection-start-column="65" selection-end-line="2" selection-end-column="65" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/component-starter/component-redis-starter/src/main/resources/bootstrap-dev.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="76">
-          <caret line="4" column="18" selection-start-line="4" selection-start-column="18" selection-end-line="4" selection-end-column="18" />
+          <caret line="4" column="18" lean-forward="false" selection-start-line="4" selection-start-column="18" selection-end-line="4" selection-end-column="18" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/component-starter/component-redis-starter/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="95">
-          <caret line="16" column="54" selection-start-line="16" selection-start-column="47" selection-end-line="16" selection-end-column="54" />
+          <caret line="16" column="54" lean-forward="false" selection-start-line="16" selection-start-column="47" selection-end-line="16" selection-end-column="54" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/component-starter/component-redis-starter/src/main/java/org/smr/comp/redis/init/RedisConfiguration.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="152">
-          <caret line="17" selection-start-line="17" selection-end-line="17" />
+          <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/component-starter/component-redis-starter/src/main/java/org/smr/comp/redis/RedisStarterApplication.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="171">
-          <caret line="9" column="44" selection-start-line="9" selection-start-column="44" selection-end-line="9" selection-end-column="44" />
+          <caret line="9" column="44" lean-forward="false" selection-start-line="9" selection-start-column="44" selection-end-line="9" selection-end-column="44" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/component-starter/component-mybatis-starter/src/main/java/org/smr/saas/comp/mybatis/MybatisStarterApplication.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="95">
-          <caret line="5" column="40" selection-start-line="5" selection-start-column="40" selection-end-line="5" selection-end-column="40" />
+          <caret line="5" column="40" lean-forward="false" selection-start-line="5" selection-start-column="40" selection-end-line="5" selection-end-column="40" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/component-starter/component-mybatis-starter/src/main/java/org/smr/saas/comp/mybatis/conf/Druid.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="304">
-          <caret line="17" column="32" selection-start-line="17" selection-start-column="32" selection-end-line="17" selection-end-column="32" />
+          <caret line="17" column="32" lean-forward="false" selection-start-line="17" selection-start-column="32" selection-end-line="17" selection-end-column="32" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/component-starter/component-mybatis-starter/src/main/java/org/smr/saas/comp/mybatis/conf/DataSourceProperties.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="114">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+          <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/component-starter/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="380">
-          <caret line="20" selection-start-line="20" selection-end-line="20" />
+          <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -675,7 +1088,7 @@
     <entry file="file://$PROJECT_DIR$/component-starter/component-mybatis-starter/src/main/java/org/smr/saas/comp/mybatis/utils/PageSql.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="38">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -683,126 +1096,153 @@
     <entry file="file://$PROJECT_DIR$/component-starter/component-mybatis-starter/src/main/java/org/smr/saas/comp/mybatis/utils/OraclePageSqlBuilder.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="38">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/component-starter/component-mybatis-starter/src/main/java/org/smr/saas/comp/mybatis/utils/CacheInterceptor.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1216">
-          <caret line="91" column="57" selection-start-line="91" selection-start-column="52" selection-end-line="91" selection-end-column="57" />
+          <caret line="91" column="57" lean-forward="false" selection-start-line="91" selection-start-column="52" selection-end-line="91" selection-end-column="57" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/component-starter/component-mybatis-starter/src/main/java/org/smr/saas/comp/mybatis/utils/PageInterceptor.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1729">
-          <caret line="112" column="36" selection-start-line="112" selection-start-column="31" selection-end-line="112" selection-end-column="36" />
+          <caret line="112" column="36" lean-forward="false" selection-start-line="112" selection-start-column="31" selection-end-line="112" selection-end-column="36" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/component-starter/component-mybatis-starter/src/main/java/org/smr/saas/comp/mybatis/utils/MySQLPageSqlBuilder.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="38">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/component-starter/component-mybatis-starter/src/main/java/org/smr/saas/comp/mybatis/utils/MsSQLPageSqlBuilder.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="38">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/component-starter/component-blade-starter/src/main/java/org/blade/entities/base/BaseEntity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/component-starter/component-blade-starter/src/main/java/org/blade/entities/base/BizEntity.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="76">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+          <caret line="4" column="13" lean-forward="false" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/component-starter/component-blade-starter/src/main/java/org/blade/dao/base/BaseMapper.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="190">
-          <caret line="12" column="30" selection-start-line="12" selection-start-column="28" selection-end-line="12" selection-end-column="30" />
+          <caret line="12" column="30" lean-forward="false" selection-start-line="12" selection-start-column="28" selection-end-line="12" selection-end-column="30" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/component-starter/component-blade-starter/src/main/java/org/blade/dao/base/PageQueryMapper.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="190">
-          <caret line="13" column="62" selection-start-line="13" selection-start-column="62" selection-end-line="13" selection-end-column="62" />
+          <caret line="13" column="62" lean-forward="false" selection-start-line="13" selection-start-column="62" selection-end-line="13" selection-end-column="62" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/component-starter/component-blade-starter/src/main/java/org/blade/dao/base/BizMapper.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="133">
-          <caret line="7" column="26" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="26" />
+          <caret line="7" column="26" lean-forward="false" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="26" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-dependencies/1.4.4.RELEASE/spring-boot-dependencies-1.4.4.RELEASE.pom">
+    <entry file="file://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-dependencies/1.4.4.RELEASE/spring-boot-dependencies-1.4.4.RELEASE.pom" />
+    <entry file="file://$PROJECT_DIR$/component-starter/component-mybatis-starter/src/main/java/org/smr/saas/comp/mybatis/conf/DruidConfig.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1273">
-          <caret line="67" column="48" lean-forward="true" selection-start-line="67" selection-start-column="48" selection-end-line="67" selection-end-column="48" />
+        <state relative-caret-position="180">
+          <caret line="15" column="39" lean-forward="false" selection-start-line="15" selection-start-column="39" selection-end-line="15" selection-end-column="39" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/component-starter/component-blade-starter/pom.xml">
+    <entry file="file://$PROJECT_DIR$/component-starter/component-blade-starter/src/main/java/org/blade/utils/Pager.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="11" selection-start-line="11" selection-end-line="12" selection-end-column="37" />
+        <state relative-caret-position="75">
+          <caret line="5" column="57" lean-forward="true" selection-start-line="5" selection-start-column="57" selection-end-line="5" selection-end-column="57" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/component-starter/component-mybatis-starter/src/main/java/org/smr/saas/comp/mybatis/conf/MyBatisProperties.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="10" column="36" selection-start-line="10" selection-start-column="18" selection-end-line="10" selection-end-column="36" />
+        <state relative-caret-position="135">
+          <caret line="10" column="36" lean-forward="false" selection-start-line="10" selection-start-column="18" selection-end-line="10" selection-end-column="36" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/component-starter/component-mybatis-starter/src/main/java/org/smr/saas/comp/mybatis/conf/DruidConfig.java">
+    <entry file="file://$PROJECT_DIR$/component-starter/component-blade-starter/src/main/java/org/blade/entities/base/BaseEntity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="15" column="39" selection-start-line="15" selection-start-column="39" selection-end-line="15" selection-end-column="39" />
+        <state relative-caret-position="300">
+          <caret line="21" column="14" lean-forward="false" selection-start-line="21" selection-start-column="12" selection-end-line="21" selection-end-column="14" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
+    <entry file="file://$PROJECT_DIR$/log/demo.log">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="646">
-          <caret line="34" selection-start-line="33" selection-end-line="34" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/component-starter/component-mybatis-starter/src/main/resources/bootstrap-dev.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" column="82" selection-start-line="2" selection-start-column="62" selection-end-line="2" selection-end-column="82" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/component-starter/component-mybatis-starter/src/main/java/org/smr/saas/comp/mybatis/conf/MyBatisConfiguration.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="23" column="35" selection-start-line="23" selection-end-line="24" />
+        <state relative-caret-position="30">
+          <caret line="2" column="82" lean-forward="false" selection-start-line="2" selection-start-column="62" selection-end-line="2" selection-end-column="82" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/component-starter/component-mybatis-starter/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="494">
-          <caret line="38" selection-start-line="38" selection-end-line="38" />
+        <state relative-caret-position="300">
+          <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="34" column="0" lean-forward="false" selection-start-line="33" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/component-starter/component-blade-starter/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="12" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/component-starter/component-mybatis-starter/src/main/java/org/smr/saas/comp/mybatis/conf/MyBatisConfiguration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="292">
+          <caret line="83" column="31" lean-forward="true" selection-start-line="83" selection-start-column="31" selection-end-line="83" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/component-starter/component-auth2.0-starter/component-auth2.0-starter.iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/component-starter/component-auth2.0-starter/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="6" lean-forward="true" selection-start-line="14" selection-start-column="6" selection-end-line="14" selection-end-column="6" />
+          <folding />
         </state>
       </provider>
     </entry>

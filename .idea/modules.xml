@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/boot-starter/boot-starter.iml" filepath="$PROJECT_DIR$/boot-starter/boot-starter.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cloud-starter/cloud-discover/cloud-discover.iml" filepath="$PROJECT_DIR$/cloud-starter/cloud-discover/cloud-discover.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cloud-starter/cloud-services/cloud-services.iml" filepath="$PROJECT_DIR$/cloud-starter/cloud-services/cloud-services.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cloud-starter/cloud-starter.iml" filepath="$PROJECT_DIR$/cloud-starter/cloud-starter.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cloud-starter/cloud-zuul-gateway/cloud-zuul-gateway.iml" filepath="$PROJECT_DIR$/cloud-starter/cloud-zuul-gateway/cloud-zuul-gateway.iml" />
+      <module fileurl="file://$PROJECT_DIR$/common-starter/common-starter.iml" filepath="$PROJECT_DIR$/common-starter/common-starter.iml" />
+      <module fileurl="file://$PROJECT_DIR$/component-starter/component-activiti5-starter/component-activiti5-starter.iml" filepath="$PROJECT_DIR$/component-starter/component-activiti5-starter/component-activiti5-starter.iml" />
+      <module fileurl="file://$PROJECT_DIR$/component-starter/component-activiti5-ui-starter/component-activiti5-ui-starter.iml" filepath="$PROJECT_DIR$/component-starter/component-activiti5-ui-starter/component-activiti5-ui-starter.iml" />
+      <module fileurl="file://$PROJECT_DIR$/component-starter/component-auth2.0-starter/component-auth2.0-starter.iml" filepath="$PROJECT_DIR$/component-starter/component-auth2.0-starter/component-auth2.0-starter.iml" />
+      <module fileurl="file://$PROJECT_DIR$/component-starter/component-blade-starter/component-blade-starter.iml" filepath="$PROJECT_DIR$/component-starter/component-blade-starter/component-blade-starter.iml" />
+      <module fileurl="file://$PROJECT_DIR$/component-starter/component-mybatis-starter/component-mybatis-starter.iml" filepath="$PROJECT_DIR$/component-starter/component-mybatis-starter/component-mybatis-starter.iml" />
+      <module fileurl="file://$PROJECT_DIR$/component-starter/component-redis-starter/component-redis-starter.iml" filepath="$PROJECT_DIR$/component-starter/component-redis-starter/component-redis-starter.iml" />
+      <module fileurl="file://$PROJECT_DIR$/component-starter/component-starter.iml" filepath="$PROJECT_DIR$/component-starter/component-starter.iml" />
+      <module fileurl="file://$PROJECT_DIR$/framework.iml" filepath="$PROJECT_DIR$/framework.iml" />
+    </modules>
+  </component>
+</project>
