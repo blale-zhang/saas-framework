@@ -14,8 +14,9 @@ import javax.servlet.Filter;
  *
  * @author paascloud.net@gmail.com
  */
-@Component("validateCodeSecurityConfig")
+//@Component("validateCodeSecurityConfig")
 public class ValidateCodeSecurityConfig extends SecurityConfigurerAdapter<DefaultSecurityFilterChain, HttpSecurity> {
+
 	@Autowired
 	private Filter validateCodeFilter;
 
@@ -26,7 +27,7 @@ public class ValidateCodeSecurityConfig extends SecurityConfigurerAdapter<Defaul
 	 */
 	@Override
 	public void configure(HttpSecurity http) {
-		http.addFilterBefore(validateCodeFilter, AbstractPreAuthenticatedProcessingFilter.class);
+		http.addFilterBefore( validateCodeFilter, AbstractPreAuthenticatedProcessingFilter.class );
 	}
 
 }

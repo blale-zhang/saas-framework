@@ -28,8 +28,8 @@ import java.util.List;
  *
  * @author paascloud.net @gmail.com
  */
-@Configuration
-@EnableAuthorizationServer
+//@Configuration
+//@EnableAuthorizationServer
 public class PcAuthorizationServerConfig extends AuthorizationServerConfigurerAdapter {
 
 	@Autowired

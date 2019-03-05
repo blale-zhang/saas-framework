@@ -12,7 +12,7 @@ import java.util.List;
  *
  * @author paascloud.net @gmail.com
  */
-@Component
+//@Component
 public class PcAuthorizeConfigManager implements AuthorizeConfigManager {
 
 	private final List<AuthorizeConfigProvider> authorizeConfigProviders;

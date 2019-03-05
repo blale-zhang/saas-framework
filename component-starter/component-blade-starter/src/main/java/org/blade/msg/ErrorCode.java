@@ -43,6 +43,16 @@ public class ErrorCode {
 
     }
 
+    public static class Login{
+
+        public static int LOGIN_FAIL                              = 50000; // 登录失败
+
+        public static int LOGIN_SUCCESS                           = 50001; // 登录成功
+
+
+
+    }
+
 }
 
 

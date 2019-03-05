@@ -19,7 +19,7 @@ import javax.annotation.PostConstruct;
  *
  * @author paascloud.net @gmail.com
  */
-@Component("restClientDetailsService")
+//@Component("restClientDetailsService")
 public class RestClientDetailsServiceImpl implements ClientDetailsService {
 
 	private final Logger logger = LoggerFactory.getLogger(PcLogoutSuccessHandler.class);

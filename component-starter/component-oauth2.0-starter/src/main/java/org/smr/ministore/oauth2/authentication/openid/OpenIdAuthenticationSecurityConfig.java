@@ -29,7 +29,7 @@ import org.springframework.stereotype.Component;
  *
  * @author paascloud.net@gmail.com
  */
-@Component
+//@Component
 public class OpenIdAuthenticationSecurityConfig extends SecurityConfigurerAdapter<DefaultSecurityFilterChain, HttpSecurity> {
 
 	private final AuthenticationSuccessHandler pcAuthenticationSuccessHandler;

@@ -39,8 +39,8 @@ import javax.sql.DataSource;
  *
  * @author paascloud.net @gmail.com
  */
-@Configuration
-@EnableResourceServer
+//@Configuration
+//@EnableResourceServer
 public class PcResourceServerConfig extends ResourceServerConfigurerAdapter {
 
 	@Autowired

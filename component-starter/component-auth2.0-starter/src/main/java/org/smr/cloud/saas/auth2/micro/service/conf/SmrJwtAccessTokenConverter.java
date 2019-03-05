@@ -17,7 +17,7 @@
 
 package org.smr.cloud.saas.auth2.micro.service.conf;
 
-import org.smr.common.cons.SecurityConstants;
+import org.smr.common.constant.SecurityConstants;
 import org.springframework.security.oauth2.common.OAuth2AccessToken;
 import org.springframework.security.oauth2.provider.OAuth2Authentication;
 import org.springframework.security.oauth2.provider.token.store.JwtAccessTokenConverter;

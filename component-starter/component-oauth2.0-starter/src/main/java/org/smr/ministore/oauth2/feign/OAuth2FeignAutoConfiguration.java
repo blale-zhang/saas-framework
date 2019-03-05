@@ -30,8 +30,8 @@ import org.springframework.security.oauth2.common.AuthenticationScheme;
  *
  * @author paascloud.net @gmail.com
  */
-@Configuration
-@EnableConfigurationProperties(Oauth2ClientProperties.class)
+//@Configuration
+//@EnableConfigurationProperties(Oauth2ClientProperties.class)
 public class OAuth2FeignAutoConfiguration {
 
 	private final Oauth2ClientProperties oauth2ClientProperties;

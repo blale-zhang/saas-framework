@@ -17,8 +17,8 @@
 
 package org.smr.cloud.saas.auth2.micro.service.conf;
 
-import org.smr.common.cons.CommonConstant;
-import org.smr.common.cons.SecurityConstants;
+import org.smr.common.constant.CommonConstant;
+import org.smr.common.constant.SecurityConstants;
 import org.smr.ministore.entities.User;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

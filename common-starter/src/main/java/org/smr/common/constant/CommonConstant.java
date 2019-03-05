@@ -15,7 +15,7 @@
  * Author: lengleng (wangiegie@gmail.com)
  */
 
-package org.smr.common.cons;
+package org.smr.common.constant;
 
 /**
  * @author lengleng
