@@ -11,6 +11,7 @@ import java.util.Date;
  */
 public class BaseEntity<ID> implements Serializable{
 
+
 	/**
 	 * 
 	 */
@@ -24,12 +25,12 @@ public class BaseEntity<ID> implements Serializable{
 	/**
 	 * 记录生成时间
 	 */
-	private Date createTime;
+	private Date createDate;
 	
 	/**
 	 * 记录修改时间
 	 */
-	private Date modifyTime;
+	private Date updateDate;
 
 
 	private boolean isDeleted;
@@ -53,20 +54,20 @@ public class BaseEntity<ID> implements Serializable{
 		this.id = id;
 	}
 
-	public Date getCreateTime() {
-		return createTime;
+	public Date getCreateDate() {
+		return createDate;
 	}
 
-	public void setCreateTime(Date createTime) {
-		this.createTime = createTime;
+	public void setCreateDate(Date createDate) {
+		this.createDate = createDate;
 	}
 
-	public Date getModifyTime() {
-		return modifyTime;
+	public Date getUpdateDate() {
+		return updateDate;
 	}
 
-	public void setModifyTime(Date modifyTime) {
-		this.modifyTime = modifyTime;
+	public void setUpdateDate(Date updateDate) {
+		this.updateDate = updateDate;
 	}
 
 	public String getUuid() {

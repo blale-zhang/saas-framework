@@ -15,6 +15,7 @@
         <module>cloud-discover</module>
         <module>cloud-zuul-gateway</module>
         <module>cloud-services</module>
+        <module>cloud-sleuth-zipkin</module>
     </modules>
 
 

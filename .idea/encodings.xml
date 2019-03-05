@@ -6,6 +6,7 @@
     <file url="file://$PROJECT_DIR$/cloud-starter" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/cloud-starter/cloud-discover" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/cloud-starter/cloud-services" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cloud-starter/cloud-sleuth-zipkin" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/cloud-starter/cloud-zuul-gateway" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/common-starter" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/component-starter" charset="UTF-8" />
@@ -14,6 +15,7 @@
     <file url="file://$PROJECT_DIR$/component-starter/component-auth2.0-starter" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/component-starter/component-blade-starter" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/component-starter/component-mybatis-starter" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/component-starter/component-oauth2.0-starter" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/component-starter/component-redis-starter" charset="UTF-8" />
   </component>
 </project>

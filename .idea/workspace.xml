@@ -1,7 +1,96 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
+<<<<<<< HEAD
     <list default="true" id="1747f34d-705b-4768-b87d-428a76ba95be" name="Default" comment="" />
+=======
+    <list default="true" id="1747f34d-705b-4768-b87d-428a76ba95be" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/common-starter/src/main/java/org/smr/common/prop/BrowserProperties.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-starter/src/main/java/org/smr/common/prop/EmailCodeProperties.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-starter/src/main/java/org/smr/common/prop/ImageCodeProperties.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-starter/src/main/java/org/smr/common/prop/LoginResponseType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-starter/src/main/java/org/smr/common/prop/OAuth2ClientProperties.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-starter/src/main/java/org/smr/common/prop/OAuth2Properties.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-starter/src/main/java/org/smr/common/prop/QQProperties.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-starter/src/main/java/org/smr/common/prop/SecurityConstants.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-starter/src/main/java/org/smr/common/prop/SecurityProperties.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-starter/src/main/java/org/smr/common/prop/SessionProperties.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-starter/src/main/java/org/smr/common/prop/SmsCodeProperties.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-starter/src/main/java/org/smr/common/prop/SocialProperties.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-starter/src/main/java/org/smr/common/prop/ValidateCodeProperties.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-starter/src/main/java/org/smr/common/prop/WeixinProperties.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/component-starter/component-auth2.0-starter/src/main/java/org/smr/cloud/saas/auth2/common/Oauth2ClientProperties.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/component-starter/component-blade-starter/src/main/java/org/blade/enums/ErrorCodeEnum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/component-starter/component-blade-starter/src/main/java/org/blade/exception/BooleanParseException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/component-starter/component-blade-starter/src/main/java/org/blade/exception/BusinessException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/component-starter/component-blade-starter/src/main/java/org/blade/exception/ConfigException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/component-starter/component-blade-starter/src/main/java/org/blade/exception/ImportException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/component-starter/component-blade-starter/src/main/java/org/blade/exception/ReferenceModelNullException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/component-starter/component-blade-starter/src/main/java/org/blade/prop/BrowserProperties.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/component-starter/component-blade-starter/src/main/java/org/blade/prop/EmailCodeProperties.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/component-starter/component-blade-starter/src/main/java/org/blade/prop/ImageCodeProperties.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/component-starter/component-blade-starter/src/main/java/org/blade/prop/LoginResponseType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/component-starter/component-blade-starter/src/main/java/org/blade/prop/OAuth2ClientProperties.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/component-starter/component-blade-starter/src/main/java/org/blade/prop/OAuth2Properties.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/component-starter/component-blade-starter/src/main/java/org/blade/prop/QQProperties.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/component-starter/component-blade-starter/src/main/java/org/blade/prop/SecurityConstants.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/component-starter/component-blade-starter/src/main/java/org/blade/prop/SecurityProperties.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/component-starter/component-blade-starter/src/main/java/org/blade/prop/SessionProperties.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/component-starter/component-blade-starter/src/main/java/org/blade/prop/SmsCodeProperties.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/component-starter/component-blade-starter/src/main/java/org/blade/prop/SocialProperties.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/component-starter/component-blade-starter/src/main/java/org/blade/prop/ValidateCodeProperties.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/component-starter/component-blade-starter/src/main/java/org/blade/prop/WeixinProperties.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/component-starter/component-oauth2.0-starter/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/component-starter/component-oauth2.0-starter/src/main/java/org/smr/ministore/oauth2/SpringBootOauth2Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/component-starter/component-oauth2.0-starter/src/main/java/org/smr/ministore/oauth2/TestController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/component-starter/component-oauth2.0-starter/src/main/java/org/smr/ministore/oauth2/authentication/FormAuthenticationConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/component-starter/component-oauth2.0-starter/src/main/java/org/smr/ministore/oauth2/authentication/openid/OpenIdAuthenticationFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/component-starter/component-oauth2.0-starter/src/main/java/org/smr/ministore/oauth2/authentication/openid/OpenIdAuthenticationProvider.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/component-starter/component-oauth2.0-starter/src/main/java/org/smr/ministore/oauth2/authentication/openid/OpenIdAuthenticationSecurityConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/component-starter/component-oauth2.0-starter/src/main/java/org/smr/ministore/oauth2/authentication/openid/OpenIdAuthenticationToken.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/component-starter/component-oauth2.0-starter/src/main/java/org/smr/ministore/oauth2/authorize/AuthorizeConfigManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/component-starter/component-oauth2.0-starter/src/main/java/org/smr/ministore/oauth2/authorize/AuthorizeConfigProvider.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/component-starter/component-oauth2.0-starter/src/main/java/org/smr/ministore/oauth2/authorize/PcAuthorizeConfigManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/component-starter/component-oauth2.0-starter/src/main/java/org/smr/ministore/oauth2/authorize/PcAuthorizeConfigProvider.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/component-starter/component-oauth2.0-starter/src/main/java/org/smr/ministore/oauth2/conf/AuthorizationServerConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/component-starter/component-oauth2.0-starter/src/main/java/org/smr/ministore/oauth2/conf/OAuth2ServerConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/component-starter/component-oauth2.0-starter/src/main/java/org/smr/ministore/oauth2/conf/PcAuthorizationServerConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/component-starter/component-oauth2.0-starter/src/main/java/org/smr/ministore/oauth2/conf/PcResourceServerConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/component-starter/component-oauth2.0-starter/src/main/java/org/smr/ministore/oauth2/conf/SecurityConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/component-starter/component-oauth2.0-starter/src/main/java/org/smr/ministore/oauth2/feign/OAuth2FeignAutoConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/component-starter/component-oauth2.0-starter/src/main/java/org/smr/ministore/oauth2/feign/OAuth2FeignRequestInterceptor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/component-starter/component-oauth2.0-starter/src/main/java/org/smr/ministore/oauth2/feign/Oauth2ClientProperties.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/component-starter/component-oauth2.0-starter/src/main/java/org/smr/ministore/oauth2/feign/Oauth2FeignErrorInterceptor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/component-starter/component-oauth2.0-starter/src/main/java/org/smr/ministore/oauth2/mobile/SmsCodeAuthenticationFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/component-starter/component-oauth2.0-starter/src/main/java/org/smr/ministore/oauth2/mobile/SmsCodeAuthenticationProvider.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/component-starter/component-oauth2.0-starter/src/main/java/org/smr/ministore/oauth2/mobile/SmsCodeAuthenticationSecurityConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/component-starter/component-oauth2.0-starter/src/main/java/org/smr/ministore/oauth2/mobile/SmsCodeAuthenticationToken.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/component-starter/component-oauth2.0-starter/src/main/java/org/smr/ministore/oauth2/security/PcAuthorizationServerConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/component-starter/component-oauth2.0-starter/src/main/java/org/smr/ministore/oauth2/security/PcLogoutSuccessHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/component-starter/component-oauth2.0-starter/src/main/java/org/smr/ministore/oauth2/security/RestClientDetailsServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/component-starter/component-oauth2.0-starter/src/main/java/org/smr/ministore/oauth2/validate/ValidateCodeSecurityConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/component-starter/component-oauth2.0-starter/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-starter/cloud-zuul-gateway/src/main/java/org/smr/cloud/gateway/filter/ApiVersionFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-starter/cloud-zuul-gateway/src/main/java/org/smr/cloud/gateway/filter/ApiVersionFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-starter/cloud-zuul-gateway/src/main/java/org/smr/cloud/gateway/filter/ErrorZuulFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-starter/cloud-zuul-gateway/src/main/java/org/smr/cloud/gateway/filter/ErrorZuulFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-starter/cloud-zuul-gateway/src/main/java/org/smr/cloud/gateway/filter/PostZuulFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-starter/cloud-zuul-gateway/src/main/java/org/smr/cloud/gateway/filter/PostZuulFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-starter/cloud-zuul-gateway/src/main/java/org/smr/cloud/gateway/filter/SignZuulFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-starter/cloud-zuul-gateway/src/main/java/org/smr/cloud/gateway/filter/SignZuulFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-starter/cloud-zuul-gateway/src/main/java/org/smr/cloud/gateway/filter/TokenZuulFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-starter/cloud-zuul-gateway/src/main/java/org/smr/cloud/gateway/filter/TokenZuulFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common-starter/src/main/java/org/smr/common/cons/FastJsonUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/common-starter/src/main/java/org/smr/common/utils/FastJsonUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common-starter/src/main/java/org/smr/common/cons/RSAUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/common-starter/src/main/java/org/smr/common/utils/RSAUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common-starter/src/main/java/org/smr/common/cons/RedisUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/common-starter/src/main/java/org/smr/common/utils/RedisUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common-starter/src/main/java/org/smr/common/cons/RestStatus.java" beforeDir="false" afterPath="$PROJECT_DIR$/common-starter/src/main/java/org/smr/common/utils/RestStatus.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common-starter/src/main/java/org/smr/common/cons/StringUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/common-starter/src/main/java/org/smr/common/utils/StringUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/component-starter/component-auth2.0-starter/src/main/java/org/smr/cloud/saas/auth2/conf/OAuth2Config.java" beforeDir="false" afterPath="$PROJECT_DIR$/component-starter/component-auth2.0-starter/src/main/java/org/smr/cloud/saas/auth2/conf/OAuth2Config.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/component-starter/component-auth2.0-starter/src/main/java/org/smr/cloud/saas/auth2/conf/ResourceServerConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/component-starter/component-auth2.0-starter/src/main/java/org/smr/cloud/saas/auth2/conf/ResourceServerConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/component-starter/component-auth2.0-starter/src/main/java/org/smr/cloud/saas/auth2/vo/UserVo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/component-starter/component-blade-starter/src/main/java/org/blade/msg/Message.java" beforeDir="false" afterPath="$PROJECT_DIR$/component-starter/component-blade-starter/src/main/java/org/blade/msg/Message.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/component-starter/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/component-starter/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    </list>
+>>>>>>> refs/remotes/origin/master
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/component-starter/target/" />
@@ -18,6 +107,8 @@
     <ignored path="$PROJECT_DIR$/component-starter/component-mybatis-starter/target/" />
     <ignored path="$PROJECT_DIR$/cloud-starter/cloud-services/target/" />
     <ignored path="$PROJECT_DIR$/component-starter/component-blade-starter/target/" />
+    <ignored path="$PROJECT_DIR$/cloud-starter/cloud-sleuth-zipkin/target/" />
+    <ignored path="$PROJECT_DIR$/component-starter/component-oauth2.0-starter/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -26,6 +117,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
+<<<<<<< HEAD
     <leaf>
       <file leaf-file-name="pom.xml" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/component-starter/component-auth2.0-starter/pom.xml">
@@ -33,16 +125,116 @@
             <state relative-caret-position="210">
               <caret line="14" column="10" lean-forward="true" selection-start-line="14" selection-start-column="10" selection-end-line="14" selection-end-column="10" />
               <folding />
+=======
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="OpenIdAuthenticationSecurityConfig.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/component-starter/component-oauth2.0-starter/src/main/java/org/smr/ministore/oauth2/authentication/openid/OpenIdAuthenticationSecurityConfig.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="213">
+              <caret line="32" column="13" selection-start-line="32" selection-start-column="13" selection-end-line="32" selection-end-column="13" />
             </state>
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="OpenIdAuthenticationToken.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/component-starter/component-oauth2.0-starter/src/main/java/org/smr/ministore/oauth2/authentication/openid/OpenIdAuthenticationToken.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="171">
+              <caret line="33" column="29" selection-start-line="33" selection-start-column="19" selection-end-line="33" selection-end-column="29" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AuthorizeConfigManager.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/component-starter/component-oauth2.0-starter/src/main/java/org/smr/ministore/oauth2/authorize/AuthorizeConfigManager.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="190">
+              <caret line="11" column="17" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AuthorizeConfigProvider.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/component-starter/component-oauth2.0-starter/src/main/java/org/smr/ministore/oauth2/authorize/AuthorizeConfigProvider.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="171">
+              <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PcAuthorizeConfigManager.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/component-starter/component-oauth2.0-starter/src/main/java/org/smr/ministore/oauth2/authorize/PcAuthorizeConfigManager.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="183">
+              <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+>>>>>>> refs/remotes/origin/master
+            </state>
+          </provider>
+        </entry>
+      </file>
+<<<<<<< HEAD
       <file leaf-file-name="component-auth2.0-starter.iml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/component-starter/component-auth2.0-starter/component-auth2.0-starter.iml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
               <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
+=======
+      <file leaf-file-name="PcAuthorizeConfigProvider.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/component-starter/component-oauth2.0-starter/src/main/java/org/smr/ministore/oauth2/authorize/PcAuthorizeConfigProvider.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="221">
+              <caret line="17" column="7" selection-start-line="17" selection-start-column="7" selection-end-line="17" selection-end-column="7" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PcAuthorizationServerConfig.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/component-starter/component-oauth2.0-starter/src/main/java/org/smr/ministore/oauth2/security/PcAuthorizationServerConfig.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="285">
+              <caret line="33" column="34" lean-forward="true" selection-start-line="33" selection-end-line="34" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PcLogoutSuccessHandler.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/component-starter/component-oauth2.0-starter/src/main/java/org/smr/ministore/oauth2/security/PcLogoutSuccessHandler.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="113">
+              <caret line="21" column="88" lean-forward="true" selection-start-line="21" selection-end-line="22" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Oauth2FeignErrorInterceptor.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/component-starter/component-oauth2.0-starter/src/main/java/org/smr/ministore/oauth2/feign/Oauth2FeignErrorInterceptor.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="152">
+              <caret line="35" column="93" lean-forward="true" selection-start-line="35" selection-end-line="36" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="OAuth2FeignRequestInterceptor.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/component-starter/component-oauth2.0-starter/src/main/java/org/smr/ministore/oauth2/feign/OAuth2FeignRequestInterceptor.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="406">
+              <caret line="52" column="14" selection-start-line="52" selection-start-column="14" selection-end-line="52" selection-end-column="14" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+>>>>>>> refs/remotes/origin/master
             </state>
           </provider>
         </entry>
@@ -58,19 +250,36 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>CONFIG</find>
-      <find>modeler</find>
-      <find>service/model</find>
-      <find>/service/model</find>
-      <find>/service/model/</find>
-      <find>/model/</find>
-      <find>/model/json</find>
-      <find>logging</find>
       <find>commons-logging&lt;</find>
       <find>com.alibaba</find>
       <find>org.mybatis</find>
       <find>javax.servlet</find>
       <find>spring.boot.version</find>
+      <find>MapperScan</find>
+      <find>druid-spring-boot-starter</find>
+      <find>mybatis</find>
+      <find>web</find>
+      <find>spring-cloud-context</find>
+      <find>jackson-annotations</find>
+      <find>jackson.version</find>
+      <find>RSAUtils</find>
+      <find>my</find>
+      <find>mysql</find>
+      <find>totalPageNum</find>
+      <find>druid</find>
+      <find>MybatisAutoConfiguration</find>
+      <find>spring.cloud.version</find>
+      <find>spring-cloud-starter-eureka-server</find>
+      <find>spring.cloud.oauth2.version</find>
+      <find>lombok</find>
+      <find>PigJwtAccessTokenConverter</find>
+      <find>spring-cloud-starter-security</find>
+      <find>ResourceServerSecurityConfigurer</find>
+      <find>SpringSocialConfigurer</find>
+      <find>commons-lang3</find>
+      <find>commons.lang3.version</find>
+      <find>spring-cloud-starter-oauth2</find>
+      <find>spring-boot-starter-security</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -87,57 +296,57 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/component-starter/component-activiti5-starter/src/main/java/org/smr/comp/acitivti/ActivitiApplication.java" />
-        <option value="$PROJECT_DIR$/component-starter/component-activiti5-starter/pom.xml" />
-        <option value="$PROJECT_DIR$/component-starter/component-activiti5-starter/src/main/java/org/smr/comp/acitivti/conf/adfas.java" />
-        <option value="$PROJECT_DIR$/component-starter/component-activiti5-starter/src/main/java/org/smr/comp/acitivti/conf/ActivitiConfig.java" />
-        <option value="$PROJECT_DIR$/component-starter/component-activiti5-starter/src/main/java/org/smr/comp/acitivti/service/erqqwe.java" />
-        <option value="$PROJECT_DIR$/component-starter/component-activiti5-starter/src/main/java/org/smr/comp/acitivti/service/ActivitiService.java" />
-        <option value="$PROJECT_DIR$/component-starter/component-activiti5-ui-starter/src/main/java/org/smr/comp/activi5/ModelEditorJsonRestResource.java" />
-        <option value="$PROJECT_DIR$/component-starter/component-activiti5-ui-starter/src/main/java/org/smr/comp/activi5/ModelSaveRestResource.java" />
-        <option value="$PROJECT_DIR$/component-starter/component-activiti5-ui-starter/src/main/java/org/smr/comp/activi5/StencilsetRestResource.java" />
-        <option value="$PROJECT_DIR$/component-starter/component-activiti5-ui-starter/src/main/resources/static/editor-app/app-cfg.js" />
-        <option value="$PROJECT_DIR$/component-starter/component-activiti5-ui-starter/src/main/java/org/smr/comp/activi5/conf/dafads.java" />
-        <option value="$PROJECT_DIR$/component-starter/component-activiti5-ui-starter/src/main/resources/log4j2.xml" />
-        <option value="$PROJECT_DIR$/component-starter/component-activiti5-ui-starter/src/main/java/org/smr/comp/activi5/controller/ActivitiModelController.java" />
-        <option value="$PROJECT_DIR$/component-starter/component-activiti5-ui-starter/src/main/java/org/smr/comp/activi5/conf/ActitytiDataSourceConfig.java" />
-        <option value="$PROJECT_DIR$/component-starter/component-activiti5-ui-starter/src/main/resources/logback-root.xml" />
-        <option value="$PROJECT_DIR$/component-starter/component-activiti5-ui-starter/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/component-starter/component-activiti5-ui-starter/pom.xml" />
-        <option value="$PROJECT_DIR$/component-starter/component-activiti5-ui-starter/src/main/java/org/smr/comp/activi5/MyApplication.java" />
-        <option value="$PROJECT_DIR$/component-starter/component-activiti5-ui-starter/src/main/java/org/smr/comp/activi5/conf/dafdsa.java" />
-        <option value="$PROJECT_DIR$/component-starter/component-activiti5-ui-starter/src/main/java/org/smr/comp/activi5/conf/MyWebSecurityConfigurerAdapter.java" />
-        <option value="$PROJECT_DIR$/component-starter/component-activiti5-ui-starter/src/main/java/org/smr/comp/activi5/controller/ModelSaveRestResource.java" />
-        <option value="$PROJECT_DIR$/component-starter/component-activiti5-ui-starter/src/main/resources/static/editor-app/configuration/url-config.js" />
-        <option value="$PROJECT_DIR$/component-starter/component-activiti5-ui-starter/src/main/resources/static/editor-app/editor/oryx.debug.js" />
-        <option value="$PROJECT_DIR$/component-starter/component-activiti5-ui-starter/src/main/resources/static/editor-app/editor/oryx.js" />
-        <option value="$PROJECT_DIR$/component-starter/component-activiti5-ui-starter/src/main/java/org/smr/comp/activi5/controller/ModelEditorJsonRestResource.java" />
-        <option value="$PROJECT_DIR$/component-starter/component-redis-starter/src/main/java/org/smr/comp/redis/conf/RedisConfiguration.java" />
-        <option value="$PROJECT_DIR$/component-starter/component-redis-starter/src/main/java/org/smr/comp/redis/conf/RedisServerProperty.java" />
-        <option value="$PROJECT_DIR$/component-starter/component-redis-starter/src/main/java/org/smr/comp/redis/conf/RedisProperties.java" />
-        <option value="$PROJECT_DIR$/component-starter/component-redis-starter/src/main/java/org/smr/comp/redis/conf/RedisPool.java" />
-        <option value="$PROJECT_DIR$/component-starter/component-redis-starter/src/main/java/org/smr/comp/redis/init/RedisConfiguration.java" />
-        <option value="$PROJECT_DIR$/component-starter/component-redis-starter/src/main/resources/bootstrap-dev.yml" />
-        <option value="$PROJECT_DIR$/component-starter/component-redis-starter/src/main/resources/bootstrap-pd.yml" />
-        <option value="$PROJECT_DIR$/component-starter/component-redis-starter/src/main/java/org/smr/comp/redis/RedisStarterApplication.java" />
-        <option value="$PROJECT_DIR$/component-starter/component-redis-starter/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/component-starter/component-redis-starter/src/main/resources/bootstrap.yml" />
-        <option value="$PROJECT_DIR$/component-starter/component-redis-starter/pom.xml" />
-        <option value="$PROJECT_DIR$/component-starter/component-mybatis-starter/src/main/java/org/smr/saas/comp/mybatis/MybatisStarterApplication.java" />
-        <option value="$PROJECT_DIR$/component-starter/component-mybatis-starter/src/main/resources/bootstrap-dev.yml" />
+        <option value="$PROJECT_DIR$/component-starter/component-oauth2.0-starter/src/main/java/org/smr/ministore/oauth2/test.java" />
+        <option value="$PROJECT_DIR$/component-starter/component-oauth2.0-starter/src/main/java/org/smr/ministore/oauth2/TestController.java" />
+        <option value="$PROJECT_DIR$/component-starter/component-oauth2.0-starter/src/main/java/org/smr/ministore/oauth2/conf/OAuth2ServerConfig.java" />
+        <option value="$PROJECT_DIR$/component-starter/component-oauth2.0-starter/src/main/java/org/smr/ministore/oauth2/conf/AuthorizationServerConfiguration.java" />
+        <option value="$PROJECT_DIR$/component-starter/component-oauth2.0-starter/src/main/java/org/smr/ministore/oauth2/SpringBootOauth2Application.java" />
+        <option value="$PROJECT_DIR$/component-starter/component-oauth2.0-starter/src/main/java/org/smr/ministore/oauth2/conf/SecurityConfiguration.java" />
+        <option value="$PROJECT_DIR$/component-starter/component-oauth2.0-starter/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/component-starter/component-auth2.0-starter/src/main/java/org/smr/cloud/saas/auth2/common/Oauth2ClientProperty.java" />
+        <option value="$PROJECT_DIR$/component-starter/component-blade-starter/src/main/java/org/blade/msg/Message.java" />
+        <option value="$PROJECT_DIR$/component-starter/component-oauth2.0-starter/src/main/java/org/smr/ministore/oauth2/security/PcLogoutSuccessHandler.java" />
+        <option value="$PROJECT_DIR$/common-starter/src/main/java/org/smr/common/utils/FastJsonUtils.java" />
+        <option value="$PROJECT_DIR$/common-starter/src/main/java/org/smr/common/utils/StringUtils.java" />
+        <option value="$PROJECT_DIR$/common-starter/src/main/java/org/smr/common/prop/SecurityConstants.java" />
+        <option value="$PROJECT_DIR$/common-starter/src/main/java/org/smr/common/prop/SmsCodeProperties.java" />
+        <option value="$PROJECT_DIR$/common-starter/src/main/java/org/smr/common/prop/QQProperties.java" />
+        <option value="$PROJECT_DIR$/common-starter/src/main/java/org/smr/common/prop/ImageCodeProperties.java" />
+        <option value="$PROJECT_DIR$/common-starter/src/main/java/org/smr/common/prop/ValidateCodeProperties.java" />
+        <option value="$PROJECT_DIR$/common-starter/src/main/java/org/smr/common/prop/OAuth2Properties.java" />
+        <option value="$PROJECT_DIR$/common-starter/src/main/java/org/smr/common/prop/BrowserProperties.java" />
+        <option value="$PROJECT_DIR$/component-starter/component-blade-starter/src/main/java/org/blade/prop/BrowserProperties.java" />
+        <option value="$PROJECT_DIR$/component-starter/component-blade-starter/src/main/java/org/blade/prop/OAuth2Properties.java" />
+        <option value="$PROJECT_DIR$/component-starter/component-blade-starter/src/main/java/org/blade/prop/OAuth2ClientProperties.java" />
+        <option value="$PROJECT_DIR$/component-starter/component-oauth2.0-starter/src/main/java/org/smr/ministore/oauth2/security/RestClientDetailsServiceImpl.java" />
+        <option value="$PROJECT_DIR$/component-starter/component-oauth2.0-starter/src/main/java/org/smr/ministore/oauth2/authentication/OpenIdAuthenticationToken.java" />
+        <option value="$PROJECT_DIR$/component-starter/component-oauth2.0-starter/src/main/java/org/smr/ministore/oauth2/authentication/OpenIdAuthenticationFilter.java" />
+        <option value="$PROJECT_DIR$/component-starter/component-oauth2.0-starter/src/main/java/org/smr/ministore/oauth2/authentication/openid/OpenIdAuthenticationFilter.java" />
+        <option value="$PROJECT_DIR$/component-starter/component-oauth2.0-starter/src/main/java/org/smr/ministore/oauth2/authentication/openid/OpenIdAuthenticationProvider.java" />
         <option value="$PROJECT_DIR$/component-starter/pom.xml" />
+        <option value="$PROJECT_DIR$/component-starter/component-oauth2.0-starter/src/main/java/org/smr/ministore/oauth2/conf/PcLogoutSuccessHandler.java" />
+        <option value="$PROJECT_DIR$/component-starter/component-oauth2.0-starter/src/main/java/org/smr/ministore/oauth2/conf/PcAuthorizationServerConfig.java" />
+        <option value="$PROJECT_DIR$/component-starter/component-oauth2.0-starter/src/main/java/org/smr/ministore/oauth2/mobile/SmsCodeAuthenticationFilter.java" />
+        <option value="$PROJECT_DIR$/component-starter/component-oauth2.0-starter/src/main/java/org/smr/ministore/oauth2/mobile/SmsCodeAuthenticationSecurityConfig.java" />
+        <option value="$PROJECT_DIR$/component-starter/component-oauth2.0-starter/src/main/java/org/smr/ministore/oauth2/validate/ValidateCodeSecurityConfig.java" />
+        <option value="$PROJECT_DIR$/component-starter/component-oauth2.0-starter/src/main/java/org/smr/ministore/oauth2/authorize/PcAuthorizeConfigProvider.java" />
+        <option value="$PROJECT_DIR$/component-starter/component-oauth2.0-starter/src/main/java/org/smr/ministore/oauth2/authentication/openid/FormAuthenticationConfig.java" />
+        <option value="$PROJECT_DIR$/component-starter/component-oauth2.0-starter/src/main/java/org/smr/ministore/oauth2/authentication/FormAuthenticationConfig.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/component-starter/component-blade-starter/src/main/java/org/blade/entities/base/BaseEntity.java" />
-        <option value="$PROJECT_DIR$/component-starter/component-blade-starter/pom.xml" />
-        <option value="$PROJECT_DIR$/component-starter/component-blade-starter/src/main/java/org/blade/dao/base/BaseMapper.java" />
-        <option value="$PROJECT_DIR$/component-starter/component-mybatis-starter/src/main/java/org/smr/saas/comp/mybatis/utils/Page.java" />
-        <option value="$PROJECT_DIR$/component-starter/component-blade-starter/src/main/java/org/blade/utils/Pager.java" />
-        <option value="$PROJECT_DIR$/component-starter/component-mybatis-starter/src/main/java/org/smr/saas/comp/mybatis/utils/CacheInterceptor.java" />
-        <option value="$PROJECT_DIR$/component-starter/component-mybatis-starter/src/main/java/org/smr/saas/comp/mybatis/utils/PageInterceptor.java" />
-        <option value="$PROJECT_DIR$/component-starter/component-blade-starter/src/main/java/org/blade/entities/base/BizEntity.java" />
-        <option value="$PROJECT_DIR$/component-starter/component-blade-starter/src/main/java/org/blade/dao/base/PageQueryMapper.java" />
-        <option value="$PROJECT_DIR$/component-starter/component-blade-starter/src/main/java/org/blade/dao/base/BizMapper.java" />
-        <option value="$PROJECT_DIR$/component-starter/component-mybatis-starter/pom.xml" />
+        <option value="$PROJECT_DIR$/component-starter/component-blade-starter/src/main/java/org/blade/prop/SecurityProperties.java" />
+        <option value="$PROJECT_DIR$/component-starter/component-blade-starter/src/main/java/org/blade/prop/SocialProperties.java" />
+        <option value="$PROJECT_DIR$/component-starter/component-blade-starter/src/main/java/org/blade/prop/SessionProperties.java" />
+        <option value="$PROJECT_DIR$/component-starter/component-blade-starter/src/main/java/org/blade/prop/EmailCodeProperties.java" />
+        <option value="$PROJECT_DIR$/component-starter/component-blade-starter/src/main/java/org/blade/prop/WeixinProperties.java" />
+        <option value="$PROJECT_DIR$/component-starter/component-oauth2.0-starter/src/main/java/org/smr/ministore/oauth2/conf/PcResourceServerConfig.java" />
+        <option value="$PROJECT_DIR$/component-starter/component-oauth2.0-starter/src/main/java/org/smr/ministore/oauth2/feign/OAuth2FeignAutoConfiguration.java" />
+        <option value="$PROJECT_DIR$/component-starter/component-oauth2.0-starter/src/main/java/org/smr/ministore/oauth2/feign/Oauth2ClientProperties.java" />
+        <option value="$PROJECT_DIR$/component-starter/component-oauth2.0-starter/pom.xml" />
+        <option value="$PROJECT_DIR$/component-starter/component-blade-starter/src/main/java/org/blade/enums/ErrorCodeEnum.java" />
+        <option value="$PROJECT_DIR$/component-starter/component-blade-starter/src/main/java/org/blade/exception/ImportException.java" />
+        <option value="$PROJECT_DIR$/component-starter/component-blade-starter/src/main/java/org/blade/exception/BusinessException.java" />
+        <option value="$PROJECT_DIR$/component-starter/component-oauth2.0-starter/src/main/java/org/smr/ministore/oauth2/feign/Oauth2FeignErrorInterceptor.java" />
+        <option value="$PROJECT_DIR$/component-starter/component-oauth2.0-starter/src/main/java/org/smr/ministore/oauth2/feign/OAuth2FeignRequestInterceptor.java" />
       </list>
     </option>
   </component>
@@ -148,6 +357,13 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="C:\Users\Administrator.PC--20170730TVS\.m2\repository" />
+        <option name="mavenHome" value="D:/software/apache-maven-3.5.3" />
+        <option name="userSettingsFile" value="D:\software\apache-maven-3.5.3\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
     <option name="importingSettings">
       <MavenImportingSettings>
         <option name="importAutomatically" value="true" />
@@ -156,6 +372,7 @@
   </component>
   <component name="MavenProjectNavigator">
     <treeState>
+<<<<<<< HEAD
       <expand>
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
@@ -167,6 +384,9 @@
           <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
         </path>
       </expand>
+=======
+      <expand />
+>>>>>>> refs/remotes/origin/master
       <select />
     </treeState>
   </component>
@@ -176,9 +396,14 @@
     </packageJsonPaths>
   </component>
   <component name="ProjectFrameBounds">
+<<<<<<< HEAD
     <option name="y" value="23" />
     <option name="width" value="1280" />
     <option name="height" value="737" />
+=======
+    <option name="width" value="1920" />
+    <option name="height" value="1040" />
+>>>>>>> refs/remotes/origin/master
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -196,6 +421,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -212,19 +438,192 @@
               <item name="saas-framework" type="b2602c69:ProjectViewProjectNode" />
               <item name="saas-framework" type="462c0819:PsiDirectoryNode" />
               <item name="component-starter" type="462c0819:PsiDirectoryNode" />
+<<<<<<< HEAD
               <item name="component-auth2.0-starter" type="462c0819:PsiDirectoryNode" />
+=======
+              <item name="component-blade-starter" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="saas-framework" type="b2602c69:ProjectViewProjectNode" />
+              <item name="saas-framework" type="462c0819:PsiDirectoryNode" />
+              <item name="component-starter" type="462c0819:PsiDirectoryNode" />
+              <item name="component-blade-starter" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="saas-framework" type="b2602c69:ProjectViewProjectNode" />
+              <item name="saas-framework" type="462c0819:PsiDirectoryNode" />
+              <item name="component-starter" type="462c0819:PsiDirectoryNode" />
+              <item name="component-blade-starter" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="saas-framework" type="b2602c69:ProjectViewProjectNode" />
+              <item name="saas-framework" type="462c0819:PsiDirectoryNode" />
+              <item name="component-starter" type="462c0819:PsiDirectoryNode" />
+              <item name="component-blade-starter" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="saas-framework" type="b2602c69:ProjectViewProjectNode" />
+              <item name="saas-framework" type="462c0819:PsiDirectoryNode" />
+              <item name="component-starter" type="462c0819:PsiDirectoryNode" />
+              <item name="component-blade-starter" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="blade" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="saas-framework" type="b2602c69:ProjectViewProjectNode" />
+              <item name="saas-framework" type="462c0819:PsiDirectoryNode" />
+              <item name="component-starter" type="462c0819:PsiDirectoryNode" />
+              <item name="component-blade-starter" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="blade" type="462c0819:PsiDirectoryNode" />
+              <item name="exception" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="saas-framework" type="b2602c69:ProjectViewProjectNode" />
+              <item name="saas-framework" type="462c0819:PsiDirectoryNode" />
+              <item name="component-starter" type="462c0819:PsiDirectoryNode" />
+              <item name="component-oauth2.0-starter" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="saas-framework" type="b2602c69:ProjectViewProjectNode" />
+              <item name="saas-framework" type="462c0819:PsiDirectoryNode" />
+              <item name="component-starter" type="462c0819:PsiDirectoryNode" />
+              <item name="component-oauth2.0-starter" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="saas-framework" type="b2602c69:ProjectViewProjectNode" />
+              <item name="saas-framework" type="462c0819:PsiDirectoryNode" />
+              <item name="component-starter" type="462c0819:PsiDirectoryNode" />
+              <item name="component-oauth2.0-starter" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="saas-framework" type="b2602c69:ProjectViewProjectNode" />
+              <item name="saas-framework" type="462c0819:PsiDirectoryNode" />
+              <item name="component-starter" type="462c0819:PsiDirectoryNode" />
+              <item name="component-oauth2.0-starter" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="saas-framework" type="b2602c69:ProjectViewProjectNode" />
+              <item name="saas-framework" type="462c0819:PsiDirectoryNode" />
+              <item name="component-starter" type="462c0819:PsiDirectoryNode" />
+              <item name="component-oauth2.0-starter" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="oauth2" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="saas-framework" type="b2602c69:ProjectViewProjectNode" />
+              <item name="saas-framework" type="462c0819:PsiDirectoryNode" />
+              <item name="component-starter" type="462c0819:PsiDirectoryNode" />
+              <item name="component-oauth2.0-starter" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="oauth2" type="462c0819:PsiDirectoryNode" />
+              <item name="authentication" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="saas-framework" type="b2602c69:ProjectViewProjectNode" />
+              <item name="saas-framework" type="462c0819:PsiDirectoryNode" />
+              <item name="component-starter" type="462c0819:PsiDirectoryNode" />
+              <item name="component-oauth2.0-starter" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="oauth2" type="462c0819:PsiDirectoryNode" />
+              <item name="authentication" type="462c0819:PsiDirectoryNode" />
+              <item name="openid" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="saas-framework" type="b2602c69:ProjectViewProjectNode" />
+              <item name="saas-framework" type="462c0819:PsiDirectoryNode" />
+              <item name="component-starter" type="462c0819:PsiDirectoryNode" />
+              <item name="component-oauth2.0-starter" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="oauth2" type="462c0819:PsiDirectoryNode" />
+              <item name="authorize" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="saas-framework" type="b2602c69:ProjectViewProjectNode" />
+              <item name="saas-framework" type="462c0819:PsiDirectoryNode" />
+              <item name="component-starter" type="462c0819:PsiDirectoryNode" />
+              <item name="component-oauth2.0-starter" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="oauth2" type="462c0819:PsiDirectoryNode" />
+              <item name="conf" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="saas-framework" type="b2602c69:ProjectViewProjectNode" />
+              <item name="saas-framework" type="462c0819:PsiDirectoryNode" />
+              <item name="component-starter" type="462c0819:PsiDirectoryNode" />
+              <item name="component-oauth2.0-starter" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="oauth2" type="462c0819:PsiDirectoryNode" />
+              <item name="feign" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="saas-framework" type="b2602c69:ProjectViewProjectNode" />
+              <item name="saas-framework" type="462c0819:PsiDirectoryNode" />
+              <item name="component-starter" type="462c0819:PsiDirectoryNode" />
+              <item name="component-oauth2.0-starter" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="oauth2" type="462c0819:PsiDirectoryNode" />
+              <item name="mobile" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="saas-framework" type="b2602c69:ProjectViewProjectNode" />
+              <item name="saas-framework" type="462c0819:PsiDirectoryNode" />
+              <item name="component-starter" type="462c0819:PsiDirectoryNode" />
+              <item name="component-oauth2.0-starter" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="oauth2" type="462c0819:PsiDirectoryNode" />
+              <item name="security" type="462c0819:PsiDirectoryNode" />
+>>>>>>> refs/remotes/origin/master
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+<<<<<<< HEAD
       <pane id="Scratches" />
       <pane id="AndroidView" />
       <pane id="Scope" />
       <pane id="PackagesPane" />
+=======
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+>>>>>>> refs/remotes/origin/master
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="ExpandSpringBootJavaOptionsPanel" value="true" />
     <property name="RequestMappingsPanelOrder0" value="0" />
     <property name="RequestMappingsPanelOrder1" value="1" />
     <property name="RequestMappingsPanelOrder2" value="2" />
@@ -233,24 +632,33 @@
     <property name="RequestMappingsPanelWidth2" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+<<<<<<< HEAD
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+=======
+    <property name="last_directory_selection" value="$PROJECT_DIR$/cloud-starter/cloud-zuul-gateway/src/main/java/org/smr" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../paascloud-master" />
+>>>>>>> refs/remotes/origin/master
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.38368246" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="org.blade.utils" />
-      <recent name="org.smr.comp.activi5" />
+      <recent name="org.blade.enums" />
+      <recent name="org.smr.ministore.oauth2.authentication.openid" />
+      <recent name="org.smr.ministore.oauth2.validate" />
+      <recent name="org.smr.ministore.oauth2.conf" />
+      <recent name="org.smr.ministore.oauth2.security" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\project\saas-framework\component-starter\component-mybatis-starter\src\main\java\org\smr\saas\comp\mybatis\utils" />
-      <recent name="D:\project\saas-framework\component-starter\component-blade-starter\src\main\java\org\blade\dao\base" />
-      <recent name="D:\project\saas-framework\component-starter\component-blade-starter\src\main\java\org\blade\entities\base" />
-      <recent name="D:\project\saas-framework\component-starter\component-mybatis-starter\src\main\resources" />
-      <recent name="D:\project\saas-framework\component-starter\component-redis-starter\src\main\resources" />
+      <recent name="D:\project\saas-framework\component-starter\component-blade-starter\src\main\java\org\blade\exception" />
+      <recent name="D:\project\saas-framework\component-starter\component-oauth2.0-starter\src\main\java\org\smr\ministore\oauth2\feign" />
+      <recent name="D:\project\saas-framework\component-starter\component-oauth2.0-starter\src\main\java\org\smr\ministore\oauth2\authorize" />
+      <recent name="D:\project\saas-framework\component-starter\component-oauth2.0-starter\src\main\java\org\smr\ministore\oauth2\mobile" />
+      <recent name="D:\project\saas-framework\component-starter\component-oauth2.0-starter\src\main\java\org\smr\ministore\oauth2\authentication" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -265,7 +673,40 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.RedisStarterApplication">
+  <component name="RunManager" selected="Spring Boot.SpringBootOauth2Application">
+    <configuration name="MybatisStarterApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.smr.comp.mybatis.MybatisStarterApplication" />
+      <module name="component-mybatis-starter" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.smr.comp.mybatis.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="ServiceDiscoverApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.smr.service.discover.ServiceDiscoverApplication" />
+      <module name="cloud-discover" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.smr.service.discover.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="SnowFlake" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.blade.utils.SnowFlake" />
+      <module name="component-blade-starter" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.blade.utils.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="MAIN_CLASS_NAME" />
@@ -300,6 +741,7 @@
       <envs />
       <patterns />
     </configuration>
+<<<<<<< HEAD
     <configuration name="MyApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" runner="idea">
         <pattern>
@@ -313,25 +755,58 @@
     </configuration>
     <configuration name="MyApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" runner="idea">
+=======
+    <configuration name="GatewatApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="cloud-zuul-gateway" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="org.smr.GatewatApplication" />
+    </configuration>
+    <configuration name="MyApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="component-activiti5-starter" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="org.smr.comp.acitivti.MyApplication" />
+    </configuration>
+    <configuration name="MybatisStarterApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="component-mybatis-starter" />
+      <extension name="coverage">
+>>>>>>> refs/remotes/origin/master
         <pattern>
-          <option name="PATTERN" value="org.smr.comp.acitivti.*" />
+          <option name="PATTERN" value="org.smr.saas.comp.mybatis.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+<<<<<<< HEAD
       <option name="SPRING_BOOT_MAIN_CLASS" value="org.smr.comp.acitivti.MyApplication" />
       <module name="component-activiti5-starter" />
       <envs />
     </configuration>
     <configuration name="RedisStarterApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" runner="idea">
+=======
+      <option name="SPRING_BOOT_MAIN_CLASS" value="org.smr.saas.comp.mybatis.MybatisStarterApplication" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <envs>
+        <env name="spring.profiles.active" value="dev" />
+      </envs>
+    </configuration>
+    <configuration name="ServiceDiscoverApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="cloud-discover" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="org.smr.service.discover.ServiceDiscoverApplication" />
+    </configuration>
+    <configuration name="SpringBootOauth2Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="component-oauth2.0-starter" />
+      <extension name="coverage">
+>>>>>>> refs/remotes/origin/master
         <pattern>
-          <option name="PATTERN" value="org.smr.comp.redis.*" />
+          <option name="PATTERN" value="org.smr.ministore.oauth2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+<<<<<<< HEAD
       <option name="SPRING_BOOT_MAIN_CLASS" value="org.smr.comp.redis.RedisStarterApplication" />
       <module name="component-redis-starter" />
       <envs />
+=======
+      <option name="SPRING_BOOT_MAIN_CLASS" value="org.smr.ministore.oauth2.SpringBootOauth2Application" />
+>>>>>>> refs/remotes/origin/master
     </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
@@ -360,6 +835,7 @@
       <properties />
       <listeners />
     </configuration>
+<<<<<<< HEAD
     <list size="3">
       <item index="0" class="java.lang.String" itemvalue="Spring Boot.MyApplication" />
       <item index="1" class="java.lang.String" itemvalue="Spring Boot.MyApplication (1)" />
@@ -370,6 +846,25 @@
         <item index="0" class="java.lang.String" itemvalue="Spring Boot.RedisStarterApplication" />
         <item index="1" class="java.lang.String" itemvalue="Spring Boot.MyApplication (1)" />
         <item index="2" class="java.lang.String" itemvalue="Spring Boot.MyApplication" />
+=======
+    <list>
+      <item itemvalue="Spring Boot.MyApplication" />
+      <item itemvalue="Spring Boot.ServiceDiscoverApplication" />
+      <item itemvalue="Spring Boot.MybatisStarterApplication" />
+      <item itemvalue="Application.ServiceDiscoverApplication" />
+      <item itemvalue="Application.SnowFlake" />
+      <item itemvalue="Application.MybatisStarterApplication" />
+      <item itemvalue="Spring Boot.SpringBootOauth2Application" />
+      <item itemvalue="Spring Boot.GatewatApplication" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.SpringBootOauth2Application" />
+        <item itemvalue="Application.ServiceDiscoverApplication" />
+        <item itemvalue="Application.MybatisStarterApplication" />
+        <item itemvalue="Spring Boot.MybatisStarterApplication" />
+        <item itemvalue="Application.SnowFlake" />
+>>>>>>> refs/remotes/origin/master
       </list>
     </recent_temporary>
   </component>
@@ -395,6 +890,7 @@
       <workItem from="1537969448705" duration="1084000" />
       <workItem from="1538056565032" duration="4215000" />
       <workItem from="1538179437039" duration="1792000" />
+<<<<<<< HEAD
       <workItem from="1538453274832" duration="465000" />
       <workItem from="1538729823543" duration="373000" />
       <workItem from="1550560028963" duration="2643000" />
@@ -402,10 +898,50 @@
       <workItem from="1551428374516" duration="726000" />
       <workItem from="1551782177700" duration="40000" />
       <workItem from="1551782250435" duration="766000" />
+=======
+      <workItem from="1538878630862" duration="1472000" />
+      <workItem from="1538999689166" duration="8600000" />
+      <workItem from="1539178352630" duration="2470000" />
+      <workItem from="1539409394592" duration="2238000" />
+      <workItem from="1539481076183" duration="13754000" />
+      <workItem from="1539605213760" duration="4453000" />
+      <workItem from="1540123184414" duration="5633000" />
+      <workItem from="1540216715478" duration="2126000" />
+      <workItem from="1540382006405" duration="3466000" />
+      <workItem from="1540610493288" duration="6154000" />
+      <workItem from="1540697748238" duration="2352000" />
+      <workItem from="1541219666014" duration="1203000" />
+      <workItem from="1541298894803" duration="8640000" />
+      <workItem from="1541643881895" duration="1267000" />
+      <workItem from="1542190013404" duration="2337000" />
+      <workItem from="1542414632419" duration="11377000" />
+      <workItem from="1542509783601" duration="6872000" />
+      <workItem from="1542714442094" duration="4502000" />
+      <workItem from="1542801539944" duration="5164000" />
+      <workItem from="1543109425553" duration="12445000" />
+      <workItem from="1543367480182" duration="11754000" />
+      <workItem from="1543891234048" duration="10519000" />
+      <workItem from="1544235912278" duration="5659000" />
+      <workItem from="1544598102813" duration="12515000" />
+      <workItem from="1544773091477" duration="9838000" />
+      <workItem from="1544853262945" duration="7940000" />
+      <workItem from="1544863734850" duration="11100000" />
+      <workItem from="1545020056942" duration="2354000" />
+      <workItem from="1545022711945" duration="533000" />
+      <workItem from="1545023537294" duration="651000" />
+      <workItem from="1545035450423" duration="1538000" />
+      <workItem from="1545037026770" duration="3155000" />
+      <workItem from="1545043017518" duration="5114000" />
+      <workItem from="1545106964326" duration="13156000" />
+      <workItem from="1545490449528" duration="34491000" />
+      <workItem from="1546145794148" duration="14237000" />
+      <workItem from="1547099606217" duration="27406000" />
+>>>>>>> refs/remotes/origin/master
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
+<<<<<<< HEAD
     <option name="totallyTimeSpent" value="78409000" />
   </component>
   <component name="ToolWindowManager">
@@ -443,6 +979,46 @@
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.6013072" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32946634" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+=======
+    <option name="totallyTimeSpent" value="350521000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="0" width="1920" height="1040" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="bottom" id="Event Log" order="13" sideWeight="0.24253732" side_tool="true" weight="0.2603486" />
+      <window_info anchor="right" id="Maven Projects" order="9" visible="true" weight="0.16290322" />
+      <window_info anchor="bottom" id="Database Changes" order="11" show_stripe_button="false" />
+      <window_info id="Capture Tool" order="7" />
+      <window_info id="Designer" order="2" />
+      <window_info anchor="right" id="Database" order="5" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info id="UI Designer" order="4" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.7574627" weight="0.3104213" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Messages" order="9" weight="0.4345898" />
+      <window_info anchor="right" id="Palette&#9;" order="6" />
+      <window_info id="Image Layers" order="3" />
+      <window_info anchor="bottom" id="Java Enterprise" order="10" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="bottom" id="Version Control" order="12" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.8107676" visible="true" weight="0.25277162" />
+      <window_info anchor="bottom" id="Spring" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17150538" />
+      <window_info anchor="right" id="Bean Validation" order="8" weight="0.32995737" />
+      <window_info id="Web" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.4291939" />
+      <window_info anchor="right" id="Theme Preview" order="7" />
+      <window_info id="Favorites" order="5" side_tool="true" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+>>>>>>> refs/remotes/origin/master
     </layout>
     <layout-to-restore>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -500,264 +1076,634 @@
           <properties />
           <option name="timeStamp" value="4" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/component-starter/component-mybatis-starter/src/main/java/org/smr/comp/mybatis/conf/DataSourceProperties.java</url>
+          <line>60</line>
+          <properties />
+          <option name="timeStamp" value="14" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/cloud-starter/cloud-zuul-gateway/src/main/java/org/smr/cloud/gateway/filter/SimpleFilter.java</url>
+          <line>34</line>
+          <properties />
+          <option name="timeStamp" value="18" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/cloud-starter/cloud-zuul-gateway/src/main/java/org/smr/cloud/gateway/filter/PostZuulFilter.java</url>
+          <line>88</line>
+          <properties />
+          <option name="timeStamp" value="20" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/cloud-starter/cloud-zuul-gateway/src/main/java/org/smr/cloud/gateway/filter/PostZuulFilter.java</url>
+          <line>46</line>
+          <properties />
+          <option name="timeStamp" value="21" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/cloud-starter/cloud-zuul-gateway/src/main/java/org/smr/cloud/gateway/filter/ApiVersionFilter.java</url>
+          <line>47</line>
+          <properties />
+          <option name="timeStamp" value="23" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/cloud-starter/cloud-zuul-gateway/src/main/java/org/smr/cloud/gateway/filter/ApiVersionFilter.java</url>
+          <line>37</line>
+          <properties />
+          <option name="timeStamp" value="26" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/cloud-starter/cloud-zuul-gateway/src/main/java/org/smr/cloud/gateway/filter/ApiVersionFilter.java</url>
+          <line>41</line>
+          <properties />
+          <option name="timeStamp" value="27" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/component-starter/component-mybatis-starter/src/main/java/org/smr/comp/mybatis/conf/MyBatisConfiguration.java</url>
+          <line>76</line>
+          <properties />
+          <option name="timeStamp" value="30" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/mybatis/spring/boot/mybatis-spring-boot-autoconfigure/1.3.2/mybatis-spring-boot-autoconfigure-1.3.2.jar!/org/mybatis/spring/boot/autoconfigure/MybatisAutoConfiguration.class</url>
+          <line>61</line>
+          <properties />
+          <option name="timeStamp" value="33" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/mybatis/spring/boot/mybatis-spring-boot-autoconfigure/1.3.2/mybatis-spring-boot-autoconfigure-1.3.2.jar!/org/mybatis/spring/boot/autoconfigure/MybatisAutoConfiguration.class</url>
+          <line>80</line>
+          <properties />
+          <option name="timeStamp" value="34" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/component-starter/component-mybatis-starter/src/main/java/org/smr/comp/mybatis/conf/MyBatisConfiguration.java</url>
+          <line>128</line>
+          <properties />
+          <option name="timeStamp" value="35" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/component-starter/component-auth2.0-starter/src/main/java/org/smr/cloud/saas/auth2/mobile/MobileAuthenticationProvider.java</url>
+          <line>53</line>
+          <properties />
+          <option name="timeStamp" value="36" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/component-starter/component-oauth2.0-starter/src/main/java/org/smr/ministore/oauth2/TestController.java</url>
+          <line>16</line>
+          <properties />
+          <option name="timeStamp" value="38" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/component-starter/component-oauth2.0-starter/src/main/java/org/smr/ministore/oauth2/TestController.java</url>
+          <line>23</line>
+          <properties />
+          <option name="timeStamp" value="39" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/component-starter/component-oauth2.0-starter/src/main/java/org/smr/ministore/oauth2/conf/OAuth2ServerConfig.java</url>
+          <line>26</line>
+          <properties />
+          <option name="timeStamp" value="40" />
+        </line-breakpoint>
       </breakpoints>
-      <option name="time" value="7" />
+      <option name="time" value="42" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/component-starter/component-mybatis-starter/src/main/java/org/smr/saas/comp/mybatis/utils/CacheInterceptor.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1216">
           <caret line="91" column="57" lean-forward="false" selection-start-line="91" selection-start-column="52" selection-end-line="91" selection-end-column="57" />
+=======
+    <entry file="file://$PROJECT_DIR$/component-starter/component-blade-starter/src/main/java/org/blade/prop/SmsCodeProperties.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/component-starter/component-blade-starter/src/main/java/org/blade/prop/BrowserProperties.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-171" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/component-starter/component-blade-starter/src/main/java/org/blade/prop/OAuth2Properties.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="393">
+          <caret line="30" column="38" selection-start-line="30" selection-start-column="38" selection-end-line="30" selection-end-column="38" />
+          <folding>
+            <element signature="e#621#622#0" expanded="true" />
+            <element signature="e#676#677#0" expanded="true" />
+            <element signature="e#717#718#0" expanded="true" />
+            <element signature="e#766#767#0" expanded="true" />
+            <element signature="e#787#788#0" expanded="true" />
+            <element signature="e#848#849#0" expanded="true" />
+            <element signature="e#877#878#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/component-starter/component-activiti5-ui-starter/src/main/java/org/smr/comp/activi5/controller/StencilsetRestResource.java">
+    <entry file="file://$PROJECT_DIR$/component-starter/component-blade-starter/src/main/java/org/blade/prop/OAuth2ClientProperties.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="28" column="37" lean-forward="true" selection-start-line="28" selection-start-column="37" selection-end-line="28" selection-end-column="37" />
+        <state relative-caret-position="350">
+          <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
+          <folding>
+            <element signature="e#431#432#0" expanded="true" />
+            <element signature="e#453#454#0" expanded="true" />
+            <element signature="e#498#499#0" expanded="true" />
+            <element signature="e#529#530#0" expanded="true" />
+            <element signature="e#565#566#0" expanded="true" />
+            <element signature="e#591#592#0" expanded="true" />
+            <element signature="e#644#645#0" expanded="true" />
+            <element signature="e#683#684#0" expanded="true" />
+            <element signature="e#730#731#0" expanded="true" />
+            <element signature="e#770#771#0" expanded="true" />
+            <element signature="e#963#964#0" expanded="true" />
+            <element signature="e#1004#1005#0" expanded="true" />
+            <element signature="e#1182#1183#0" expanded="true" />
+            <element signature="e#1201#1202#0" expanded="true" />
+            <element signature="e#1240#1241#0" expanded="true" />
+            <element signature="e#1265#1266#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/component-starter/component-activiti5-ui-starter/src/main/resources/static/editor-app/editor/oryx.debug.js">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/oauth/spring-security-oauth2/2.0.14.RELEASE/spring-security-oauth2-2.0.14.RELEASE.jar!/org/springframework/security/oauth2/config/annotation/web/configurers/ResourceServerSecurityConfigurer.class">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="150" column="9" selection-start-line="150" selection-end-line="151" />
+>>>>>>> refs/remotes/origin/master
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/component-starter/component-blade-starter/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" column="32" selection-start-line="5" selection-start-column="32" selection-end-line="5" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/component-starter/component-oauth2.0-starter/src/main/java/org/smr/ministore/oauth2/conf/PcLogoutSuccessHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="236">
           <caret line="10842" column="66" lean-forward="false" selection-start-line="10842" selection-start-column="66" selection-end-line="10842" selection-end-column="66" />
+=======
+        <state relative-caret-position="209">
+          <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+>>>>>>> refs/remotes/origin/master
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/component-starter/component-activiti5-ui-starter/src/main/resources/static/editor-app/configuration/url-config.js">
+    <entry file="file://$PROJECT_DIR$/component-starter/component-oauth2.0-starter/src/main/java/org/smr/ministore/oauth2/conf/SecurityConfiguration.java">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="114">
           <caret line="23" column="46" lean-forward="false" selection-start-line="23" selection-start-column="46" selection-end-line="23" selection-end-column="57" />
+=======
+        <state relative-caret-position="133">
+          <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+>>>>>>> refs/remotes/origin/master
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/component-starter/component-activiti5-ui-starter/src/main/resources/static/editor-app/editor/oryx.js">
+    <entry file="file://$PROJECT_DIR$/component-starter/component-oauth2.0-starter/src/main/java/org/smr/ministore/oauth2/TestController.java">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="177">
           <caret line="29" column="138312" lean-forward="false" selection-start-line="29" selection-start-column="138312" selection-end-line="29" selection-end-column="138312" />
+=======
+        <state relative-caret-position="190">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+>>>>>>> refs/remotes/origin/master
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/component-starter/component-activiti5-ui-starter/src/main/java/org/smr/comp/activi5/controller/ModelSaveRestResource.java">
+    <entry file="file://$PROJECT_DIR$/component-starter/component-oauth2.0-starter/src/main/java/org/smr/ministore/oauth2/validate/ValidateCodeSecurityConfig.java">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="171">
           <caret line="57" column="0" lean-forward="false" selection-start-line="57" selection-start-column="0" selection-end-line="57" selection-end-column="0" />
+=======
+        <state relative-caret-position="190">
+          <caret line="17" column="117" selection-start-line="17" selection-start-column="117" selection-end-line="17" selection-end-column="117" />
+>>>>>>> refs/remotes/origin/master
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/component-starter/component-activiti5-ui-starter/src/main/java/org/smr/comp/activi5/controller/ModelEditorJsonRestResource.java">
+    <entry file="file://$PROJECT_DIR$/component-starter/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="263">
           <caret line="49" column="54" lean-forward="false" selection-start-line="49" selection-start-column="54" selection-end-line="49" selection-end-column="54" />
+=======
+        <state relative-caret-position="95">
+          <caret line="5" column="25" selection-start-line="5" selection-start-column="25" selection-end-line="5" selection-end-column="25" />
+>>>>>>> refs/remotes/origin/master
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/component-starter/component-activiti5-ui-starter/src/main/java/org/smr/comp/activi5/controller/ActivitiModelController.java">
+    <entry file="file://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-starter-oauth2/1.2.3.RELEASE/spring-cloud-starter-oauth2-1.2.3.RELEASE.pom">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="317">
           <caret line="134" column="27" lean-forward="false" selection-start-line="134" selection-start-column="27" selection-end-line="134" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+=======
+        <state relative-caret-position="589">
+          <caret line="40" column="21" selection-start-line="22" selection-start-column="8" selection-end-line="40" selection-end-column="21" />
+>>>>>>> refs/remotes/origin/master
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-starter-security/1.2.3.RELEASE/spring-cloud-starter-security-1.2.3.RELEASE.pom">
+      <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+        <state relative-caret-position="285">
+          <caret line="15" column="3" lean-forward="false" selection-start-line="15" selection-start-column="3" selection-end-line="15" selection-end-column="3" />
+        </state>
+=======
+        <state relative-caret-position="-171" />
+>>>>>>> refs/remotes/origin/master
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/component-starter/component-blade-starter/src/main/java/org/blade/prop/SecurityProperties.java">
+      <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+        <state relative-caret-position="361">
+          <caret line="19" column="51" lean-forward="false" selection-start-line="19" selection-start-column="51" selection-end-line="19" selection-end-column="51" />
+=======
+        <state relative-caret-position="209">
+          <caret line="20" selection-start-line="20" selection-end-line="20" />
+          <folding>
+            <element signature="e#1743#1744#0" expanded="true" />
+            <element signature="e#1763#1764#0" expanded="true" />
+          </folding>
+>>>>>>> refs/remotes/origin/master
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/component-starter/component-blade-starter/src/main/java/org/blade/prop/SocialProperties.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="9" column="1" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/component-starter/component-blade-starter/src/main/java/org/blade/prop/SessionProperties.java">
+      <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+        <state relative-caret-position="266">
+          <caret line="14" column="30" lean-forward="false" selection-start-line="14" selection-start-column="22" selection-end-line="14" selection-end-column="30" />
+=======
+        <state relative-caret-position="152">
+          <caret line="20" selection-start-line="20" selection-end-line="20" />
+>>>>>>> refs/remotes/origin/master
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/component-starter/component-blade-starter/src/main/java/org/blade/prop/EmailCodeProperties.java">
+      <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+        <state relative-caret-position="342">
+          <caret line="18" column="18" lean-forward="false" selection-start-line="18" selection-start-column="3" selection-end-line="18" selection-end-column="18" />
+=======
+        <state relative-caret-position="190">
+          <caret line="19" selection-start-line="19" selection-end-line="19" />
+>>>>>>> refs/remotes/origin/master
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/component-starter/component-blade-starter/src/main/java/org/blade/prop/WeixinProperties.java">
+      <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+        <state relative-caret-position="399">
+          <caret line="21" column="21" lean-forward="false" selection-start-line="21" selection-start-column="21" selection-end-line="21" selection-end-column="21" />
+=======
+        <state relative-caret-position="247">
+          <caret line="22" column="4" selection-start-line="22" selection-start-column="4" selection-end-line="22" selection-end-column="4" />
+>>>>>>> refs/remotes/origin/master
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+        <state relative-caret-position="209">
+          <caret line="11" column="43" lean-forward="false" selection-start-line="11" selection-start-column="43" selection-end-line="11" selection-end-column="43" />
+=======
+        <state relative-caret-position="230">
+          <caret line="218" selection-start-line="210" selection-end-line="218" />
+>>>>>>> refs/remotes/origin/master
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/component-starter/component-oauth2.0-starter/src/main/java/org/smr/ministore/oauth2/security/RestClientDetailsServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+        <state relative-caret-position="247">
+          <caret line="13" column="2" lean-forward="false" selection-start-line="13" selection-start-column="2" selection-end-line="16" selection-end-column="0" />
+=======
+        <state relative-caret-position="-210">
+          <caret line="30" column="30" selection-start-line="30" selection-start-column="12" selection-end-line="30" selection-end-column="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+>>>>>>> refs/remotes/origin/master
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/component-starter/component-oauth2.0-starter/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/component-starter/component-oauth2.0-starter/src/main/java/org/smr/ministore/oauth2/feign/Oauth2ClientProperties.java">
+      <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+        <state relative-caret-position="209">
+          <caret line="11" column="24" lean-forward="false" selection-start-line="11" selection-start-column="16" selection-end-line="11" selection-end-column="24" />
+=======
+        <state relative-caret-position="380">
+          <caret line="29" column="27" selection-start-line="29" selection-start-column="27" selection-end-line="29" selection-end-column="27" />
+          <folding>
+            <element signature="e#771#772#0" expanded="true" />
+            <element signature="e#804#805#0" expanded="true" />
+            <element signature="e#823#824#0" expanded="true" />
+            <element signature="e#861#862#0" expanded="true" />
+            <element signature="e#889#890#0" expanded="true" />
+            <element signature="e#946#947#0" expanded="true" />
+            <element signature="e#989#990#0" expanded="true" />
+            <element signature="e#1021#1022#0" expanded="true" />
+            <element signature="e#1043#1044#0" expanded="true" />
+            <element signature="e#1088#1089#0" expanded="true" />
+            <element signature="e#1119#1120#0" expanded="true" />
+            <element signature="e#1155#1156#0" expanded="true" />
+            <element signature="e#1181#1182#0" expanded="true" />
+            <element signature="e#1234#1235#0" expanded="true" />
+            <element signature="e#1273#1274#0" expanded="true" />
+            <element signature="e#1323#1324#0" expanded="true" />
+            <element signature="e#1363#1364#0" expanded="true" />
+          </folding>
+>>>>>>> refs/remotes/origin/master
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/component-starter/component-oauth2.0-starter/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+        <state relative-caret-position="38">
+          <caret line="2" column="65" lean-forward="false" selection-start-line="2" selection-start-column="65" selection-end-line="2" selection-end-column="65" />
+=======
+        <state relative-caret-position="354">
+          <caret line="32" column="44" selection-start-line="32" selection-start-column="40" selection-end-line="32" selection-end-column="44" />
+>>>>>>> refs/remotes/origin/master
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/component-starter/component-blade-starter/src/main/java/org/blade/enums/ErrorCodeEnum.java">
+      <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+        <state relative-caret-position="76">
+          <caret line="4" column="18" lean-forward="false" selection-start-line="4" selection-start-column="18" selection-end-line="4" selection-end-column="18" />
+        </state>
+=======
+        <state relative-caret-position="-10325" />
+>>>>>>> refs/remotes/origin/master
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/component-starter/component-blade-starter/src/main/java/org/blade/exception/BusinessException.java">
+      <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+        <state relative-caret-position="95">
+          <caret line="16" column="54" lean-forward="false" selection-start-line="16" selection-start-column="47" selection-end-line="16" selection-end-column="54" />
+=======
+        <state relative-caret-position="57">
+          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+>>>>>>> refs/remotes/origin/master
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/component-starter/component-blade-starter/src/main/java/org/blade/exception/ConfigException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+<<<<<<< HEAD
+          <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+=======
+          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+>>>>>>> refs/remotes/origin/master
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/component-starter/component-blade-starter/src/main/java/org/blade/exception/ImportException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+<<<<<<< HEAD
+          <caret line="9" column="44" lean-forward="false" selection-start-line="9" selection-start-column="44" selection-end-line="9" selection-end-column="44" />
+=======
+          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+>>>>>>> refs/remotes/origin/master
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/component-starter/component-blade-starter/src/main/java/org/blade/exception/ReferenceModelNullException.java">
+      <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+        <state relative-caret-position="95">
+          <caret line="5" column="40" lean-forward="false" selection-start-line="5" selection-start-column="40" selection-end-line="5" selection-end-column="40" />
+=======
+        <state relative-caret-position="152">
+          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+>>>>>>> refs/remotes/origin/master
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/component-starter/component-blade-starter/src/main/java/org/blade/exception/BooleanParseException.java">
+      <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+        <state relative-caret-position="304">
+          <caret line="17" column="32" lean-forward="false" selection-start-line="17" selection-start-column="32" selection-end-line="17" selection-end-column="32" />
+=======
+        <state relative-caret-position="-60">
+          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+>>>>>>> refs/remotes/origin/master
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/component-starter/component-oauth2.0-starter/src/main/java/org/smr/ministore/oauth2/feign/OAuth2FeignAutoConfiguration.java">
+      <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+        <state relative-caret-position="114">
+          <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+=======
+        <state relative-caret-position="-3">
+          <caret line="81" column="6" selection-start-line="81" selection-start-column="6" selection-end-line="81" selection-end-column="6" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+>>>>>>> refs/remotes/origin/master
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/component-starter/component-oauth2.0-starter/src/main/java/org/smr/ministore/oauth2/mobile/SmsCodeAuthenticationFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+        <state relative-caret-position="380">
+          <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+=======
+        <state relative-caret-position="342">
+          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+>>>>>>> refs/remotes/origin/master
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/component-starter/component-oauth2.0-starter/src/main/java/org/smr/ministore/oauth2/mobile/SmsCodeAuthenticationProvider.java">
+      <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+        <state relative-caret-position="38">
+          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+=======
+        <state relative-caret-position="304">
+          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+>>>>>>> refs/remotes/origin/master
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/component-starter/component-oauth2.0-starter/src/main/java/org/smr/ministore/oauth2/mobile/SmsCodeAuthenticationSecurityConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+        <state relative-caret-position="38">
+          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+=======
+        <state relative-caret-position="209">
+          <caret line="24" selection-start-line="24" selection-end-line="24" />
+>>>>>>> refs/remotes/origin/master
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/component-starter/component-oauth2.0-starter/src/main/java/org/smr/ministore/oauth2/mobile/SmsCodeAuthenticationToken.java">
+      <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+        <state relative-caret-position="1216">
+          <caret line="91" column="57" lean-forward="false" selection-start-line="91" selection-start-column="52" selection-end-line="91" selection-end-column="57" />
+=======
+        <state relative-caret-position="171">
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+>>>>>>> refs/remotes/origin/master
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/component-starter/component-oauth2.0-starter/src/main/java/org/smr/ministore/oauth2/conf/PcResourceServerConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+        <state relative-caret-position="1729">
+          <caret line="112" column="36" lean-forward="false" selection-start-line="112" selection-start-column="31" selection-end-line="112" selection-end-column="36" />
+=======
+        <state relative-caret-position="1135">
+          <caret line="87" column="10" selection-start-line="87" selection-start-column="10" selection-end-line="87" selection-end-column="10" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+>>>>>>> refs/remotes/origin/master
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/component-starter/component-oauth2.0-starter/src/main/java/org/smr/ministore/oauth2/conf/OAuth2ServerConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+        <state relative-caret-position="38">
+          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+=======
+        <state relative-caret-position="274">
+          <caret line="19" column="52" selection-start-line="19" selection-start-column="52" selection-end-line="19" selection-end-column="52" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+>>>>>>> refs/remotes/origin/master
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/component-starter/component-oauth2.0-starter/src/main/java/org/smr/ministore/oauth2/conf/AuthorizationServerConfiguration.java">
+      <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+        <state relative-caret-position="38">
+          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+=======
+        <state relative-caret-position="221">
+          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/component-starter/component-activiti5-starter/src/main/java/org/smr/comp/acitivti/conf/ActivitiConfig.java">
+    <entry file="file://$PROJECT_DIR$/component-starter/component-oauth2.0-starter/src/main/java/org/smr/ministore/oauth2/conf/PcAuthorizationServerConfig.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="15" column="3" lean-forward="false" selection-start-line="15" selection-start-column="3" selection-end-line="15" selection-end-column="3" />
+        <state relative-caret-position="222">
+          <caret line="32" column="19" lean-forward="true" selection-start-line="32" selection-start-column="19" selection-end-line="32" selection-end-column="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+>>>>>>> refs/remotes/origin/master
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/component-starter/component-activiti5-ui-starter/src/main/java/org/smr/comp/activi5/MyApplication.java">
+    <entry file="file://$PROJECT_DIR$/component-starter/component-oauth2.0-starter/src/main/java/org/smr/ministore/oauth2/authentication/FormAuthenticationConfig.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="361">
-          <caret line="19" column="51" lean-forward="false" selection-start-line="19" selection-start-column="51" selection-end-line="19" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/maven/lib/maven.jar!/schemas/maven-4.0.0.xsd">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="717" column="24" lean-forward="true" selection-start-line="717" selection-start-column="24" selection-end-line="717" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-starter/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="14" column="30" lean-forward="false" selection-start-line="14" selection-start-column="22" selection-end-line="14" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/component-starter/component-activiti5-starter/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="18" column="18" lean-forward="false" selection-start-line="18" selection-start-column="3" selection-end-line="18" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/component-starter/component-activiti5-ui-starter/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="21" column="21" lean-forward="false" selection-start-line="21" selection-start-column="21" selection-end-line="21" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/component-starter/component-redis-starter/src/main/resources/bootstrap-pd.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="11" column="43" lean-forward="false" selection-start-line="11" selection-start-column="43" selection-end-line="11" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/component-starter/component-redis-starter/src/main/java/org/smr/comp/redis/conf/RedisPool.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="13" column="2" lean-forward="false" selection-start-line="13" selection-start-column="2" selection-end-line="16" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/component-starter/component-redis-starter/src/main/java/org/smr/comp/redis/conf/RedisProperties.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="11" column="24" lean-forward="false" selection-start-line="11" selection-start-column="16" selection-end-line="11" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/component-starter/component-redis-starter/src/main/resources/bootstrap.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" column="65" lean-forward="false" selection-start-line="2" selection-start-column="65" selection-end-line="2" selection-end-column="65" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/component-starter/component-redis-starter/src/main/resources/bootstrap-dev.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="4" column="18" lean-forward="false" selection-start-line="4" selection-start-column="18" selection-end-line="4" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/component-starter/component-redis-starter/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="16" column="54" lean-forward="false" selection-start-line="16" selection-start-column="47" selection-end-line="16" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/component-starter/component-redis-starter/src/main/java/org/smr/comp/redis/init/RedisConfiguration.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/component-starter/component-redis-starter/src/main/java/org/smr/comp/redis/RedisStarterApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="9" column="44" lean-forward="false" selection-start-line="9" selection-start-column="44" selection-end-line="9" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/component-starter/component-mybatis-starter/src/main/java/org/smr/saas/comp/mybatis/MybatisStarterApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="5" column="40" lean-forward="false" selection-start-line="5" selection-start-column="40" selection-end-line="5" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/component-starter/component-mybatis-starter/src/main/java/org/smr/saas/comp/mybatis/conf/Druid.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="17" column="32" lean-forward="false" selection-start-line="17" selection-start-column="32" selection-end-line="17" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/component-starter/component-mybatis-starter/src/main/java/org/smr/saas/comp/mybatis/conf/DataSourceProperties.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/component-starter/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/component-starter/component-mybatis-starter/src/main/java/org/smr/saas/comp/mybatis/utils/Page.java" />
-    <entry file="file://$PROJECT_DIR$/component-starter/component-mybatis-starter/src/main/java/org/smr/saas/comp/mybatis/utils/PageSql.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/component-starter/component-mybatis-starter/src/main/java/org/smr/saas/comp/mybatis/utils/Pager.java" />
-    <entry file="file://$PROJECT_DIR$/component-starter/component-mybatis-starter/src/main/java/org/smr/saas/comp/mybatis/utils/OraclePageSqlBuilder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/component-starter/component-mybatis-starter/src/main/java/org/smr/saas/comp/mybatis/utils/CacheInterceptor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1216">
-          <caret line="91" column="57" lean-forward="false" selection-start-line="91" selection-start-column="52" selection-end-line="91" selection-end-column="57" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/component-starter/component-mybatis-starter/src/main/java/org/smr/saas/comp/mybatis/utils/PageInterceptor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1729">
-          <caret line="112" column="36" lean-forward="false" selection-start-line="112" selection-start-column="31" selection-end-line="112" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/component-starter/component-mybatis-starter/src/main/java/org/smr/saas/comp/mybatis/utils/MySQLPageSqlBuilder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/component-starter/component-mybatis-starter/src/main/java/org/smr/saas/comp/mybatis/utils/MsSQLPageSqlBuilder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/component-starter/component-blade-starter/src/main/java/org/blade/entities/base/BizEntity.java">
-      <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="76">
           <caret line="4" column="13" lean-forward="false" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+=======
+        <state relative-caret-position="19">
+          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+>>>>>>> refs/remotes/origin/master
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/component-starter/component-blade-starter/src/main/java/org/blade/dao/base/BaseMapper.java">
+    <entry file="file://$PROJECT_DIR$/component-starter/component-oauth2.0-starter/src/main/java/org/smr/ministore/oauth2/authentication/openid/OpenIdAuthenticationFilter.java">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="190">
           <caret line="12" column="30" lean-forward="false" selection-start-line="12" selection-start-column="28" selection-end-line="12" selection-end-column="30" />
+=======
+        <state relative-caret-position="251">
+          <caret line="31" column="92" selection-start-line="31" selection-start-column="4" selection-end-line="31" selection-end-column="92" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+>>>>>>> refs/remotes/origin/master
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/component-starter/component-blade-starter/src/main/java/org/blade/dao/base/PageQueryMapper.java">
+    <entry file="file://$PROJECT_DIR$/component-starter/component-oauth2.0-starter/src/main/java/org/smr/ministore/oauth2/authentication/openid/OpenIdAuthenticationProvider.java">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="190">
           <caret line="13" column="62" lean-forward="false" selection-start-line="13" selection-start-column="62" selection-end-line="13" selection-end-column="62" />
+=======
+        <state relative-caret-position="247">
+          <caret line="34" column="63" selection-start-line="34" selection-start-column="38" selection-end-line="34" selection-end-column="63" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+>>>>>>> refs/remotes/origin/master
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/component-starter/component-blade-starter/src/main/java/org/blade/dao/base/BizMapper.java">
+    <entry file="file://$PROJECT_DIR$/component-starter/component-oauth2.0-starter/src/main/java/org/smr/ministore/oauth2/authentication/openid/OpenIdAuthenticationSecurityConfig.java">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="133">
           <caret line="7" column="26" lean-forward="false" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="26" />
         </state>
@@ -776,11 +1722,30 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
           <caret line="5" column="57" lean-forward="true" selection-start-line="5" selection-start-column="57" selection-end-line="5" selection-end-column="57" />
+=======
+        <state relative-caret-position="213">
+          <caret line="32" column="13" selection-start-line="32" selection-start-column="13" selection-end-line="32" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/component-starter/component-mybatis-starter/src/main/java/org/smr/saas/comp/mybatis/conf/MyBatisProperties.java">
+    <entry file="file://$PROJECT_DIR$/component-starter/component-oauth2.0-starter/src/main/java/org/smr/ministore/oauth2/authentication/openid/OpenIdAuthenticationToken.java">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="33" column="29" selection-start-line="33" selection-start-column="19" selection-end-line="33" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/component-starter/component-oauth2.0-starter/src/main/java/org/smr/ministore/oauth2/authorize/AuthorizeConfigManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="11" column="17" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
+>>>>>>> refs/remotes/origin/master
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/component-starter/component-oauth2.0-starter/src/main/java/org/smr/ministore/oauth2/authorize/AuthorizeConfigProvider.java">
+      <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="135">
           <caret line="10" column="36" lean-forward="false" selection-start-line="10" selection-start-column="18" selection-end-line="10" selection-end-column="36" />
         </state>
@@ -797,11 +1762,33 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+=======
+        <state relative-caret-position="171">
+          <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/component-starter/component-mybatis-starter/src/main/resources/bootstrap-dev.yml">
+    <entry file="file://$PROJECT_DIR$/component-starter/component-oauth2.0-starter/src/main/java/org/smr/ministore/oauth2/authorize/PcAuthorizeConfigManager.java">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="183">
+          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/component-starter/component-oauth2.0-starter/src/main/java/org/smr/ministore/oauth2/authorize/PcAuthorizeConfigProvider.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="17" column="7" selection-start-line="17" selection-start-column="7" selection-end-line="17" selection-end-column="7" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+>>>>>>> refs/remotes/origin/master
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/component-starter/component-oauth2.0-starter/src/main/java/org/smr/ministore/oauth2/security/PcAuthorizationServerConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="30">
           <caret line="2" column="82" lean-forward="false" selection-start-line="2" selection-start-column="62" selection-end-line="2" selection-end-column="82" />
         </state>
@@ -826,11 +1813,16 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
           <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="12" selection-end-column="37" />
+=======
+        <state relative-caret-position="285">
+          <caret line="33" column="34" lean-forward="true" selection-start-line="33" selection-end-line="34" />
+>>>>>>> refs/remotes/origin/master
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/component-starter/component-mybatis-starter/src/main/java/org/smr/saas/comp/mybatis/conf/MyBatisConfiguration.java">
+    <entry file="file://$PROJECT_DIR$/component-starter/component-oauth2.0-starter/src/main/java/org/smr/ministore/oauth2/security/PcLogoutSuccessHandler.java">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="292">
           <caret line="83" column="31" lean-forward="true" selection-start-line="83" selection-start-column="31" selection-end-line="83" selection-end-column="31" />
           <folding />
@@ -850,6 +1842,33 @@
         <state relative-caret-position="210">
           <caret line="14" column="10" lean-forward="true" selection-start-line="14" selection-start-column="10" selection-end-line="14" selection-end-column="10" />
           <folding />
+=======
+        <state relative-caret-position="113">
+          <caret line="21" column="88" lean-forward="true" selection-start-line="21" selection-end-line="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/component-starter/component-oauth2.0-starter/src/main/java/org/smr/ministore/oauth2/feign/Oauth2FeignErrorInterceptor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="35" column="93" lean-forward="true" selection-start-line="35" selection-end-line="36" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/component-starter/component-oauth2.0-starter/src/main/java/org/smr/ministore/oauth2/feign/OAuth2FeignRequestInterceptor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="406">
+          <caret line="52" column="14" selection-start-line="52" selection-start-column="14" selection-end-line="52" selection-end-column="14" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+>>>>>>> refs/remotes/origin/master
         </state>
       </provider>
     </entry>
