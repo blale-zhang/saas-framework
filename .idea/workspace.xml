@@ -1,399 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1747f34d-705b-4768-b87d-428a76ba95be" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/boot-starter/target/boot-starter-1.0-SNAPSHOT.jar" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/boot-starter/target/maven-archiver/pom.properties" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/boot-starter/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/boot-starter/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/cloud-starter/cloud-discover/cloud-discover.iml" afterPath="$PROJECT_DIR$/cloud-starter/cloud-discover/cloud-discover.iml" />
-      <change beforePath="$PROJECT_DIR$/cloud-starter/cloud-discover/target/cloud-discover-1.0-SNAPSHOT.jar" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/cloud-starter/cloud-discover/target/maven-archiver/pom.properties" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/cloud-starter/cloud-discover/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/cloud-starter/cloud-discover/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/cloud-starter/cloud-services/cloud-services.iml" afterPath="$PROJECT_DIR$/cloud-starter/cloud-services/cloud-services.iml" />
-      <change beforePath="$PROJECT_DIR$/cloud-starter/cloud-services/target/cloud-services-1.0-SNAPSHOT.jar" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/cloud-starter/cloud-services/target/maven-archiver/pom.properties" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/cloud-starter/cloud-services/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/cloud-starter/cloud-services/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/cloud-starter/cloud-zuul-gateway/cloud-zuul-gateway.iml" afterPath="$PROJECT_DIR$/cloud-starter/cloud-zuul-gateway/cloud-zuul-gateway.iml" />
-      <change beforePath="$PROJECT_DIR$/cloud-starter/cloud-zuul-gateway/target/cloud-zuul-gateway-1.0-SNAPSHOT.jar" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/cloud-starter/cloud-zuul-gateway/target/maven-archiver/pom.properties" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/cloud-starter/cloud-zuul-gateway/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/cloud-starter/cloud-zuul-gateway/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/common-starter/common-starter.iml" afterPath="$PROJECT_DIR$/common-starter/common-starter.iml" />
-      <change beforePath="$PROJECT_DIR$/common-starter/target/common-starter-1.0-SNAPSHOT.jar" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/common-starter/target/maven-archiver/pom.properties" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/common-starter/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/common-starter/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/component-starter/component-activiti5-starter/component-activiti5-starter.iml" afterPath="$PROJECT_DIR$/component-starter/component-activiti5-starter/component-activiti5-starter.iml" />
-      <change beforePath="$PROJECT_DIR$/component-starter/component-activiti5-starter/target/classes/application.properties" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/component-starter/component-activiti5-starter/target/classes/org/smr/comp/acitivti/MyApplication.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/component-starter/component-activiti5-starter/target/classes/org/smr/comp/acitivti/conf/ActivitiConfig.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/component-starter/component-activiti5-starter/target/component-activiti5-starter-1.0-SNAPSHOT.jar" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/component-starter/component-activiti5-starter/target/component-activiti5-starter-1.0-SNAPSHOT.jar.original" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/component-starter/component-activiti5-starter/target/maven-archiver/pom.properties" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/component-starter/component-activiti5-starter/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/component-starter/component-activiti5-starter/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/component-starter/component-activiti5-starter/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/component-starter/component-activiti5-ui-starter/component-activiti5-ui-starter.iml" afterPath="$PROJECT_DIR$/component-starter/component-activiti5-ui-starter/component-activiti5-ui-starter.iml" />
-      <change beforePath="$PROJECT_DIR$/component-starter/component-activiti5-ui-starter/target/classes/application.yml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/component-starter/component-activiti5-ui-starter/target/classes/log4j2.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/component-starter/component-activiti5-ui-starter/target/classes/logback-root.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/component-starter/component-activiti5-ui-starter/target/classes/org/smr/comp/activi5/MyApplication.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/component-starter/component-activiti5-ui-starter/target/classes/org/smr/comp/activi5/conf/ActitytiDataSourceConfig.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/component-starter/component-activiti5-ui-starter/target/classes/org/smr/comp/activi5/conf/MyWebSecurityConfigurerAdapter.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/component-starter/component-activiti5-ui-starter/target/classes/org/smr/comp/activi5/controller/ActivitiModelController.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/component-starter/component-activiti5-ui-starter/target/classes/org/smr/comp/activi5/controller/ModelEditorJsonRestResource.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/component-starter/component-activiti5-ui-starter/target/classes/org/smr/comp/activi5/controller/ModelSaveRestResource.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/component-starter/component-activiti5-ui-starter/target/classes/org/smr/comp/activi5/controller/StencilsetRestResource.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/component-starter/component-activiti5-ui-starter/target/classes/static/diagram-viewer/images/bg.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/component-starter/component-activiti5-ui-starter/target/classes/static/diagram-viewer/images/breadcrumbs.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/component-starter/component-activiti5-ui-starter/target/classes/static/diagram-viewer/images/checker-bg.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/component-starter/component-activiti5-ui-starter/target/classes/static/diagram-viewer/images/deployer/blue/message_catch.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/component-starter/component-activiti5-ui-starter/target/classes/static/diagram-viewer/images/deployer/business_rule.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/component-starter/component-activiti5-ui-starter/target/classes/static/diagram-viewer/images/deployer/error_catch.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/component-starter/component-activiti5-ui-starter/target/classes/static/diagram-viewer/images/deployer/error_throw.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/component-starter/component-activiti5-ui-starter/target/classes/static/diagram-viewer/images/deployer/manual.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/component-starter/component-activiti5-ui-starter/target/classes/static/diagram-viewer/images/deployer/message_catch.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/component-starter/component-activiti5-ui-starter/target/classes/static/diagram-viewer/images/deployer/message_throw.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/component-starter/component-activiti5-ui-starter/target/classes/static/diagram-viewer/images/deployer/receive.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/component-starter/component-activiti5-ui-starter/target/classes/static/diagram-viewer/images/deployer/script.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/component-starter/component-activiti5-ui-starter/target/classes/static/diagram-viewer/images/deployer/send.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/component-starter/component-activiti5-ui-starter/target/classes/static/diagram-viewer/images/deployer/service.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/component-starter/component-activiti5-ui-starter/target/classes/static/diagram-viewer/images/deployer/signal_catch.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/component-starter/component-activiti5-ui-starter/target/classes/static/diagram-viewer/images/deployer/signal_throw.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/component-starter/component-activiti5-ui-starter/target/classes/static/diagram-viewer/images/deployer/timer.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/component-starter/component-activiti5-ui-starter/target/classes/static/diagram-viewer/images/deployer/user.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/component-starter/component-activiti5-ui-starter/target/classes/static/diagram-viewer/index.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/component-starter/component-activiti5-ui-starter/target/classes/static/diagram-viewer/js/ActivitiRest.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/component-starter/component-activiti5-ui-starter/target/classes/static/diagram-viewer/js/ActivityImpl.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/component-starter/component-activiti5-ui-starter/target/classes/static/diagram-viewer/js/Color.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/component-starter/component-activiti5-ui-starter/target/classes/static/diagram-viewer/js/LineBreakMeasurer.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/component-starter/component-activiti5-ui-starter/target/classes/static/diagram-viewer/js/Polyline.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/component-starter/component-activiti5-ui-starter/target/classes/static/diagram-viewer/js/ProcessDiagramCanvas.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/component-starter/component-activiti5-ui-starter/target/classes/static/diagram-viewer/js/ProcessDiagramGenerator.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/component-starter/component-activiti5-ui-starter/target/classes/static/diagram-viewer/js/jquery/jquery.asyncqueue.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/component-starter/component-activiti5-ui-starter/target/classes/static/diagram-viewer/js/jquery/jquery.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/component-starter/component-activiti5-ui-starter/target/classes/static/diagram-viewer/js/jquery/jquery.progressbar.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/component-starter/component-activiti5-ui-starter/target/classes/static/diagram-viewer/js/jstools.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/component-starter/component-activiti5-ui-starter/target/classes/static/diagram-viewer/js/raphael.2.1.1.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/component-starter/component-activiti5-ui-starter/target/classes/static/diagram-viewer/js/raphael.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/component-starter/component-activiti5-ui-starter/target/classes/static/diagram-viewer/js/raphael_uncompressed.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/component-starter/component-activiti5-ui-starter/target/classes/static/diagram-viewer/js/textlayout.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/component-starter/component-activiti5-ui-starter/target/classes/static/diagram-viewer/style.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/component-starter/component-activiti5-ui-starter/target/classes/static/editor-app/app-cfg.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/component-starter/component-activiti5-ui-starter/target/classes/static/editor-app/app.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/component-starter/component-activiti5-ui-starter/target/classes/static/editor-app/configuration/properties-assignment-controller.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/component-starter/component-activiti5-ui-starter/target/classes/static/editor-app/configuration/properties-condition-expression-controller.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/component-starter/component-activiti5-ui-starter/target/classes/static/editor-app/configuration/properties-custom-controllers.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/component-starter/component-activiti5-ui-starter/target/classes/static/editor-app/configuration/properties-default-controllers.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/component-starter/component-activiti5-ui-starter/target/classes/static/editor-app/configuration/properties-event-listeners-controller.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/component-starter/component-activiti5-ui-starter/target/classes/static/editor-app/configuration/properties-execution-listeners-controller.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/component-starter/component-activiti5-ui-starter/target/classes/static/editor-app/configuration/properties-fields-controller.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/component-starter/component-activiti5-ui-starter/target/classes/static/editor-app/configuration/properties-form-properties-controller.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/component-starter/component-activiti5-ui-starter/target/classes/static/editor-app/configuration/properties-in-parameters-controller.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/component-starter/component-activiti5-ui-starter/target/classes/static/editor-app/configuration/properties-message-definitions-controller.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/component-starter/component-activiti5-ui-starter/target/classes/static/editor-app/configuration/properties-message-scope-controller.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/component-starter/component-activiti5-ui-starter/target/classes/static/editor-app/configuration/properties-multiinstance-controller.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/component-starter/component-activiti5-ui-starter/target/classes/static/editor-app/configuration/properties-out-parameters-controller.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/component-starter/component-activiti5-ui-starter/target/classes/static/editor-app/configuration/properties-sequenceflow-order-controller.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/component-starter/component-activiti5-ui-starter/target/classes/static/editor-app/configuration/properties-signal-definitions-controller.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/component-starter/component-activiti5-ui-starter/target/classes/static/editor-app/configuration/properties-signal-scope-controller.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/component-starter/component-activiti5-ui-starter/target/classes/static/editor-app/configuration/properties-task-listeners-controller.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/component-starter/component-activiti5-ui-starter/target/classes/static/editor-app/configuration/properties.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/component-starter/component-activiti5-ui-starter/target/classes/static/editor-app/configuration/properties/assignment-display-template.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/component-starter/component-activiti5-ui-starter/target/classes/static/editor-app/configuration/properties/assignment-popup.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/component-starter/component-activiti5-ui-starter/target/classes/static/editor-app/configuration/properties/assignment-write-template.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/component-starter/component-activiti5-ui-starter/target/classes/static/editor-app/configuration/properties/boolean-property-template.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/component-starter/component-activiti5-ui-starter/target/classes/static/editor-app/configuration/properties/condition-expression-display-template.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/component-starter/component-activiti5-ui-starter/target/classes/static/editor-app/configuration/properties/condition-expression-popup.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/component-starter/component-activiti5-ui-starter/target/classes/static/editor-app/configuration/properties/condition-expression-write-template.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/component-starter/component-activiti5-ui-starter/target/classes/static/editor-app/configuration/properties/default-value-display-template.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/component-starter/component-activiti5-ui-starter/target/classes/static/editor-app/configuration/properties/event-listeners-display-template.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/component-starter/component-activiti5-ui-starter/target/classes/static/editor-app/configuration/properties/event-listeners-popup.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/component-starter/component-activiti5-ui-starter/target/classes/static/editor-app/configuration/properties/event-listeners-write-template.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/component-starter/component-activiti5-ui-starter/target/classes/static/editor-app/configuration/properties/execution-listeners-display-template.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/component-starter/component-activiti5-ui-starter/target/classes/static/editor-app/configuration/properties/execution-listeners-popup.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/component-starter/component-activiti5-ui-starter/target/classes/static/editor-app/configuration/properties/execution-listeners-write-template.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/component-starter/component-activiti5-ui-starter/target/classes/static/editor-app/configuration/properties/feedback-popup.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/component-starter/component-activiti5-ui-starter/target/classes/static/editor-app/configuration/properties/fields-display-template.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/component-starter/component-activiti5-ui-starter/target/classes/static/editor-app/configuration/properties/fields-popup.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/component-starter/component-activiti5-ui-starter/target/classes/static/editor-app/configuration/properties/fields-write-template.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/component-starter/component-activiti5-ui-starter/target/classes/static/editor-app/configuration/properties/form-properties-display-template.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/component-starter/component-activiti5-ui-starter/target/classes/static/editor-app/configuration/properties/form-properties-popup.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/component-starter/component-activiti5-ui-starter/target/classes/static/editor-app/configuration/properties/form-properties-write-template.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/component-starter/component-activiti5-ui-starter/target/classes/static/editor-app/configuration/properties/in-parameters-display-template.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/component-starter/component-activiti5-ui-starter/target/classes/static/editor-app/configuration/properties/in-parameters-popup.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/component-starter/component-activiti5-ui-starter/target/classes/static/editor-app/configuration/properties/in-parameters-write-template.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/component-starter/component-activiti5-ui-starter/target/classes/static/editor-app/configuration/properties/message-definitions-display-template.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/component-starter/component-activiti5-ui-starter/target/classes/static/editor-app/configuration/properties/message-definitions-popup.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/component-starter/component-activiti5-ui-starter/target/classes/static/editor-app/configuration/properties/message-definitions-write-template.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/component-starter/component-activiti5-ui-starter/target/classes/static/editor-app/configuration/properties/message-property-write-template.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/component-starter/component-activiti5-ui-starter/target/classes/static/editor-app/configuration/properties/multiinstance-property-write-template.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/component-starter/component-activiti5-ui-starter/target/classes/static/editor-app/configuration/properties/out-parameters-display-template.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/component-starter/component-activiti5-ui-starter/target/classes/static/editor-app/configuration/properties/out-parameters-popup.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/component-starter/component-activiti5-ui-starter/target/classes/static/editor-app/configuration/properties/out-parameters-write-template.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/component-starter/component-activiti5-ui-starter/target/classes/static/editor-app/configuration/properties/sequenceflow-order-display-template.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/component-starter/component-activiti5-ui-starter/target/classes/static/editor-app/configuration/properties/sequenceflow-order-popup.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/component-starter/component-activiti5-ui-starter/target/classes/static/editor-app/configuration/properties/sequenceflow-order-write-template.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/component-starter/component-activiti5-ui-starter/target/classes/static/editor-app/configuration/properties/signal-definitions-display-template.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/component-starter/component-activiti5-ui-starter/target/classes/static/editor-app/configuration/properties/signal-definitions-popup.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/component-starter/component-activiti5-ui-starter/target/classes/static/editor-app/configuration/properties/signal-definitions-write-template.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/component-starter/component-activiti5-ui-starter/target/classes/static/editor-app/configuration/properties/signal-property-write-template.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/component-starter/component-activiti5-ui-starter/target/classes/static/editor-app/configuration/properties/string-property-write-mode-template.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/component-starter/component-activiti5-ui-starter/target/classes/static/editor-app/configuration/properties/subprocess-reference-display-template.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/component-starter/component-activiti5-ui-starter/target/classes/static/editor-app/configuration/properties/subprocess-reference-popup.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/component-starter/component-activiti5-ui-starter/target/classes/static/editor-app/configuration/properties/subprocess-reference-write-template.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/component-starter/component-activiti5-ui-starter/target/classes/static/editor-app/configuration/properties/task-listeners-display-template.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/component-starter/component-activiti5-ui-starter/target/classes/static/editor-app/configuration/properties/task-listeners-popup.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/component-starter/component-activiti5-ui-starter/target/classes/static/editor-app/configuration/properties/task-listeners-write-template.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/component-starter/component-activiti5-ui-starter/target/classes/static/editor-app/configuration/properties/text-popup.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/component-starter/component-activiti5-ui-starter/target/classes/static/editor-app/configuration/properties/text-property-write-template.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/component-starter/component-activiti5-ui-starter/target/classes/static/editor-app/configuration/toolbar-custom-actions.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/component-starter/component-activiti5-ui-starter/target/classes/static/editor-app/configuration/toolbar-default-actions.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/component-starter/component-activiti5-ui-starter/target/classes/static/editor-app/configuration/toolbar.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/component-starter/component-activiti5-ui-starter/target/classes/static/editor-app/configuration/url-config.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/component-starter/component-activiti5-ui-starter/target/classes/static/editor-app/css/style-common.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/component-starter/component-activiti5-ui-starter/target/classes/static/editor-app/css/style-editor.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/component-starter/component-activiti5-ui-starter/target/classes/static/editor-app/css/style.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/component-starter/component-activiti5-ui-starter/target/classes/static/editor-app/editor-config.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/component-starter/component-activiti5-ui-starter/target/classes/static/editor-app/editor-controller.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/component-starter/component-activiti5-ui-starter/target/classes/static/editor-app/editor-utils.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/component-starter/component-activiti5-ui-starter/target/classes/static/editor-app/editor.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/component-starter/component-activiti5-ui-starter/target/classes/static/editor-app/editor/css/editor.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/component-starter/component-activiti5-ui-starter/target/classes/static/editor-app/editor/i18n/translation_de.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/component-starter/component-activiti5-ui-starter/target/classes/static/editor-app/editor/i18n/translation_en_us.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/component-starter/component-activiti5-ui-starter/target/classes/static/editor-app/editor/i18n/translation_signavio_de.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/component-starter/component-activiti5-ui-starter/target/classes/static/editor-app/editor/i18n/translation_signavio_en_us.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/component-starter/component-activiti5-ui-starter/target/classes/static/editor-app/editor/oryx.debug.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/component-starter/component-activiti5-ui-starter/target/classes/static/editor-app/editor/oryx.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/component-starter/component-activiti5-ui-starter/target/classes/static/editor-app/eventbus.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/component-starter/component-activiti5-ui-starter/target/classes/static/editor-app/fonts/activiti-admin-webfont.eot" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/component-starter/component-activiti5-ui-starter/target/classes/static/editor-app/fonts/activiti-admin-webfont.svg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/component-starter/component-activiti5-ui-starter/target/classes/static/editor-app/fonts/activiti-admin-webfont.ttf" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/component-starter/component-activiti5-ui-starter/target/classes/static/editor-app/fonts/activiti-admin-webfont.woff" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/component-starter/component-activiti5-ui-starter/target/classes/static/editor-app/fonts/glyphicons-halflings-regular.eot" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/component-starter/component-activiti5-ui-starter/target/classes/static/editor-app/fonts/glyphicons-halflings-regular.svg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/component-starter/component-activiti5-ui-starter/target/classes/static/editor-app/fonts/glyphicons-halflings-regular.ttf" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/component-starter/component-activiti5-ui-starter/target/classes/static/editor-app/fonts/glyphicons-halflings-regular.woff" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/component-starter/component-activiti5-ui-starter/target/classes/static/editor-app/header-controller.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/component-starter/component-activiti5-ui-starter/target/classes/static/editor-app/i18n/en.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/component-starter/component-activiti5-ui-starter/target/classes/static/editor-app/images/bpmn-error.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/component-starter/component-activiti5-ui-starter/target/classes/static/editor-app/images/bpmn-warning.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/component-starter/component-activiti5-ui-starter/target/classes/static/editor-app/images/datadefinition.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/component-starter/component-activiti5-ui-starter/target/classes/static/editor-app/images/delete.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/component-starter/component-activiti5-ui-starter/target/classes/static/editor-app/images/loading.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/component-starter/component-activiti5-ui-starter/target/classes/static/editor-app/images/logo-2x.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/component-starter/component-activiti5-ui-starter/target/classes/static/editor-app/images/logo.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/component-starter/component-activiti5-ui-starter/target/classes/static/editor-app/images/nw-handle-dark.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/component-starter/component-activiti5-ui-starter/target/classes/static/editor-app/images/se-handle-dark.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/component-starter/component-activiti5-ui-starter/target/classes/static/editor-app/images/shapemenu_highlight.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/component-starter/component-activiti5-ui-starter/target/classes/static/editor-app/images/wrench.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/component-starter/component-activiti5-ui-starter/target/classes/static/editor-app/libs/angular-cookies_1.2.13/angular-cookies.min.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/component-starter/component-activiti5-ui-starter/target/classes/static/editor-app/libs/angular-cookies_1.2.13/angular-cookies.min.js.map" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/component-starter/component-activiti5-ui-starter/target/classes/static/editor-app/libs/angular-dragdrop.min-1.0.3.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/component-starter/component-activiti5-ui-starter/target/classes/static/editor-app/libs/angular-dragdrop_1.0.7/angular-dragdrop.min.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/component-starter/component-activiti5-ui-starter/target/classes/static/editor-app/libs/angular-mocks_1.2.13/angular-mocks.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/component-starter/component-activiti5-ui-starter/target/classes/static/editor-app/libs/angular-resource_1.2.13/angular-resource.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/component-starter/component-activiti5-ui-starter/target/classes/static/editor-app/libs/angular-resource_1.2.13/angular-resource.min.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/component-starter/component-activiti5-ui-starter/target/classes/static/editor-app/libs/angular-resource_1.2.13/angular-resource.min.js.map" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/component-starter/component-activiti5-ui-starter/target/classes/static/editor-app/libs/angular-route_1.2.13/angular-route.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/component-starter/component-activiti5-ui-starter/target/classes/static/editor-app/libs/angular-route_1.2.13/angular-route.min.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/component-starter/component-activiti5-ui-starter/target/classes/static/editor-app/libs/angular-route_1.2.13/angular-route.min.js.map" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/component-starter/component-activiti5-ui-starter/target/classes/static/editor-app/libs/angular-sanitize_1.2.13/angular-sanitize.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/component-starter/component-activiti5-ui-starter/target/classes/static/editor-app/libs/angular-sanitize_1.2.13/angular-sanitize.min.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/component-starter/component-activiti5-ui-starter/target/classes/static/editor-app/libs/angular-sanitize_1.2.13/angular-sanitize.min.js.map" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/component-starter/component-activiti5-ui-starter/target/classes/static/editor-app/libs/angular-scroll_0.5.7/angular-scroll.min.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/component-starter/component-activiti5-ui-starter/target/classes/static/editor-app/libs/angular-strap_2.0.5/angular-strap.min.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/component-starter/component-activiti5-ui-starter/target/classes/static/editor-app/libs/angular-strap_2.0.5/angular-strap.tpl.min.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/component-starter/component-activiti5-ui-starter/target/classes/static/editor-app/libs/angular-translate-loader-static-files/.bower.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/component-starter/component-activiti5-ui-starter/target/classes/static/editor-app/libs/angular-translate-loader-static-files/angular-translate-loader-static-files.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/component-starter/component-activiti5-ui-starter/target/classes/static/editor-app/libs/angular-translate-loader-static-files/angular-translate-loader-static-files.min.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/component-starter/component-activiti5-ui-starter/target/classes/static/editor-app/libs/angular-translate-storage-cookie/.bower.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/component-starter/component-activiti5-ui-starter/target/classes/static/editor-app/libs/angular-translate-storage-cookie/angular-translate-storage-cookie.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/component-starter/component-activiti5-ui-starter/target/classes/static/editor-app/libs/angular-translate-storage-cookie/angular-translate-storage-cookie.min.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/component-starter/component-activiti5-ui-starter/target/classes/static/editor-app/libs/angular-translate_2.4.2/angular-translate.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/component-starter/component-activiti5-ui-starter/target/classes/static/editor-app/libs/angular-translate_2.4.2/angular-translate.min.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/component-starter/component-activiti5-ui-starter/target/classes/static/editor-app/libs/angular_1.2.13/angular-animate.min.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/component-starter/component-activiti5-ui-starter/target/classes/static/editor-app/libs/angular_1.2.13/angular.min.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/component-starter/component-activiti5-ui-starter/target/classes/static/editor-app/libs/bootstrap-daterangepicker_1.3.7/daterangepicker-bs3.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/component-starter/component-activiti5-ui-starter/target/classes/static/editor-app/libs/bootstrap-daterangepicker_1.3.7/daterangepicker.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/component-starter/component-activiti5-ui-starter/target/classes/static/editor-app/libs/bootstrap_3.1.1/css/bootstrap-theme.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/component-starter/component-activiti5-ui-starter/target/classes/static/editor-app/libs/bootstrap_3.1.1/css/bootstrap-theme.css.map" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/component-starter/component-activiti5-ui-starter/target/classes/static/editor-app/libs/bootstrap_3.1.1/css/bootstrap-theme.min.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/component-starter/component-activiti5-ui-starter/target/classes/static/editor-app/libs/bootstrap_3.1.1/css/bootstrap.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/component-starter/component-activiti5-ui-starter/target/classes/static/editor-app/libs/bootstrap_3.1.1/css/bootstrap.css.map" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/component-starter/component-activiti5-ui-starter/target/classes/static/editor-app/libs/bootstrap_3.1.1/css/bootstrap.min.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/component-starter/component-activiti5-ui-starter/target/classes/static/editor-app/libs/bootstrap_3.1.1/fonts/glyphicons-halflings-regular.eot" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/component-starter/component-activiti5-ui-starter/target/classes/static/editor-app/libs/bootstrap_3.1.1/fonts/glyphicons-halflings-regular.svg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/component-starter/component-activiti5-ui-starter/target/classes/static/editor-app/libs/bootstrap_3.1.1/fonts/glyphicons-halflings-regular.ttf" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/component-starter/component-activiti5-ui-starter/target/classes/static/editor-app/libs/bootstrap_3.1.1/fonts/glyphicons-halflings-regular.woff" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/component-starter/component-activiti5-ui-starter/target/classes/static/editor-app/libs/bootstrap_3.1.1/js/bootstrap.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/component-starter/component-activiti5-ui-starter/target/classes/static/editor-app/libs/bootstrap_3.1.1/js/bootstrap.min.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/component-starter/component-activiti5-ui-starter/target/classes/static/editor-app/libs/es5-shim-15.3.4.5/.bower.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/component-starter/component-activiti5-ui-starter/target/classes/static/editor-app/libs/es5-shim-15.3.4.5/.gitignore" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/component-starter/component-activiti5-ui-starter/target/classes/static/editor-app/libs/es5-shim-15.3.4.5/CHANGES" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/component-starter/component-activiti5-ui-starter/target/classes/static/editor-app/libs/es5-shim-15.3.4.5/CONTRIBUTORS.md" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/component-starter/component-activiti5-ui-starter/target/classes/static/editor-app/libs/es5-shim-15.3.4.5/LICENSE" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/component-starter/component-activiti5-ui-starter/target/classes/static/editor-app/libs/es5-shim-15.3.4.5/README.md" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/component-starter/component-activiti5-ui-starter/target/classes/static/editor-app/libs/es5-shim-15.3.4.5/es5-sham.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/component-starter/component-activiti5-ui-starter/target/classes/static/editor-app/libs/es5-shim-15.3.4.5/es5-sham.map" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/component-starter/component-activiti5-ui-starter/target/classes/static/editor-app/libs/es5-shim-15.3.4.5/es5-sham.min.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/component-starter/component-activiti5-ui-starter/target/classes/static/editor-app/libs/es5-shim-15.3.4.5/es5-shim.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/component-starter/component-activiti5-ui-starter/target/classes/static/editor-app/libs/es5-shim-15.3.4.5/es5-shim.map" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/component-starter/component-activiti5-ui-starter/target/classes/static/editor-app/libs/es5-shim-15.3.4.5/es5-shim.min.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/component-starter/component-activiti5-ui-starter/target/classes/static/editor-app/libs/es5-shim-15.3.4.5/package.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/component-starter/component-activiti5-ui-starter/target/classes/static/editor-app/libs/es5-shim-15.3.4.5/tests/helpers/h-kill.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/component-starter/component-activiti5-ui-starter/target/classes/static/editor-app/libs/es5-shim-15.3.4.5/tests/helpers/h-matchers.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/component-starter/component-activiti5-ui-starter/target/classes/static/editor-app/libs/es5-shim-15.3.4.5/tests/helpers/h.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/component-starter/component-activiti5-ui-starter/target/classes/static/editor-app/libs/es5-shim-15.3.4.5/tests/index.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/component-starter/component-activiti5-ui-starter/target/classes/static/editor-app/libs/es5-shim-15.3.4.5/tests/index.min.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/component-starter/component-activiti5-ui-starter/target/classes/static/editor-app/libs/es5-shim-15.3.4.5/tests/lib/jasmine-html.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/component-starter/component-activiti5-ui-starter/target/classes/static/editor-app/libs/es5-shim-15.3.4.5/tests/lib/jasmine.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/component-starter/component-activiti5-ui-starter/target/classes/static/editor-app/libs/es5-shim-15.3.4.5/tests/lib/jasmine.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/component-starter/component-activiti5-ui-starter/target/classes/static/editor-app/libs/es5-shim-15.3.4.5/tests/lib/jasmine_favicon.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/component-starter/component-activiti5-ui-starter/target/classes/static/editor-app/libs/es5-shim-15.3.4.5/tests/lib/json2.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/component-starter/component-activiti5-ui-starter/target/classes/static/editor-app/libs/es5-shim-15.3.4.5/tests/spec/s-array.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/component-starter/component-activiti5-ui-starter/target/classes/static/editor-app/libs/es5-shim-15.3.4.5/tests/spec/s-date.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/component-starter/component-activiti5-ui-starter/target/classes/static/editor-app/libs/es5-shim-15.3.4.5/tests/spec/s-function.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/component-starter/component-activiti5-ui-starter/target/classes/static/editor-app/libs/es5-shim-15.3.4.5/tests/spec/s-number.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/component-starter/component-activiti5-ui-starter/target/classes/static/editor-app/libs/es5-shim-15.3.4.5/tests/spec/s-object.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/component-starter/component-activiti5-ui-starter/target/classes/static/editor-app/libs/es5-shim-15.3.4.5/tests/spec/s-string.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/component-starter/component-activiti5-ui-starter/target/classes/static/editor-app/libs/jquery-ui-1.10.3.custom.min.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/component-starter/component-activiti5-ui-starter/target/classes/static/editor-app/libs/jquery.autogrow-textarea.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/component-starter/component-activiti5-ui-starter/target/classes/static/editor-app/libs/jquery_1.11.0/jquery.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/component-starter/component-activiti5-ui-starter/target/classes/static/editor-app/libs/jquery_1.11.0/jquery.min.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/component-starter/component-activiti5-ui-starter/target/classes/static/editor-app/libs/jquery_1.11.0/jquery.min.map" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/component-starter/component-activiti5-ui-starter/target/classes/static/editor-app/libs/json3_3.2.6/LICENSE" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/component-starter/component-activiti5-ui-starter/target/classes/static/editor-app/libs/json3_3.2.6/lib/json3.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/component-starter/component-activiti5-ui-starter/target/classes/static/editor-app/libs/json3_3.2.6/lib/json3.min.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/component-starter/component-activiti5-ui-starter/target/classes/static/editor-app/libs/momentjs_2.5.1/momentjs.min.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/component-starter/component-activiti5-ui-starter/target/classes/static/editor-app/libs/mousetrap-1.4.5.min.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/component-starter/component-activiti5-ui-starter/target/classes/static/editor-app/libs/ng-grid-2.0.7-min.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/component-starter/component-activiti5-ui-starter/target/classes/static/editor-app/libs/ng-grid-2.0.7.min.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/component-starter/component-activiti5-ui-starter/target/classes/static/editor-app/libs/path_parser.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/component-starter/component-activiti5-ui-starter/target/classes/static/editor-app/libs/prototype-1.5.1.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/component-starter/component-activiti5-ui-starter/target/classes/static/editor-app/libs/ui-utils.min-0.0.4.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/component-starter/component-activiti5-ui-starter/target/classes/static/editor-app/partials/root-stencil-item-template.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/component-starter/component-activiti5-ui-starter/target/classes/static/editor-app/partials/stencil-item-template.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/component-starter/component-activiti5-ui-starter/target/classes/static/editor-app/plugins.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/component-starter/component-activiti5-ui-starter/target/classes/static/editor-app/popups/icon-template.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/component-starter/component-activiti5-ui-starter/target/classes/static/editor-app/popups/save-model.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/component-starter/component-activiti5-ui-starter/target/classes/static/editor-app/popups/select-shape.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/component-starter/component-activiti5-ui-starter/target/classes/static/editor-app/popups/unsaved-changes.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/component-starter/component-activiti5-ui-starter/target/classes/static/editor-app/select-shape-controller.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/component-starter/component-activiti5-ui-starter/target/classes/static/editor-app/stencil-controller.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/component-starter/component-activiti5-ui-starter/target/classes/static/editor-app/stencilsets/bpmn2.0/icons/activity/event.subprocess.collapsed.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/component-starter/component-activiti5-ui-starter/target/classes/static/editor-app/stencilsets/bpmn2.0/icons/activity/event.subprocess.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/component-starter/component-activiti5-ui-starter/target/classes/static/editor-app/stencilsets/bpmn2.0/icons/activity/expanded.subprocess.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/component-starter/component-activiti5-ui-starter/target/classes/static/editor-app/stencilsets/bpmn2.0/icons/activity/list/type.business.rule.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/component-starter/component-activiti5-ui-starter/target/classes/static/editor-app/stencilsets/bpmn2.0/icons/activity/list/type.camel.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/component-starter/component-activiti5-ui-starter/target/classes/static/editor-app/stencilsets/bpmn2.0/icons/activity/list/type.manual.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/component-starter/component-activiti5-ui-starter/target/classes/static/editor-app/stencilsets/bpmn2.0/icons/activity/list/type.mule.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/component-starter/component-activiti5-ui-starter/target/classes/static/editor-app/stencilsets/bpmn2.0/icons/activity/list/type.receive.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/component-starter/component-activiti5-ui-starter/target/classes/static/editor-app/stencilsets/bpmn2.0/icons/activity/list/type.script.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/component-starter/component-activiti5-ui-starter/target/classes/static/editor-app/stencilsets/bpmn2.0/icons/activity/list/type.send.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/component-starter/component-activiti5-ui-starter/target/classes/static/editor-app/stencilsets/bpmn2.0/icons/activity/list/type.service.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/component-starter/component-activiti5-ui-starter/target/classes/static/editor-app/stencilsets/bpmn2.0/icons/activity/list/type.shell.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/component-starter/component-activiti5-ui-starter/target/classes/static/editor-app/stencilsets/bpmn2.0/icons/activity/list/type.user.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/component-starter/component-activiti5-ui-starter/target/classes/static/editor-app/stencilsets/bpmn2.0/icons/activity/subprocess.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/component-starter/component-activiti5-ui-starter/target/classes/static/editor-app/stencilsets/bpmn2.0/icons/activity/task.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/component-starter/component-activiti5-ui-starter/target/classes/static/editor-app/stencilsets/bpmn2.0/icons/artifact/text.annotation.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/component-starter/component-activiti5-ui-starter/target/classes/static/editor-app/stencilsets/bpmn2.0/icons/catching/cancel.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/component-starter/component-activiti5-ui-starter/target/classes/static/editor-app/stencilsets/bpmn2.0/icons/catching/compensation.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/component-starter/component-activiti5-ui-starter/target/classes/static/editor-app/stencilsets/bpmn2.0/icons/catching/error.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/component-starter/component-activiti5-ui-starter/target/classes/static/editor-app/stencilsets/bpmn2.0/icons/catching/message.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/component-starter/component-activiti5-ui-starter/target/classes/static/editor-app/stencilsets/bpmn2.0/icons/catching/signal.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/component-starter/component-activiti5-ui-starter/target/classes/static/editor-app/stencilsets/bpmn2.0/icons/catching/timer.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/component-starter/component-activiti5-ui-starter/target/classes/static/editor-app/stencilsets/bpmn2.0/icons/connector/association.undirected.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/component-starter/component-activiti5-ui-starter/target/classes/static/editor-app/stencilsets/bpmn2.0/icons/connector/association.unidirectional.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/component-starter/component-activiti5-ui-starter/target/classes/static/editor-app/stencilsets/bpmn2.0/icons/connector/messageflow.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/component-starter/component-activiti5-ui-starter/target/classes/static/editor-app/stencilsets/bpmn2.0/icons/connector/sequenceflow.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/component-starter/component-activiti5-ui-starter/target/classes/static/editor-app/stencilsets/bpmn2.0/icons/dataobject/data.store.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/component-starter/component-activiti5-ui-starter/target/classes/static/editor-app/stencilsets/bpmn2.0/icons/diagram.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/component-starter/component-activiti5-ui-starter/target/classes/static/editor-app/stencilsets/bpmn2.0/icons/endevent/cancel.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/component-starter/component-activiti5-ui-starter/target/classes/static/editor-app/stencilsets/bpmn2.0/icons/endevent/error.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/component-starter/component-activiti5-ui-starter/target/classes/static/editor-app/stencilsets/bpmn2.0/icons/endevent/none.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/component-starter/component-activiti5-ui-starter/target/classes/static/editor-app/stencilsets/bpmn2.0/icons/endevent/terminate.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/component-starter/component-activiti5-ui-starter/target/classes/static/editor-app/stencilsets/bpmn2.0/icons/gateway/eventbased.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/component-starter/component-activiti5-ui-starter/target/classes/static/editor-app/stencilsets/bpmn2.0/icons/gateway/exclusive.databased.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/component-starter/component-activiti5-ui-starter/target/classes/static/editor-app/stencilsets/bpmn2.0/icons/gateway/inclusive.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/component-starter/component-activiti5-ui-starter/target/classes/static/editor-app/stencilsets/bpmn2.0/icons/gateway/parallel.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/component-starter/component-activiti5-ui-starter/target/classes/static/editor-app/stencilsets/bpmn2.0/icons/startevent/error.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/component-starter/component-activiti5-ui-starter/target/classes/static/editor-app/stencilsets/bpmn2.0/icons/startevent/message.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/component-starter/component-activiti5-ui-starter/target/classes/static/editor-app/stencilsets/bpmn2.0/icons/startevent/none.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/component-starter/component-activiti5-ui-starter/target/classes/static/editor-app/stencilsets/bpmn2.0/icons/startevent/signal.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/component-starter/component-activiti5-ui-starter/target/classes/static/editor-app/stencilsets/bpmn2.0/icons/startevent/timer.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/component-starter/component-activiti5-ui-starter/target/classes/static/editor-app/stencilsets/bpmn2.0/icons/swimlane/lane.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/component-starter/component-activiti5-ui-starter/target/classes/static/editor-app/stencilsets/bpmn2.0/icons/swimlane/pool.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/component-starter/component-activiti5-ui-starter/target/classes/static/editor-app/stencilsets/bpmn2.0/icons/throwing/none.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/component-starter/component-activiti5-ui-starter/target/classes/static/editor-app/stencilsets/bpmn2.0/icons/throwing/signal.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/component-starter/component-activiti5-ui-starter/target/classes/static/editor-app/toolbar-controller.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/component-starter/component-activiti5-ui-starter/target/classes/static/modeler.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/component-starter/component-activiti5-ui-starter/target/classes/stencilset.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/component-starter/component-activiti5-ui-starter/target/component-activiti5-ui-starter-1.0-SNAPSHOT.jar" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/component-starter/component-activiti5-ui-starter/target/maven-archiver/pom.properties" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/component-starter/component-activiti5-ui-starter/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/component-starter/component-activiti5-ui-starter/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/component-starter/component-activiti5-ui-starter/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/component-starter/component-auth2.0-starter/component-auth2.0-starter.iml" afterPath="$PROJECT_DIR$/component-starter/component-auth2.0-starter/component-auth2.0-starter.iml" />
-      <change beforePath="$PROJECT_DIR$/component-starter/component-auth2.0-starter/target/component-auth2.0-starter-1.0-SNAPSHOT.jar" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/component-starter/component-auth2.0-starter/target/maven-archiver/pom.properties" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/component-starter/component-auth2.0-starter/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/component-starter/component-auth2.0-starter/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/component-starter/component-blade-starter/target/classes/org/blade/dao/base/BaseMapper.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/component-starter/component-blade-starter/target/classes/org/blade/dao/base/BizMapper.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/component-starter/component-blade-starter/target/classes/org/blade/dao/base/PageQueryMapper.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/component-starter/component-blade-starter/target/classes/org/blade/entities/base/BaseEntity.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/component-starter/component-blade-starter/target/classes/org/blade/entities/base/BizEntity.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/component-starter/component-blade-starter/target/classes/org/blade/utils/Pager.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/component-starter/component-blade-starter/target/component-blade-starter-1.0.0-SNAPSHOT.jar" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/component-starter/component-blade-starter/target/maven-archiver/pom.properties" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/component-starter/component-blade-starter/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/component-starter/component-blade-starter/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/component-starter/component-blade-starter/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/component-starter/component-mybatis-starter/component-mybatis-starter.iml" afterPath="$PROJECT_DIR$/component-starter/component-mybatis-starter/component-mybatis-starter.iml" />
-      <change beforePath="$PROJECT_DIR$/component-starter/component-mybatis-starter/target/classes/application.yml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/component-starter/component-mybatis-starter/target/classes/bootstrap-dev.yml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/component-starter/component-mybatis-starter/target/classes/bootstrap-pd.yml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/component-starter/component-mybatis-starter/target/classes/bootstrap.yml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/component-starter/component-mybatis-starter/target/classes/org/smr/saas/comp/mybatis/MybatisStarterApplication.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/component-starter/component-mybatis-starter/target/classes/org/smr/saas/comp/mybatis/conf/DataSourceProperties.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/component-starter/component-mybatis-starter/target/classes/org/smr/saas/comp/mybatis/conf/Druid.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/component-starter/component-mybatis-starter/target/classes/org/smr/saas/comp/mybatis/conf/DruidConfig.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/component-starter/component-mybatis-starter/target/classes/org/smr/saas/comp/mybatis/conf/MyBatisConfiguration.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/component-starter/component-mybatis-starter/target/classes/org/smr/saas/comp/mybatis/conf/MyBatisProperties.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/component-starter/component-mybatis-starter/target/classes/org/smr/saas/comp/mybatis/utils/CacheInterceptor.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/component-starter/component-mybatis-starter/target/classes/org/smr/saas/comp/mybatis/utils/MsSQLPageSqlBuilder.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/component-starter/component-mybatis-starter/target/classes/org/smr/saas/comp/mybatis/utils/MySQLPageSqlBuilder.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/component-starter/component-mybatis-starter/target/classes/org/smr/saas/comp/mybatis/utils/OraclePageSqlBuilder.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/component-starter/component-mybatis-starter/target/classes/org/smr/saas/comp/mybatis/utils/PageInterceptor.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/component-starter/component-mybatis-starter/target/classes/org/smr/saas/comp/mybatis/utils/PageSql.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/component-starter/component-mybatis-starter/target/classes/org/smr/saas/comp/mybatis/utils/PagerSqlBuilder.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/component-starter/component-mybatis-starter/target/component-mybatis-starter-1.0.0-SNAPSHOT.jar" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/component-starter/component-mybatis-starter/target/maven-archiver/pom.properties" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/component-starter/component-mybatis-starter/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/component-starter/component-mybatis-starter/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/component-starter/component-mybatis-starter/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/component-starter/component-redis-starter/component-redis-starter.iml" afterPath="$PROJECT_DIR$/component-starter/component-redis-starter/component-redis-starter.iml" />
-      <change beforePath="$PROJECT_DIR$/component-starter/component-redis-starter/target/classes/application.yml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/component-starter/component-redis-starter/target/classes/bootstrap-dev.yml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/component-starter/component-redis-starter/target/classes/bootstrap-pd.yml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/component-starter/component-redis-starter/target/classes/bootstrap.yml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/component-starter/component-redis-starter/target/classes/org/smr/comp/redis/RedisStarterApplication.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/component-starter/component-redis-starter/target/classes/org/smr/comp/redis/conf/RedisPool.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/component-starter/component-redis-starter/target/classes/org/smr/comp/redis/conf/RedisProperties.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/component-starter/component-redis-starter/target/classes/org/smr/comp/redis/init/RedisConfiguration.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/component-starter/component-redis-starter/target/component-redis-starter-1.0-SNAPSHOT.jar" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/component-starter/component-redis-starter/target/maven-archiver/pom.properties" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/component-starter/component-redis-starter/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/component-starter/component-redis-starter/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/component-starter/component-redis-starter/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/component-starter/component-starter.iml" afterPath="$PROJECT_DIR$/component-starter/component-starter.iml" />
-    </list>
+    <list default="true" id="1747f34d-705b-4768-b87d-428a76ba95be" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/component-starter/target/" />
@@ -423,7 +31,7 @@
         <entry file="file://$PROJECT_DIR$/component-starter/component-auth2.0-starter/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="210">
-              <caret line="14" column="6" lean-forward="true" selection-start-line="14" selection-start-column="6" selection-end-line="14" selection-end-column="6" />
+              <caret line="14" column="10" lean-forward="true" selection-start-line="14" selection-start-column="10" selection-end-line="14" selection-end-column="10" />
               <folding />
             </state>
           </provider>
@@ -793,16 +401,15 @@
       <workItem from="1550644691561" duration="1360000" />
       <workItem from="1551428374516" duration="726000" />
       <workItem from="1551782177700" duration="40000" />
-      <workItem from="1551782250435" duration="646000" />
+      <workItem from="1551782250435" duration="766000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="78289000" />
+    <option name="totallyTimeSpent" value="78409000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="737" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -812,7 +419,7 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15024233" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2211838" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2211838" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -1241,7 +848,7 @@
     <entry file="file://$PROJECT_DIR$/component-starter/component-auth2.0-starter/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
-          <caret line="14" column="6" lean-forward="true" selection-start-line="14" selection-start-column="6" selection-end-line="14" selection-end-column="6" />
+          <caret line="14" column="10" lean-forward="true" selection-start-line="14" selection-start-column="10" selection-end-line="14" selection-end-column="10" />
           <folding />
         </state>
       </provider>
