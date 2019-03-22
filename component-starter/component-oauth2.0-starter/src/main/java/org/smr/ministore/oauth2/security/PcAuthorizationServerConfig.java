@@ -1,5 +1,7 @@
 package org.smr.ministore.oauth2.security;
 
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
@@ -26,9 +28,12 @@ import java.util.List;
  *
  * @author paascloud.net @gmail.com
  */
-@Configuration
-@EnableAuthorizationServer
+//@Configuration
+//@EnableAuthorizationServer
 public class PcAuthorizationServerConfig extends AuthorizationServerConfigurerAdapter {
+
+	private final Logger logger = LoggerFactory.getLogger(PcAuthorizationServerConfig.class);
+
 
 	@Autowired
 	private TokenStore tokenStore;

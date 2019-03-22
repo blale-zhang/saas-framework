@@ -1,6 +1,6 @@
 package org.smr.cloud.saas.auth2.comp;
 
-import org.smr.common.cons.SecurityConstants;
+import org.smr.common.constant.SecurityConstants;
 import org.smr.ministore.entities.Role;
 import org.smr.ministore.entities.User;
 import org.springframework.security.core.GrantedAuthority;

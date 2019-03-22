@@ -17,7 +17,7 @@
 
 package org.smr.cloud.saas.auth2.mobile;
 
-import org.smr.common.cons.SecurityConstants;
+import org.smr.common.constant.SecurityConstants;
 import org.springframework.http.HttpMethod;
 import org.springframework.security.authentication.AuthenticationServiceException;
 import org.springframework.security.core.Authentication;

@@ -20,7 +20,7 @@ import java.util.UUID;
  *
  * @author paascloud.net @gmail.com
  */
-@Component
+//@Component
 public class SmsCodeAuthenticationSecurityConfig extends SecurityConfigurerAdapter<DefaultSecurityFilterChain, HttpSecurity> {
 
 	@Autowired

@@ -43,6 +43,7 @@ public class ErrorCode {
 
     }
 
+<<<<<<< HEAD
     public static class SessionConf{
 
         public static  final String SESSION_USER_ROLE_AUTHORITIES = "SESSION_%s_%s_AUTHORITIES";
@@ -56,6 +57,16 @@ public class ErrorCode {
         public static String getSessionUserRoleAuthoritiesKey(Long userId, Long roleId){
             return String.format(SESSION_USER_ROLE_AUTHORITIES,userId , roleId);
         }
+=======
+    public static class Login{
+
+        public static int LOGIN_FAIL                              = 50000; // 登录失败
+
+        public static int LOGIN_SUCCESS                           = 50001; // 登录成功
+
+
+
+>>>>>>> d7f741de15adba4042e9d84a3243b58659867769
     }
 
 }

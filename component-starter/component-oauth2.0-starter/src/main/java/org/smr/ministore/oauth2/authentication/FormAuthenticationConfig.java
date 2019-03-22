@@ -12,7 +12,7 @@ import org.springframework.stereotype.Component;
  *
  * @author paascloud.net @gmail.com
  */
-@Component
+//@Component
 public class FormAuthenticationConfig {
 
 	/**

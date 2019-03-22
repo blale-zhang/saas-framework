@@ -28,13 +28,13 @@ public class AuthorizationServerConfiguration extends AuthorizationServerConfigu
         //配置两个客户端,一个用于password认证一个用于client认证
         clients.inMemory().withClient("client_1")
                 .resourceIds(DEMO_RESOURCE_ID)
-                .authorizedGrantTypes("client_credentials", "refresh_token")
+                .authorizedGrantTypes("client_credentials", "refresh_token","authorization_code")
                 .scopes("select")
                 .authorities("client")
                 .secret("123456")
                 .and().withClient("client_2")
                 .resourceIds(DEMO_RESOURCE_ID)
-                .authorizedGrantTypes("password", "refresh_token")
+                .authorizedGrantTypes("password", "refresh_token","authorization_code")
                 .scopes("select")
                 .authorities("client")
                 .secret("123456");
@@ -50,7 +50,8 @@ public class AuthorizationServerConfiguration extends AuthorizationServerConfigu
     @Override
     public void configure(AuthorizationServerSecurityConfigurer oauthServer) throws Exception {
         //允许表单认证
-        oauthServer.allowFormAuthenticationForClients();
+        oauthServer.allowFormAuthenticationForClients().tokenKeyAccess("isAuthenticated()")
+                  .checkTokenAccess("permitAll()");
     }
 
 }
