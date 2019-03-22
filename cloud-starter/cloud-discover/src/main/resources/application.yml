@@ -4,6 +4,8 @@ server:
 eureka:
   instance:
     hostname: discovery
+  leaseRenewalIntervalInSeconds: 10
+  healthCheckUrlPath: /actuator/health
   client:
     healthcheck:
       enabled: true
@@ -11,9 +13,44 @@ eureka:
     fetchRegistry: false
     serviceUrl:
       defaultZone: http://discovery:${server.port}/eureka/
+    server:
+      evictionIntervalTimerInMs: 60000
+      # 测试时关闭自我保护机制，保证不可用服务及时踢出
+      enable-self-preservation: true
 
 spring:
   cloud:
     config:
       discovery:
         enabled: false
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+  endpoint:
+    health:
+      show-details: ALWAYS
+
+info:
+  app:
+    name: "@project.name@"
+    description: "@project.description@"
+    version: "@project.version@"
+  version: "@project.version@"
+  spring-boot-version: "@project.parent.version@"
+
+
+#开启shutdown的安全验证
+endpoints:
+  health:
+    sensitive: true
+  cors:
+    allowed-methods: HEAD,GET,POST
+  #启用shutdown
+  shutdown:
+    enabled: true
+  #禁用密码验证
+  sensitive:  false
+

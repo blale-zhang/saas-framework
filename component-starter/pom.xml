@@ -13,11 +13,12 @@
     <modules>
         <module>component-mybatis-starter</module>
         <module>component-redis-starter</module>
-        <module>component-auth2.0-starter</module>
+        <!--<module>component-auth2.0-starter</module>-->
         <module>component-activiti5-starter</module>
         <module>component-activiti5-ui-starter</module>
         <module>component-blade-starter</module>
-        <module>component-oauth2.0-starter</module>
+        <module>component-session-starter</module>
+        <!--<module>component-oauth2.0-starter</module>-->
     </modules>
 
     <dependencies>

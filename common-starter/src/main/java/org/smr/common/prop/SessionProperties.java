@@ -11,14 +11,12 @@
 
 package org.smr.common.prop;
 
-import lombok.Data;
 
 /**
  * session管理相关配置项
  *
  * @author paascloud.net @gmail.com
  */
-@Data
 public class SessionProperties {
 
 	/**

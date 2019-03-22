@@ -1,0 +1,8 @@
+
+#宕机邮件提示
+#spring.mail.host=smtp.126.com
+#spring.mail.username=****
+#spring.mail.password=*****
+#spring.boot.admin.notify.mail.from=*****
+#spring.boot.admin.notify.mail.to=******
+

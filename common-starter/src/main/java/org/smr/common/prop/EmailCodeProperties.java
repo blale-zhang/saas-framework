@@ -11,14 +11,12 @@
 
 package org.smr.common.prop;
 
-import lombok.Data;
 
 /**
  * The class Email code properties.
  *
  * @author paascloud.net @gmail.com
  */
-@Data
 public class EmailCodeProperties {
 
 	/**

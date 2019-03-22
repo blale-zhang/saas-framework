@@ -11,8 +11,7 @@
 
 package org.smr.common.prop;
 
-import lombok.Data;
-import lombok.EqualsAndHashCode;
+
 import org.springframework.boot.autoconfigure.social.SocialProperties;
 
 /**
@@ -20,8 +19,6 @@ import org.springframework.boot.autoconfigure.social.SocialProperties;
  *
  * @author paascloud.net @gmail.com
  */
-@EqualsAndHashCode(callSuper = true)
-@Data
 public class WeixinProperties extends SocialProperties {
 
 	/**

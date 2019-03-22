@@ -27,6 +27,13 @@ public class Message {
 		this.description = description;
 	}
 
+	public Message() {
+	}
+
+	public Message(int status) {
+		this.status = status;
+	}
+
 	public Message(int status, String description) {
 		this.status = status;
 		this.description = description;

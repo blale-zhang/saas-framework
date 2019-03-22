@@ -43,6 +43,21 @@ public class ErrorCode {
 
     }
 
+    public static class SessionConf{
+
+        public static  final String SESSION_USER_ROLE_AUTHORITIES = "SESSION_%s_%s_AUTHORITIES";
+
+        /**
+         *
+         * @param userId
+         * @param roleId
+         * @return
+         */
+        public static String getSessionUserRoleAuthoritiesKey(Long userId, Long roleId){
+            return String.format(SESSION_USER_ROLE_AUTHORITIES,userId , roleId);
+        }
+    }
+
 }
 
 

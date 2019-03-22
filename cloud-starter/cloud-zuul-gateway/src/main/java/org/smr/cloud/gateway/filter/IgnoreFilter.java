@@ -19,7 +19,7 @@ import static org.smr.cloud.gateway.filter.ZuulFilterConstants.FILTER_TYPE_PRE;
 @ConfigurationProperties(prefix = "app-name")
 public class IgnoreFilter extends BaseZuulFilter {
 
-    private Map<String, String> ignoreUrl=new HashMap<>();
+    private Map<String, String> ignoreUrl=new HashMap<String, String>();
 
     public Map<String, String> getIgnoreUrl() {
         return ignoreUrl;

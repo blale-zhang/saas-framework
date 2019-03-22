@@ -4,6 +4,7 @@ import com.alibaba.fastjson.JSON;
 import com.alibaba.fastjson.JSONObject;
 import com.netflix.zuul.context.RequestContext;
 import org.apache.commons.collections4.MapUtils;
+import org.smr.common.utils.StringUtils;
 
 import javax.servlet.http.HttpServletRequest;
 import java.io.BufferedReader;
@@ -44,22 +45,13 @@ public class ApiVersionFilter extends BaseZuulFilter {
         String requestURI = context.getRequest().getRequestURI();
         context.getRequest().setAttribute("key",22);
 
-        try {
-            String param  = this.getBodyString(request.getReader());
-            JSONObject josnObject = JSON.parseObject(param);
-            Long organId = MapUtils.getLong(josnObject,"organId");
+        String organId = request.getHeader("organId");
+        if(StringUtils.isNotEmpty(organId)){
 
-            if(josnObject.containsKey("organId")){
+            System.out.println("organId:" +organId);
+            logger.debug(" organId:{}", organId);
 
-                System.out.println("organId:" +organId);
-                logger.debug(" organId:{}", organId);
-
-            }
-
-        } catch (IOException e) {
-            e.printStackTrace();
         }
-
 
         String []paths = requestURI.split("/");
         String pathApiVersion = paths[1];
@@ -70,7 +62,7 @@ public class ApiVersionFilter extends BaseZuulFilter {
         }
         if(!context.getRequestQueryParams().containsKey("_API_VERSION")){    //若未传入版本号
             List params = new ArrayList<String>();
-            params.add(pathApiVersion);
+            params.add(pathApiVersion+"_"+organId);
             context.getRequestQueryParams().put("_API_VERSION", params);
         }
         //替换请求地址

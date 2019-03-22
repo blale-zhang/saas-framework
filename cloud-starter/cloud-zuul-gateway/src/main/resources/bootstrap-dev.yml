@@ -1,16 +1,13 @@
-server:
-  port: 18888
-
 app-name:
   portal: protal
   authcenter: auth
 
 spring:
   datasource: #数据源
-    url: jdbc:mysql://localhost:3306/auth_center?useSSL=false&zeroDateTimeBehavior=convertToNull&autoReconnect=true&allowMultiQueries=true&characterEncoding=UTF-8&characterSetResults=UTF-8
+    url: jdbc:mysql://localhost:3306/auth_center?useSSL=false&zeroDateTimeBehavior=CONVERT_TO_NULL&autoReconnect=true&allowMultiQueries=true&characterEncoding=UTF-8&characterSetResults=UTF-8
     username: root
-    password: 123456
-    driver-class-name: com.mysql.jdbc.Driver
+    password: blade123
+    driver-class-name: com.mysql.cj.jdbc.Driver
     druid:
       initial-size: 5 #连接池初始化大小
       min-idle: 5 #连接池最小
