@@ -12,6 +12,7 @@ public class SessionProperties {
      */
     private boolean maxSessionsPreventsLogin;
 
+
     public int getMaximumSessions() {
         return maximumSessions;
     }

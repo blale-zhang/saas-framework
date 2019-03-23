@@ -1,6 +1,7 @@
 package org.smr.ministore.security.properties;
 
 
+import org.smr.ministore.security.properties.browser.BrowserProperties;
 import org.smr.ministore.security.properties.session.SessionProperties;
 import org.springframework.boot.context.properties.ConfigurationProperties;
 import org.springframework.context.annotation.Configuration;
@@ -47,6 +48,8 @@ public class SecurityProperties {
 
     private SessionProperties session = new SessionProperties();
 
+
+    private BrowserProperties browser = new BrowserProperties();
 
     public SessionProperties getSession() {
         return session;
@@ -110,5 +113,13 @@ public class SecurityProperties {
 
     public void setMaximumSessions(int maximumSessions) {
         this.maximumSessions = maximumSessions;
+    }
+
+    public BrowserProperties getBrowser() {
+        return browser;
+    }
+
+    public void setBrowser(BrowserProperties browser) {
+        this.browser = browser;
     }
 }

@@ -9,7 +9,9 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
+    <groupId>saas.framework</groupId>
     <artifactId>component-redis-starter</artifactId>
+    <version>1.0-SNAPSHOT</version>
 
     <dependencies>
 
