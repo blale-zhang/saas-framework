@@ -2,11 +2,9 @@ server:
   port: 8765
 
 spring:
-  application:
-    name: zuul-gateway
   boot:
     admin:
-      url: http://localhost:6789
+      url: http://192.168.101.128:6789
   profiles:
     active: dev #环境配置- local：本地 dev：开发环境 qa：测试环境 uat：用户测试 pd：生产环境
   aop:
@@ -42,3 +40,8 @@ endpoints:
 management:
   security:
     enabled: false
+
+zuul:
+  #需要忽略的头部信息，不在传播到其他服务
+  sensitive-headers: Access-Control-Allow-Origin
+  ignored-headers: Access-Control-Allow-Origin,Authorization

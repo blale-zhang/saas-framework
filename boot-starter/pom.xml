@@ -9,7 +9,48 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
+    <groupId>saas.framework</groupId>
+    <version>1.0-SNAPSHOT</version>
     <artifactId>boot-starter</artifactId>
+    <packaging>pom</packaging>
+    <dependencies>
+
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-web</artifactId>
+            <version>1.5.19.RELEASE</version>
+        </dependency>
+
+
+        <!-- springboot模板 -->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-thymeleaf</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>net.sourceforge.nekohtml</groupId>
+            <artifactId>nekohtml</artifactId>
+            <version>1.9.22</version>
+        </dependency>
+
+
+        <!-- jdbc driver -->
+        <dependency>
+            <groupId>mysql</groupId>
+            <artifactId>mysql-connector-java</artifactId>
+            <version>8.0.11</version>
+            <scope>runtime</scope>
+        </dependency>
+
+        <!--        <dependency>
+                    <groupId>com.alibaba</groupId>
+                    <artifactId>druid</artifactId>
+                    <version>1.0.27</version>
+                </dependency>-->
+
+
+    </dependencies>
 
 
 </project>

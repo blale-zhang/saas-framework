@@ -1,5 +1,8 @@
 package org.blade.entities.base;
 
+import com.alibaba.fastjson.annotation.JSONField;
+import com.alibaba.fastjson.serializer.ToStringSerializer;
+
 import java.io.Serializable;
 import java.util.Date;
 
@@ -20,25 +23,29 @@ public class BaseEntity<ID> implements Serializable{
 	/**
 	 * id
 	 */
+	@JSONField(serializeUsing = ToStringSerializer.class)
 	private ID id;
 	
 	/**
 	 * 记录生成时间
 	 */
+	@JSONField(format="yyyy-MM-dd HH:mm:ss")
 	private Date createDate;
 	
 	/**
 	 * 记录修改时间
 	 */
+	@JSONField(format="yyyy-MM-dd HH:mm:ss")
 	private Date updateDate;
 
 
 	private boolean isDeleted;
 
-
+	@JSONField(serializeUsing = ToStringSerializer.class)
 	private ID createBy;
 
-	private ID modifyBy;
+	@JSONField(serializeUsing = ToStringSerializer.class)
+	private ID updateBy;
 
 
 	/**
@@ -94,11 +101,11 @@ public class BaseEntity<ID> implements Serializable{
 		this.createBy = createBy;
 	}
 
-	public ID getModifyBy() {
-		return modifyBy;
-	}
+    public ID getUpdateBy() {
+        return updateBy;
+    }
 
-	public void setModifyBy(ID modifyBy) {
-		this.modifyBy = modifyBy;
-	}
+    public void setUpdateBy(ID updateBy) {
+        this.updateBy = updateBy;
+    }
 }

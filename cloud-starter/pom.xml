@@ -18,6 +18,7 @@
         <module>cloud-sleuth-zipkin</module>
         <module>cloud-admin</module>
         <module>cloud-gateway</module>
+        <module>cloud-config</module>
     </modules>
 
     <dependencies>

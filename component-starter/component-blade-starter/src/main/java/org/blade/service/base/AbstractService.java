@@ -4,6 +4,8 @@ import org.blade.entities.base.BizEntity;
 import org.blade.utils.IdGenUtils;
 import org.blade.utils.TimeUtils;
 
+import java.util.List;
+
 /**
  * 抽象服务
  */
@@ -25,6 +27,17 @@ public class AbstractService {
     public void modifyAttach( BizEntity entity ){
 
         entity.setUpdateDate(TimeUtils.getNowTime());
+    }
+
+    /**
+     *
+     * @param entities
+     */
+    public void batchSaveAttatch(List<BizEntity> entities ){
+
+        for(BizEntity entity : entities){
+            this.saveAttatch(entity);
+        }
     }
 
 

@@ -9,7 +9,7 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>org.smr</groupId>
+    <groupId>saas.framework</groupId>
     <artifactId>common-starter</artifactId>
     <version>1.0-SNAPSHOT</version>
     <dependencies>

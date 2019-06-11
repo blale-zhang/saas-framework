@@ -4,7 +4,7 @@ public class MySQLPageSqlBuilder  extends PageSql  implements PagerSqlBuilder {
 
 	public String buildPageSql(String querySql, Long startIndex  ,Long pageSize) {
 		StringBuffer sb = new StringBuffer();
-		sb.append(querySql).append(" limit ").append(startIndex).append(",").append(startIndex + pageSize);
+		sb.append(querySql).append(" limit ").append(startIndex).append(",").append(pageSize);
 		return sb.toString();
 	}
 	

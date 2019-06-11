@@ -6,11 +6,10 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="boot-starter" />
         <module name="cloud-admin" />
+        <module name="cloud-config" />
         <module name="cloud-discover" />
         <module name="cloud-gateway" />
-        <module name="cloud-services" />
         <module name="cloud-sleuth-zipkin" />
         <module name="cloud-zuul-gateway" />
         <module name="common-starter" />
@@ -28,6 +27,7 @@
     <bytecodeTargetLevel>
       <module name="boot-starter" target="1.8" />
       <module name="cloud-admin" target="1.8" />
+      <module name="cloud-config" target="1.8" />
       <module name="cloud-discover" target="1.8" />
       <module name="cloud-gateway" target="1.8" />
       <module name="cloud-services" target="1.8" />

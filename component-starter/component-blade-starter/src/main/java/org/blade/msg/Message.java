@@ -60,4 +60,14 @@ public class Message {
 		return new Message(failCode,description);
 	}
 
+    /**
+     * 权限验证失败
+     * @param description
+     * @return
+     */
+	public static Message fof(String description){
+
+		return new Message(ErrorCode.Login.PERMISSION_VERIFICATION_FAILED,description);
+	}
+
 }

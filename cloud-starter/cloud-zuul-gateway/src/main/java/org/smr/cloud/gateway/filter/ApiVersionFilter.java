@@ -3,6 +3,7 @@ package org.smr.cloud.gateway.filter;
 import com.alibaba.fastjson.JSON;
 import com.alibaba.fastjson.JSONObject;
 import com.netflix.zuul.context.RequestContext;
+import io.jmnarloch.spring.cloud.ribbon.support.RibbonFilterContextHolder;
 import org.apache.commons.collections4.MapUtils;
 import org.smr.common.utils.StringUtils;
 
@@ -47,6 +48,9 @@ public class ApiVersionFilter extends BaseZuulFilter {
 
         String organId = request.getHeader("organId");
         if(StringUtils.isNotEmpty(organId)){
+
+            RibbonFilterContextHolder.getCurrentContext()
+                    .add("lancher", "1");
 
             System.out.println("organId:" +organId);
             logger.debug(" organId:{}", organId);

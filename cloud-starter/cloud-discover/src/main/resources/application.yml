@@ -13,10 +13,12 @@ eureka:
     fetchRegistry: false
     serviceUrl:
       defaultZone: http://discovery:${server.port}/eureka/
-    server:
-      evictionIntervalTimerInMs: 60000
-      # 测试时关闭自我保护机制，保证不可用服务及时踢出
-      enable-self-preservation: true
+  server:
+    evictionIntervalTimerInMs: 3000
+    # 测试时关闭自我保护机制，保证不可用服务及时踢出
+    enableSelfPreservation: true
+    responseCacheUpdateIntervalMs: 3000
+    responseCacheAutoExpirationInSeconds: 180
 
 spring:
   cloud:

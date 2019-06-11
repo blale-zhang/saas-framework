@@ -2,11 +2,16 @@ app-name:
   portal: protal
   authcenter: auth
 
+saas:
+  server-center:
+    url: http://192.168.101.128:8761
+    enabled: true
+
 spring:
   datasource: #数据源
-    url: jdbc:mysql://localhost:3306/auth_center?useSSL=false&zeroDateTimeBehavior=CONVERT_TO_NULL&autoReconnect=true&allowMultiQueries=true&characterEncoding=UTF-8&characterSetResults=UTF-8
+    url: jdbc:mysql://192.168.101.128:3306/auth_center?useSSL=false&zeroDateTimeBehavior=CONVERT_TO_NULL&autoReconnect=true&allowMultiQueries=true&characterEncoding=UTF-8&characterSetResults=UTF-8
     username: root
-    password: blade123
+    password: 123456
     driver-class-name: com.mysql.cj.jdbc.Driver
     druid:
       initial-size: 5 #连接池初始化大小
@@ -26,14 +31,14 @@ spring:
       connection-properties: druid.stat.mergeSql=true;druid.stat.slowSqlMillis=5000 #通过connectProperties属性来打开mergeSql功能；慢SQL记录
       use-global-data-source-stat: true #合并多个DruidDataSource的监控数据
       aop-patterns: org.smr.ministore.service.*.*Service.*
-    redis:
-        database: 0
-        host: 192.168.101.43
-        port: 6379
-        password: 123456     # 密码（默认为空）
-        timeout: 6000  # 连接超时时长（毫秒）
-        pool:
-            max-active: 1000  # 连接池最大连接数（使用负值表示没有限制）
-            max-wait: -1      # 连接池最大阻塞等待时间（使用负值表示没有限制）
-            max-idle: 10      # 连接池中的最大空闲连接
-            min-idle: 5       # 连接池中的最小空闲连接
+  redis:
+    database: 0
+    host: 127.0.0.1
+    port: 6379
+    password: 123456 # 密码（默认为空）
+    timeout: 6000  # 连接超时时长（毫秒）
+    pool:
+      max-active: 1000  # 连接池最大连接数（使用负值表示没有限制）
+      max-wait: -1      # 连接池最大阻塞等待时间（使用负值表示没有限制）
+      max-idle: 10      # 连接池中的最大空闲连接
+      min-idle: 5       # 连接池中的最小空闲连接

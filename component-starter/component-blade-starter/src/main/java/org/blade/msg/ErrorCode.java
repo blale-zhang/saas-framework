@@ -26,6 +26,17 @@ public class ErrorCode {
         public static int SUCCESS = 1; // 正确执行并返回
     }
 
+
+    /**
+     * 调用失败
+     */
+    public static class Fail {
+        public static int FAIL = 0; // 发生错误
+    }
+
+
+
+
     /**
      * 业务参数
      */
@@ -64,6 +75,8 @@ public class ErrorCode {
         public static int LOGIN_FAIL = 50000; // 登录失败
 
         public static int LOGIN_SUCCESS = 50001; // 登录成功
+
+        public static int PERMISSION_VERIFICATION_FAILED = 50403;
 
 
     }
