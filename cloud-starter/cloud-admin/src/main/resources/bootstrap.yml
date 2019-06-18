@@ -9,6 +9,15 @@ management:
   security:
     enabled: false
     roles: SUPERUSER
+  endpoint:
+    health:
+      show-details: always
+  endpoints:
+    web:
+      exposure:
+        include: '*'
+
+
 security:
   user:
     name: blade1988

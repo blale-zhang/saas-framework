@@ -2,6 +2,18 @@ app-name:
   portal: protal
   authcenter: auth
 
+saas:
+  ip: 192.168.101.128
+  server-center:
+    ip: ${saas.ip}
+    port: 8761
+    url: http://${saas.server-center.ip}:${saas.server-center.port}
+    enabled: true
+  admin:
+    ip: ${saas.ip}
+    port: 6789
+    url: http://${saas.admin.ip}:${saas.admin.port}
+
 spring:
   datasource: #数据源
     url: jdbc:mysql://rm-wz9ijz816zn5qrb06.mysql.rds.aliyuncs.com:3306/auth_center?useSSL=false&zeroDateTimeBehavior=CONVERT_TO_NULL&autoReconnect=true&allowMultiQueries=true&characterEncoding=UTF-8&characterSetResults=UTF-8

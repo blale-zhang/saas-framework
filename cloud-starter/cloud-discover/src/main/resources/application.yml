@@ -1,24 +1,27 @@
-server:
-  port: 8761
-
 eureka:
   instance:
-    hostname: discovery
-  leaseRenewalIntervalInSeconds: 10
-  healthCheckUrlPath: /actuator/health
+    # leaseExpirationDurationInSeconds，表示eureka server至上一次收到client的心跳之后，等待下一次心跳的超时时间，在这个时间内若没收到下一次心跳，则将移除该instance。
+    leaseExpirationDurationInSeconds: 30
+    # leaseRenewalIntervalInSeconds 表示eureka client发送心跳给server端的频率
+    leaseRenewalIntervalInSeconds: 10
   client:
     healthcheck:
       enabled: true
     registerWithEureka: false
     fetchRegistry: false
-    serviceUrl:
-      defaultZone: http://discovery:${server.port}/eureka/
   server:
-    evictionIntervalTimerInMs: 3000
+    #启用主动失效，并且每次主动失效检测间隔为3s
+    evictionIntervalTimerInMs: 30000
     # 测试时关闭自我保护机制，保证不可用服务及时踢出
     enableSelfPreservation: true
+    #eureka server刷新readCacheMap的时间，注意，client读取的是readCacheMap，这个时间决定了多久会把readWriteCacheMap的缓存更新到readCacheMap上
+    #默认30s
     responseCacheUpdateIntervalMs: 3000
+    #eureka server缓存readWriteCacheMap失效时间，这个只有在这个时间过去后缓存才会失效，失效前不会更新，过期后从registry重新读取注册服务信息，registry是一个ConcurrentHashMap。
+    #由于启用了evict其实就用不太上改这个配置了
+    #默认180s
     responseCacheAutoExpirationInSeconds: 180
+
 
 spring:
   cloud:
@@ -55,4 +58,3 @@ endpoints:
     enabled: true
   #禁用密码验证
   sensitive:  false
-

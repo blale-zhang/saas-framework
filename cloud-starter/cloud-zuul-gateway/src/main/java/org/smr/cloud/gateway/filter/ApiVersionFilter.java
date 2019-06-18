@@ -50,7 +50,7 @@ public class ApiVersionFilter extends BaseZuulFilter {
         if(StringUtils.isNotEmpty(organId)){
 
             RibbonFilterContextHolder.getCurrentContext()
-                    .add("lancher", "1");
+                    .add("lancher", organId);
 
             System.out.println("organId:" +organId);
             logger.debug(" organId:{}", organId);
@@ -66,7 +66,7 @@ public class ApiVersionFilter extends BaseZuulFilter {
         }
         if(!context.getRequestQueryParams().containsKey("_API_VERSION")){    //若未传入版本号
             List params = new ArrayList<String>();
-            params.add(pathApiVersion+"_"+organId);
+            params.add(pathApiVersion);
             context.getRequestQueryParams().put("_API_VERSION", params);
         }
         //替换请求地址

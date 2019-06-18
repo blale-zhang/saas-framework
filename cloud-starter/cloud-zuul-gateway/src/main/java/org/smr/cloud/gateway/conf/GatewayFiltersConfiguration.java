@@ -2,6 +2,7 @@ package org.smr.cloud.gateway.conf;
 
 
 import org.smr.cloud.gateway.filter.ApiVersionFilter;
+import org.smr.cloud.gateway.filter.PostZuulFilter;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.web.cors.CorsConfiguration;
@@ -14,6 +15,12 @@ public class GatewayFiltersConfiguration {
     @Bean
     public ApiVersionFilter initApiVersionFilter(){
         return new ApiVersionFilter();
+    }
+
+
+    @Bean
+    public PostZuulFilter initPostZuulFilter(){
+        return new PostZuulFilter();
     }
 
     @Bean

@@ -1,0 +1,56 @@
+server:
+  port: 7010
+
+
+spring:
+  application:
+    name: config.center
+  boot:
+    admin:
+      url: ${saas.admin.url}
+  profiles:
+    active: dev #环境配置- local：本地 dev：开发环境 qa：测试环境 uat：用户测试 pd：生产环境
+  cloud:
+    config:
+      server:
+        default-application-name: config-server
+        git:
+          uri: http://97039144@192.168.101.128:8888/r/project/service/config_center
+          search-paths: config-repo
+    label: master # 配置仓库的分支
+    username: 97039144 # 访问git仓库的用户名
+    password: blade1988 # 访问git仓库的用户密码 如果Git仓库为公开仓库，可以不填写用户名和密码，如果是私有仓库需要填写
+
+  rabbitmq:                   #本地环境不需要配置mq
+    host: 127.0.0.1
+    port: 5672
+    username: admin
+    password: zhigou2019
+
+
+
+#开启shutdown的安全验证
+endpoints:
+  health:
+    sensitive: true
+  cors:
+    allowed-methods: HEAD,GET,POST
+  shutdown:
+    enabled: true #启用shutdown
+    sensitive: false #禁用密码验证
+  restart:
+    enabled: true
+
+
+security:                                #
+  basic:
+    enabled: false
+
+management:                   #SpringCloud 1.5版本暴露接口，暴露/bus-refresh接口
+  security:
+    enabled: false
+  endpoints:                  #SpringCloud 2.0.0版本以后暴露接口方式
+    web:
+      exposure:
+        include: "*"
+

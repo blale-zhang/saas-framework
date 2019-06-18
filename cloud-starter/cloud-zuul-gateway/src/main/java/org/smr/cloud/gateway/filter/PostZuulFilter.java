@@ -3,6 +3,7 @@ package org.smr.cloud.gateway.filter;
 import com.alibaba.fastjson.JSON;
 import com.alibaba.fastjson.JSONObject;
 import com.netflix.zuul.context.RequestContext;
+import io.jmnarloch.spring.cloud.ribbon.support.RibbonFilterContextHolder;
 import org.apache.commons.collections4.MapUtils;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -49,17 +50,21 @@ public class PostZuulFilter extends BaseZuulFilter {
          * 大于http1.1 大于400小于505的属于系统异常
          */
         if(getResponse().getStatus()>= HttpServletResponse.SC_BAD_REQUEST
-                   && getResponse().getStatus()<HttpServletResponse.SC_HTTP_VERSION_NOT_SUPPORTED)
+                   && getResponse().getStatus()<HttpServletResponse.SC_HTTP_VERSION_NOT_SUPPORTED){
+
             write(RestStatus.SERVER_ERROR.setCode(getResponse().getStatus()).asString() );
+            return null;
+        }
+
         log.info("request is ok:"+getResponse().getStatus());
+
 
 
         HttpServletRequest request = getRequest();
         try {
            String param = this.getBodyString(request.getReader());
            JSONObject josnObject = JSON.parseObject(param);
-           Long organId = MapUtils.getLong(josnObject,"organId");
-
+            String organId = MapUtils.getString(josnObject,"organId");
 
             String requestURI = context.getRequest().getRequestURI();
             context.getRequest().setAttribute("key",22);
@@ -69,6 +74,9 @@ public class PostZuulFilter extends BaseZuulFilter {
             String pathService = paths[2];
 
            if(josnObject.containsKey("organId")){
+
+               RibbonFilterContextHolder.getCurrentContext()
+                       .add("lancher", organId);
 
                System.out.println("organId:" +organId);
                logger.debug(" organId:{}", organId);
@@ -112,7 +120,7 @@ public class PostZuulFilter extends BaseZuulFilter {
     }
 
     public PostZuulFilter(){
-        log.debug("{} 初始化");
+        log.debug("{} 初始化", PostZuulFilter.class);
     }
 
 }

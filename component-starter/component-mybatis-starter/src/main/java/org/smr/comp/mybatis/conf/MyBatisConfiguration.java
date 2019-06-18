@@ -6,6 +6,7 @@ import org.apache.ibatis.session.ExecutorType;
 import org.apache.ibatis.session.SqlSessionFactory;
 import org.mybatis.spring.SqlSessionFactoryBean;
 import org.mybatis.spring.SqlSessionTemplate;
+import org.mybatis.spring.boot.autoconfigure.SpringBootVFS;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.smr.comp.mybatis.utils.PageInterceptor;
@@ -126,22 +127,24 @@ public class MyBatisConfiguration  implements EnvironmentAware {
                     + " (please add config file or check your Mybatis configuration)");
         }
 
-        logger.debug("初始化:{}",SqlSessionFactory.class);
+
+        logger.info("初始化:{}",SqlSessionFactory.class);
         SqlSessionFactoryBean sfb = new SqlSessionFactoryBean();
+        sfb.setVfs(SpringBootVFS.class);
         sfb.setDataSource(getDataSource());
         //下边两句仅仅用于*.xml文件，如果整个持久层操作不需要使用到xml文件的话（只用注解就可以搞定），则不加
         if (StringUtils.hasLength(myBatisProperties.getTypeAliasesPackage())) {
             sfb.setTypeAliasesPackage(myBatisProperties.getTypeAliasesPackage());
         }
-        logger.debug("SqlSessionFactory setTypeAliasesPackage:{}", myBatisProperties.getTypeAliasesPackage());
+        logger.info("SqlSessionFactory setTypeAliasesPackage:{}", myBatisProperties.getTypeAliasesPackage());
 
         if (!ObjectUtils.isEmpty(myBatisProperties.getMapperLocations())) {
             sfb.setMapperLocations(new PathMatchingResourcePatternResolver().getResources(myBatisProperties.getMapperLocations()));
         }
-        logger.debug("SqlSessionFactory setMapperLocations:{}", myBatisProperties.getMapperLocations());
+        logger.info("SqlSessionFactory setMapperLocations:{}", myBatisProperties.getMapperLocations());
 
         sfb.setPlugins(new Interceptor[]{new PageInterceptor()});
-        logger.debug("SqlSessionFactory setPlugins:{}", PageInterceptor.class);
+        logger.info("SqlSessionFactory setPlugins:{}", PageInterceptor.class);
 
         return sfb.getObject();
     }

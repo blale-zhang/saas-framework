@@ -1,42 +1,10 @@
-server:
-  port: 7010
-
-
 eureka:
   client:
-    service-url:
-      defaultZone: http://192.168.101.128:8761/eureka/
+    serviceUrl:
+      defaultZone: ${saas.server-center.url}/eureka/
+    enabled: ${saas.server-center.enabled}
+    fetch-registry: true
+    register-with-eureka: true
   instance:
     preferIpAddress: true
 
-spring:
-  application:
-    name: config.center
-  cloud:
-    config:
-      server:
-        default-application-name: config-server
-        git:
-          uri: http://97039144@192.168.101.128:8888/r/project/service/config_center
-          search-paths: config-repo
-    label: master # 配置仓库的分支
-    username: 97039144 # 访问git仓库的用户名
-    password: blade1988 # 访问git仓库的用户密码 如果Git仓库为公开仓库，可以不填写用户名和密码，如果是私有仓库需要填写
-
-
-#开启shutdown的安全验证
-endpoints:
-  health:
-    sensitive: true
-  cors:
-    allowed-methods: HEAD,GET,POST
-  shutdown:
-    enabled: true #启用shutdown
-    sensitive: false #禁用密码验证
-  restart:
-    enabled: true
-
-
-management:
-  security:
-    enabled: false
