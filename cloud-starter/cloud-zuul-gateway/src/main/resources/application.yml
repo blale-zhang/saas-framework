@@ -18,6 +18,17 @@ eureka:
 
 ribbon:
   ServerListRefreshInterval: 5000
+  #对当前服务的重试次数
+  MaxAutoRetries: 2
+  #切换相同Server的次数
+  MaxAutoRetriesNextServer: 0
+
+zuul:
+  #需要忽略的头部信息，不在传播到其他服务
+  sensitive-headers: organId
+  ignored-headers: Access-Control-Allow-Origin,Authorization
+  #是否开启重试功能
+  retryable: true
 
 feign:
   hystrix:

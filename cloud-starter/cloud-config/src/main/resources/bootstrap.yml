@@ -15,7 +15,7 @@ spring:
       server:
         default-application-name: config-server
         git:
-          uri: http://97039144@192.168.101.128:8888/r/project/service/config_center
+          uri: http://97039144@git.gdsmr.cn:8888/r/project/service/config_center.git
           search-paths: config-repo
     label: master # 配置仓库的分支
     username: 97039144 # 访问git仓库的用户名

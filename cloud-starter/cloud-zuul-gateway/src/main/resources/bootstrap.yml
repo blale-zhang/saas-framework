@@ -59,8 +59,21 @@ endpoints:
     enabled: true #启用shutdown
     sensitive: false  #禁用密码验证
 
-
-zuul:
-  #需要忽略的头部信息，不在传播到其他服务
-  sensitive-headers: organId
-  ignored-headers: Access-Control-Allow-Origin,Authorization
+logging:
+  file: ./log/${spring.profiles.active}/${spring.application.name}.log  #日志地址阵营
+#  logstash:
+#    host: 127.0.0.1
+#    port: 9250
+  level:
+    org:
+      smr: DEBUG
+      mybatis: WARN            #MyBatis
+      springframework:
+        web: WARN             #Spring框架
+        data:
+          mongodb:
+            core: DEBUG       #Mongobd
+      apache:
+        tomcat: WARN            #Tomcat
+        catalina: WARN
+    springfox: ERROR

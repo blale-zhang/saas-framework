@@ -18,10 +18,10 @@ public class GatewayFiltersConfiguration {
     }
 
 
-    @Bean
+/*    @Bean
     public PostZuulFilter initPostZuulFilter(){
         return new PostZuulFilter();
-    }
+    }*/
 
     @Bean
     public CorsFilter corsFilter() {

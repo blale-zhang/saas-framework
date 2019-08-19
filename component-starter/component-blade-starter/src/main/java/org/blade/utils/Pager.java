@@ -1,6 +1,7 @@
 package org.blade.utils;
 
 import java.util.List;
+import java.util.Map;
 
 /**
  * Pager Class is encapsulating logic of Paging-querying,

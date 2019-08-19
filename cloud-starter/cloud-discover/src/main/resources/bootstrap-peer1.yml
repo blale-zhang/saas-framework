@@ -4,9 +4,9 @@ spring:
 
 eureka:
   instance:
-    hostname: localhost
+    hostname: peer1
   client:
-#    serviceUrl:
-#      defaultZone: http://peer2:8762/eureka/
+    serviceUrl:
+      defaultZone: http://peer2:8762/eureka/ #一般peer2为局域网内的主机名称，
 server:
   port: 8761

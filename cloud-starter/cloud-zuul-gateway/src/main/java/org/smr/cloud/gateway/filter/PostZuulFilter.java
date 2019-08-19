@@ -58,8 +58,6 @@ public class PostZuulFilter extends BaseZuulFilter {
 
         log.info("request is ok:"+getResponse().getStatus());
 
-
-
         HttpServletRequest request = getRequest();
         try {
            String param = this.getBodyString(request.getReader());

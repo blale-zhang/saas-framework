@@ -223,6 +223,14 @@
                 <version>1.4.6.RELEASE</version>
             </dependency>
 
+            <!-- https://mvnrepository.com/artifact/org.springframework.retry/spring-retry -->
+            <dependency>
+                <groupId>org.springframework.retry</groupId>
+                <artifactId>spring-retry</artifactId>
+                <version>1.2.4.RELEASE</version>
+            </dependency>
+
+
             <!-- https://mvnrepository.com/artifact/com.netflix.feign/feign-httpclient -->
             <dependency>
                 <groupId>com.netflix.feign</groupId>
@@ -231,11 +239,17 @@
             </dependency>
 
             <dependency>
+                <groupId>io.github.openfeign</groupId>
+                <artifactId>feign-httpclient</artifactId>
+                <version>9.5.0</version>
+            </dependency>
+
+
+            <dependency>
                 <groupId>org.springframework.cloud</groupId>
                 <artifactId>spring-cloud-starter-eureka-server</artifactId>
                 <version>1.4.5.RELEASE</version>
             </dependency>
-
 
 
             <dependency>
@@ -673,6 +687,8 @@
             <url>http://repo.spring.io/milestone</url>
         </repository>
     </repositories>
+
+
     <pluginRepositories>
         <pluginRepository>
             <id>aliyun-repos</id>
@@ -692,15 +708,15 @@
 
     <distributionManagement>
         <repository>
-            <id>zhigou-nexus</id>
-            <name>releases</name>
-            <url>http://192.168.101.128:8081/repository/maven-releases/</url>
+            <id>smr-nexus</id>
+            <name>public</name>
+            <url>http://47.106.141.219:8081/repository/maven-public/</url>
             <uniqueVersion>true</uniqueVersion>
         </repository>
         <snapshotRepository>
-            <id>zhigou-nexus</id>
+            <id>smr-nexus</id>
             <name>snapshots</name>
-            <url>http://192.168.101.128:8081/repository/maven-snapshots/</url>
+            <url>http://47.106.141.219:8081/repository/maven-snapshots/</url>
         </snapshotRepository>
     </distributionManagement>
 

@@ -2,4 +2,4 @@ spring:
   application:
     name: discovery
   profiles:
-    active:   peer1
+    active: pd
