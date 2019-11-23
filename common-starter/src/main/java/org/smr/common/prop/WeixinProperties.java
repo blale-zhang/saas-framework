@@ -12,8 +12,6 @@
 package org.smr.common.prop;
 
 
-import org.springframework.boot.autoconfigure.social.SocialProperties;
-
 /**
  * 微信登录配置项
  *

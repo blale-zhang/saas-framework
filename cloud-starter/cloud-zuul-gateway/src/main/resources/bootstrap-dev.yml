@@ -3,7 +3,7 @@ app-name:
   authcenter: auth
 
 saas:
-  ip: 192.168.101.128
+  ip: 127.0.0.1
   server-center:
     ip: ${saas.ip}
     port: 8761
@@ -15,34 +15,11 @@ saas:
     url: http://${saas.admin.ip}:${saas.admin.port}
 
 spring:
-  datasource: #数据源
-    url: jdbc:mysql://localhost:3306/auth_center?useSSL=false&zeroDateTimeBehavior=CONVERT_TO_NULL&autoReconnect=true&allowMultiQueries=true&characterEncoding=UTF-8&characterSetResults=UTF-8
-    username: root
-    password: blade123
-    driver-class-name: com.mysql.cj.jdbc.Driver
-    druid:
-      initial-size: 5 #连接池初始化大小
-      min-idle: 5 #连接池最小
-      max-active: 20  #连接池最大
-      max-wait: 6000  #等待连接超时时间
-      time-between-eviction-runs-millis: 6000 #检测需要关闭空闲连接的间隔时间
-      min-evictable-idle-time-millis: 60000  #连接最小生存时间
-      max-evictable-idle-time-millis: 300000  #连接最大生存时间
-      validation-query: SELECT 1
-      test-while-idle: true
-      test-on-borrow: false
-      test-on-return: false
-      pool-prepared-statements: true  #打开PSCache，并且指定每个连接上PSCache的大小
-      max-pool-prepared-statement-per-connection-size: 20
-      filters: wall,log4j #配置监控统计拦截的filters，去掉后监控界面sql无法统计，'wall'用于防火墙
-      connection-properties: druid.stat.mergeSql=true;druid.stat.slowSqlMillis=5000 #通过connectProperties属性来打开mergeSql功能；慢SQL记录
-      use-global-data-source-stat: true #合并多个DruidDataSource的监控数据
-      aop-patterns: org.smr.ministore.service.*.*Service.*
   redis:
     database: 0
     host: ${saas.ip}
     port: 6379
-    password:  123456 # 密码（默认为空）
+    password: root # 密码（默认为空）
     timeout: 6000  # 连接超时时长（毫秒）
     pool:
       max-active: 1000  # 连接池最大连接数（使用负值表示没有限制）

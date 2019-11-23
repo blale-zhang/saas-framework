@@ -32,13 +32,13 @@ public interface BaseService<ID ,T extends BaseEntity<ID>> {
 	 * @param id
 	 * @return
 	 */
-	public T queryById(Long id);
+	public T queryById(ID id);
 	
 	/**
 	 * 根据id删除
 	 * @param id
 	 * @return
 	 */
-	public int deleteById(Long id);
+	public int deleteById(ID id);
 
 }

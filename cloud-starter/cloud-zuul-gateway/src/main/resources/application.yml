@@ -14,7 +14,7 @@ eureka:
     leaseExpirationDurationInSeconds: 30
     # leaseRenewalIntervalInSeconds 表示eureka client发送心跳给server端的频率
     leaseRenewalIntervalInSeconds: 10
-    healthCheckUrlPath: /health
+    healthCheckUrlPath: /actuator/health
 
 ribbon:
   ServerListRefreshInterval: 5000

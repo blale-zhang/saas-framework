@@ -1,0 +1,25 @@
+saas:
+  ip: 127.0.0.1
+  server-center:
+    ip: ${saas.ip}
+    port: 8761
+    url: http://${saas.server-center.ip}:${saas.server-center.port}
+    enabled: true
+  admin:
+    ip: ${saas.ip}
+    port: 6789
+    url: http://${saas.admin.ip}:${saas.admin.port}
+
+
+#宕机邮件提示
+spring:
+  mail:
+    host: smtp.163.com
+    username: bladezhangsmr@163.com
+    password: Blade5532
+  boot:
+    admin:
+      notify:
+        mail:
+          from: bladezhangsmr@163.com
+          to: 97039144@qq.com

@@ -15,7 +15,6 @@ import org.springframework.beans.factory.annotation.Autowired;
 
 
 import org.springframework.boot.autoconfigure.condition.ConditionalOnMissingBean;
-import org.springframework.boot.bind.RelaxedPropertyResolver;
 import org.springframework.boot.context.properties.EnableConfigurationProperties;
 
 import org.springframework.context.EnvironmentAware;
@@ -44,16 +43,11 @@ import java.util.Properties;
  */
 @Configuration
 @EnableConfigurationProperties({DataSourceProperties.class, MyBatisProperties.class})
-public class MyBatisConfiguration  implements EnvironmentAware {
+public class MyBatisConfiguration {
 
     private Logger logger = LoggerFactory.getLogger(MyBatisConfiguration.class);
 
-    private RelaxedPropertyResolver propertyResolver;
-
     private  ResourceLoader resourceLoader;
-
-    @Autowired
-    private Environment env;
 
     @Autowired
     private DataSourceProperties dataSourceProperties;
@@ -147,12 +141,6 @@ public class MyBatisConfiguration  implements EnvironmentAware {
         logger.info("SqlSessionFactory setPlugins:{}", PageInterceptor.class);
 
         return sfb.getObject();
-    }
-
-    @Override
-    public void setEnvironment(Environment environment) {
-        this.env = environment;
-        this.propertyResolver = new RelaxedPropertyResolver(environment, "spring.datasource.");
     }
 
 

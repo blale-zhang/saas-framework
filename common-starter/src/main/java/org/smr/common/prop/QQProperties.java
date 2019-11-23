@@ -1,6 +1,5 @@
 package org.smr.common.prop;
 
-import org.springframework.boot.autoconfigure.social.SocialProperties;
 
 /**
  * QQ登录配置项

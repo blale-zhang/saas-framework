@@ -10,6 +10,7 @@
     <option name="ignoredFiles">
       <set>
         <option value="$PROJECT_DIR$/cloud-starter/pom.xml" />
+        <option value="$PROJECT_DIR$/security-starter/pom.xml" />
       </set>
     </option>
   </component>

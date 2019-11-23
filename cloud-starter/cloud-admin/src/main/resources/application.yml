@@ -6,15 +6,38 @@ spring:
     admin:
       client:
         prefer-ip: true
+  security:
+    user:
+      name: blade1988
+      password: blade1988
+    basic:
+      enabled: false
+
 
 eureka:
   instance:
-    preferIpAddress: true
+    leaseRenewalIntervalInSeconds: 10
+    health-check-url-path: /actuator/health
+    metadata-map:
+      startup: ${random.int}    #needed to trigger info and endpoint update after restart
   client:
-    service-url:
-      defaultZone: http://localhost:8761/eureka/
-    register-with-eureka: false
-    fetch-registry: false
+    registryFetchIntervalSeconds: 5
+    serviceUrl:
+      defaultZone: ${EUREKA_SERVICE_URL:http://localhost:8761}/eureka/
+
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"  #<2>
+  endpoint:
+    health:
+      show-details: ALWAYS
+
+logging:
+  path: logs/log
+
 
 #定义各种额外的详情给服务端显示
 #从pom.xml中获取

@@ -7,6 +7,7 @@
       <module fileurl="file://$PROJECT_DIR$/cloud-starter/cloud-config/cloud-config.iml" filepath="$PROJECT_DIR$/cloud-starter/cloud-config/cloud-config.iml" />
       <module fileurl="file://$PROJECT_DIR$/cloud-starter/cloud-discover/cloud-discover.iml" filepath="$PROJECT_DIR$/cloud-starter/cloud-discover/cloud-discover.iml" />
       <module fileurl="file://$PROJECT_DIR$/cloud-starter/cloud-gateway/cloud-gateway.iml" filepath="$PROJECT_DIR$/cloud-starter/cloud-gateway/cloud-gateway.iml" />
+      <module fileurl="file://$PROJECT_DIR$/boot-starter/cloud-nacos/cloud-nacos.iml" filepath="$PROJECT_DIR$/boot-starter/cloud-nacos/cloud-nacos.iml" />
       <module fileurl="file://$PROJECT_DIR$/cloud-starter/cloud-services/cloud-services.iml" filepath="$PROJECT_DIR$/cloud-starter/cloud-services/cloud-services.iml" />
       <module fileurl="file://$PROJECT_DIR$/cloud-starter/cloud-sleuth-zipkin/cloud-sleuth-zipkin.iml" filepath="$PROJECT_DIR$/cloud-starter/cloud-sleuth-zipkin/cloud-sleuth-zipkin.iml" />
       <module fileurl="file://$PROJECT_DIR$/cloud-starter/cloud-zuul-gateway/cloud-zuul-gateway.iml" filepath="$PROJECT_DIR$/cloud-starter/cloud-zuul-gateway/cloud-zuul-gateway.iml" />
@@ -21,8 +22,11 @@
       <module fileurl="file://$PROJECT_DIR$/framework.iml" filepath="$PROJECT_DIR$/framework.iml" />
       <module fileurl="file://$PROJECT_DIR$/security-starter/security-app/security-app.iml" filepath="$PROJECT_DIR$/security-starter/security-app/security-app.iml" />
       <module fileurl="file://$PROJECT_DIR$/security-starter/security-core/security-core.iml" filepath="$PROJECT_DIR$/security-starter/security-core/security-core.iml" />
-      <module fileurl="file://$PROJECT_DIR$/security-starter/security-starter.iml" filepath="$PROJECT_DIR$/security-starter/security-starter.iml" />
+      <module fileurl="file://$PROJECT_DIR$/security-starter/security-diy/security-diy.iml" filepath="$PROJECT_DIR$/security-starter/security-diy/security-diy.iml" />
+      <module fileurl="file://$PROJECT_DIR$/security-starter/security-diy-nomal/security-diy-nomal.iml" filepath="$PROJECT_DIR$/security-starter/security-diy-nomal/security-diy-nomal.iml" />
+      <module fileurl="file://$PROJECT_DIR$/security-starter/security-diy.iml" filepath="$PROJECT_DIR$/security-starter/security-diy.iml" />
       <module fileurl="file://$PROJECT_DIR$/security-starter/security-web/security-web.iml" filepath="$PROJECT_DIR$/security-starter/security-web/security-web.iml" />
+      <module fileurl="file://$PROJECT_DIR$/security-starter/securitydiy.iml" filepath="$PROJECT_DIR$/security-starter/securitydiy.iml" />
     </modules>
   </component>
 </project>

@@ -11,7 +11,7 @@ eureka:
     fetchRegistry: false
   server:
     #启用主动失效，并且每次主动失效检测间隔为3s
-    evictionIntervalTimerInMs: 30000
+    evictionIntervalTimerInMs: 60000
     # 测试时关闭自我保护机制，保证不可用服务及时踢出
     enableSelfPreservation: true
     #eureka server刷新readCacheMap的时间，注意，client读取的是readCacheMap，这个时间决定了多久会把readWriteCacheMap的缓存更新到readCacheMap上
@@ -45,16 +45,3 @@ info:
     version: "@project.version@"
   version: "@project.version@"
   spring-boot-version: "@project.parent.version@"
-
-
-#开启shutdown的安全验证
-endpoints:
-  health:
-    sensitive: true
-  cors:
-    allowed-methods: HEAD,GET,POST
-  #启用shutdown
-  shutdown:
-    enabled: true
-  #禁用密码验证
-  sensitive:  false

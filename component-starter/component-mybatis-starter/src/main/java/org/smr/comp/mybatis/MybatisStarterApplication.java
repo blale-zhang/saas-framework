@@ -1,5 +1,5 @@
-package org.smr.comp.mybatis;
-/*
+
+/*package org.smr.comp.mybatis;
 
 import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

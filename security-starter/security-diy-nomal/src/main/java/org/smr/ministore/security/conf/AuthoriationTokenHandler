@@ -1,0 +1,10 @@
+package org.smr.ministore.security.conf;
+
+public class AuthoriationTokenHandler{
+
+
+    public static void main(String[] args) {
+
+    }
+
+}

@@ -3,3 +3,5 @@ spring:
     name: discovery
   profiles:
     active: pd
+
+logfile:

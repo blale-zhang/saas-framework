@@ -10,6 +10,7 @@
         <module name="cloud-config" />
         <module name="cloud-discover" />
         <module name="cloud-gateway" />
+        <module name="cloud-nacos" />
         <module name="cloud-sleuth-zipkin" />
         <module name="cloud-zuul-gateway" />
         <module name="common-starter" />
@@ -19,8 +20,11 @@
         <module name="component-mybatis-starter" />
         <module name="component-redis-starter" />
         <module name="component-session-starter" />
+        <module name="nacos-discovery" />
         <module name="security-app" />
         <module name="security-core" />
+        <module name="security-diy" />
+        <module name="security-diy-nomal" />
         <module name="security-web" />
       </profile>
     </annotationProcessing>
@@ -30,25 +34,23 @@
       <module name="cloud-config" target="1.8" />
       <module name="cloud-discover" target="1.8" />
       <module name="cloud-gateway" target="1.8" />
+      <module name="cloud-nacos" target="1.8" />
       <module name="cloud-services" target="1.8" />
       <module name="cloud-sleuth-zipkin" target="1.8" />
-      <module name="cloud-starter" target="1.8" />
       <module name="cloud-zuul-gateway" target="1.8" />
-      <module name="cloudadmin" target="1.8" />
       <module name="common-starter" target="1.8" />
       <module name="component-activiti5-starter" target="1.8" />
       <module name="component-activiti5-ui-starter" target="1.8" />
-      <module name="component-auth2.0-starter" target="1.8" />
       <module name="component-blade-starter" target="1.8" />
-      <module name="component-mybatis-starter" target="1.8" />
-      <module name="component-oauth2.0-starter" target="1.8" />
+      <module name="component-mybatis-starter" target="1.5" />
       <module name="component-redis-starter" target="1.8" />
       <module name="component-session-starter" target="1.8" />
       <module name="component-starter" target="1.8" />
       <module name="framework" target="1.8" />
       <module name="security-app" target="1.8" />
       <module name="security-core" target="1.8" />
-      <module name="security-start" target="1.8" />
+      <module name="security-diy" target="1.8" />
+      <module name="security-diy-nomal" target="1.8" />
       <module name="security-starter" target="1.8" />
       <module name="security-web" target="1.8" />
     </bytecodeTargetLevel>

@@ -9,7 +9,8 @@ public class RedisStarterApplication {
 
 
     public static void main(String[] args) {
-        new SpringApplicationBuilder(RedisStarterApplication .class).web(true).run(args);
+        SpringApplication.run(RedisStarterApplication.class, args);
+
     }
 
     public int getExitCode() {

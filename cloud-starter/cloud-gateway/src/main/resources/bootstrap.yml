@@ -1,0 +1,94 @@
+server:
+  port: 8765
+  # 下面是配置undertow作为服务器的参数
+  undertow:
+    # 设置IO线程数, 它主要执行非阻塞的任务,它们会负责多个连接, 默认设置每个CPU核心一个线程
+    io-threads: 4
+    # 阻塞任务线程池, 当执行类似servlet请求阻塞操作, undertow会从这个线程池中取得线程,它的值设置取决于系统的负载
+    worker-threads: 20
+    # 以下的配置会影响buffer,这些buffer会用于服务器连接的IO操作,有点类似netty的池化内存管理
+    # 每块buffer的空间大小,越小的空间被利用越充分
+    buffer-size: 1024
+    # 是否分配的直接内存
+
+logging:
+  file: ./log/${spring.profiles.active}/${spring.application.name}.log  #日志地址阵营
+  level:
+    org:
+      smr: DEBUG
+      mybatis: WARN            #MyBatis
+      springframework:
+        web: WARN             #Spring框架
+        data:
+          mongodb:
+            core: DEBUG       #Mongobd
+      apache:
+        tomcat: WARN            #Tomcat
+        catalina: WARN
+    springfox: ERROR
+
+spring:
+  application:
+    name: gateway
+  boot:
+    admin:
+      client:
+        url: ${saas.admin.url}
+        instance:
+          service-base-url: http://127.0.0.1:8765
+  profiles:
+    active: dev #环境配置- local：本地 dev：开发环境 qa：测试环境 uat：用户测试 pd：生产环境
+  cloud:
+    gateway:
+      routes:
+        - id: auth-center-Authority
+          uri: lb://AUTH.CENTER
+          predicates:
+          - Path=/admin/**
+          filters:
+          - StripPrefix=1
+        - id: gateway-center
+          uri: lb://ROUTE.CONTROLLER
+          predicates:
+          - Path=/common/**
+          filters:
+          - StripPrefix=1
+          - Authorization=true
+        - id: user-controller
+          uri: lb://USER.CONTROLLER
+          predicates:
+          - Path=/user.controller/**
+          filters:
+          - StripPrefix=1
+        - id: authorization-service
+          uri: lb://AUTHORIZATION.SERVER
+          predicates:
+          - Path=/authorization.server/**
+          filters:
+          - StripPrefix=1
+      enabled: true
+  aop:
+    proxy-target-class: true
+  http:
+    multipart:  #文件上传配置
+      maxFileSize: 10Mb
+      maxRequestSize: 10Mb
+  session:  #配置session保存方式
+    store-type: redis
+  mvc:  #日志格式
+    date-format: yyyy-MM-dd HH:mm:ss
+
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+  endpoint:
+    health:
+      show-details: ALWAYS
+
+
+mybatis:
+  mapper-locations: classpath*:mapper/*.xml
+  type-aliases-package: org.smr.ministore.entities.Organ

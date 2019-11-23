@@ -3,34 +3,15 @@ server:
 
 spring:
   profiles:
-    active: dev #环境配置- local：本地 dev：开发环境 qa：测试环境 uat：用户测试 pd：生产环境
+    active: pd #环境配置- local：本地 dev：开发环境 qa：测试环境 uat：用户测试 pd：生产环境
 
 management:
-  security:
-    enabled: false
-    roles: SUPERUSER
-  endpoint:
-    health:
-      show-details: always
   endpoints:
     web:
       exposure:
-        include: '*'
-
-
-security:
-  user:
-    name: blade1988
-    password: blade1988
-  basic:
-    enabled: false
-
-#开启shutdown的安全验证
-endpoints:
-  health:
-    sensitive: true
-  cors:
-    allowed-methods: HEAD,GET,POST
-  shutdown:
-    enabled: true #启用shutdown
-    sensitive: false  #禁用密码验证
+        include: "*"
+  endpoint:
+    health:
+      show-details: ALWAYS
+logging:
+  path: logs/log

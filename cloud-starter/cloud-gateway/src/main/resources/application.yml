@@ -1,0 +1,46 @@
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: ${saas.server-center.url}/eureka/
+    enabled: ${saas.server-center.enabled}
+    healthcheck:
+      enable: true
+    fetchRegistry: true
+    registryFetchIntervalSeconds: 5
+    registerWithEureka: true
+  instance:
+    preferIpAddress: true
+    # leaseExpirationDurationInSeconds，表示eureka server至上一次收到client的心跳之后，等待下一次心跳的超时时间，在这个时间内若没收到下一次心跳，则将移除该instance。
+    leaseExpirationDurationInSeconds: 30
+    # leaseRenewalIntervalInSeconds 表示eureka client发送心跳给server端的频率
+    leaseRenewalIntervalInSeconds: 10
+    healthCheckUrlPath: /actuator/health
+
+ribbon:
+  ServerListRefreshInterval: 5000
+  #对当前服务的重试次数
+  MaxAutoRetries: 2
+  #切换相同Server的次数
+  MaxAutoRetriesNextServer: 0
+
+
+feign:
+  hystrix:
+    enabled: true
+  client:
+    config:
+      default:
+        connectTimeout: 3000
+    readTimeout: 20000
+    loggerLevel: basic
+
+hystrix:
+  command:
+    default:
+      execution:
+        isolation:
+          thread:
+            timeoutInMilliseconds: 60000
+
+
+

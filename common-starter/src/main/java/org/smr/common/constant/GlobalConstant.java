@@ -29,9 +29,20 @@ public class GlobalConstant {
 	public static final String WL_PROXY_CLIENT_IP = "WL-Proxy-Client-IP";
 	public static final String HTTP_CLIENT_IP = "HTTP_CLIENT_IP";
 	public static final String HTTP_X_FORWARDED_FOR = "HTTP_X_FORWARDED_FOR";
+	public static final String AUTHORIZATION = "Authorization";
 
 
-	public static final String LOCALHOST_IP = "127.0.0.1";
+	public static final String AUTHORIZATION_USER_OF_ORGAN_KEY = "authorization_user%s_of_organ%s";
+
+
+    public static final String USER_ID_KEY = "user_id";
+
+    public static final String ORGAN_ID_KEY = "organ_id";
+
+    public static final String TOKEN_KEY = "token";
+
+
+    public static final String LOCALHOST_IP = "127.0.0.1";
 	public static final String LOCALHOST_IP_16 = "0:0:0:0:0:0:0:1";
 	public static final int MAX_IP_LENGTH = 15;
 

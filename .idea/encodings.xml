@@ -3,6 +3,7 @@
   <component name="Encoding">
     <file url="file://$PROJECT_DIR$" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/boot-starter" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/boot-starter/cloud-nacos" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/cloud-starter" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/cloud-starter/cloud-admin" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/cloud-starter/cloud-config" charset="UTF-8" />
@@ -24,6 +25,8 @@
     <file url="file://$PROJECT_DIR$/security-starter" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/security-starter/security-app" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/security-starter/security-core" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/security-starter/security-diy" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/security-starter/security-diy-nomal" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/security-starter/security-web" charset="UTF-8" />
   </component>
 </project>

@@ -10,7 +10,8 @@ import org.springframework.context.annotation.Configuration;
 @ComponentScan({"org.smr"})
 @SpringBootApplication
 @EnableAutoConfiguration(exclude = {
-        org.springframework.boot.autoconfigure.security.SecurityAutoConfiguration.class,
+        //org.springframework.boot.autoconfigure.security.SecurityAutoConfiguration.class,
+        org.springframework.boot.autoconfigure.security.SecurityDataConfiguration.class,
         org.activiti.spring.boot.SecurityAutoConfiguration.class
 
 })
