@@ -2,7 +2,7 @@ package org.smr.comp.mybatis.utils;
 
 public class OraclePageSqlBuilder extends PageSql implements PagerSqlBuilder {
 
-	public String buildPageSql(String querySql,Long startIndex , Long pageSize ) {
+	public String buildPageSql(String querySql,Long startIndex , Long pageSize ,String orderByClause ) {
 
 		StringBuilder pageSQl = new StringBuilder();
 		pageSQl.append(" SELECT * FROM  ");

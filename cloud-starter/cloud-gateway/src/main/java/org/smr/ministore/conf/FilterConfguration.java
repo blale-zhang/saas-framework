@@ -3,6 +3,7 @@ package org.smr.ministore.conf;
 import org.smr.ministore.gateway.filter.*;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.cloud.gateway.filter.factory.rewrite.ModifyResponseBodyGatewayFilterFactory;
+import org.springframework.cloud.gateway.filter.ratelimit.KeyResolver;
 import org.springframework.cloud.gateway.route.RouteLocator;
 import org.springframework.cloud.gateway.route.builder.RouteLocatorBuilder;
 import org.springframework.context.annotation.Bean;
@@ -94,5 +95,19 @@ public class FilterConfguration {
 */
 
 
+    @Bean
+    public KeyResolver ipKeyResolver() {
+        return exchange -> Mono.just(exchange.getRequest().getRemoteAddress().getHostName());
+    }
+
+   /* @Bean
+    public KeyResolver userKeyResolver() {
+        return exchange -> Mono.just(exchange.getRequest().getHeaders().getFirst("userId"));
+    }
+
+    @Bean
+    KeyResolver apiKeyResolver() {
+        return exchange -> Mono.just(exchange.getRequest().getPath().value());
+    }*/
 
 }

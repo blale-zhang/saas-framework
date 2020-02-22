@@ -23,7 +23,7 @@
         <module name="nacos-discovery" />
         <module name="security-app" />
         <module name="security-core" />
-        <module name="security-diy" />
+        <module name="security-diy (1)" />
         <module name="security-diy-nomal" />
         <module name="security-web" />
       </profile>
@@ -50,6 +50,7 @@
       <module name="security-app" target="1.8" />
       <module name="security-core" target="1.8" />
       <module name="security-diy" target="1.8" />
+      <module name="security-diy (1)" target="1.8" />
       <module name="security-diy-nomal" target="1.8" />
       <module name="security-starter" target="1.8" />
       <module name="security-web" target="1.8" />

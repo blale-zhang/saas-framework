@@ -7,6 +7,11 @@ package org.smr.comp.mybatis.utils;
  */
 public interface PagerSqlBuilder {
 
+
+	public static final String ORDER_BY_CLAUSE = " ORDER BY ";
+	public static final String LIMIT_CLAUSE = " LIMIT ";
+
+
 	/**
 	 * 分页Sql构�??
 	 * @param querySql 原始不带分页逻辑的查询SQL
@@ -14,7 +19,7 @@ public interface PagerSqlBuilder {
 	 * @param pageSize 排序字段 ,为了兼容MSSQL,如果不需要排序请输入“�??
 	 * @return
 	 */
-	public String buildPageSql(String querySql, Long startIndex, Long pageSize);
+	public String buildPageSql(String querySql, Long startIndex, Long pageSize, String orderByClause);
 	
 	/**
 	 * 获取totalCount语句

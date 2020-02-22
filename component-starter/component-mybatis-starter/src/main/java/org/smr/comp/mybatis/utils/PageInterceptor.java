@@ -1,5 +1,6 @@
 package org.smr.comp.mybatis.utils;
 
+import org.apache.commons.lang3.StringUtils;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.apache.ibatis.executor.parameter.ParameterHandler;
@@ -87,10 +88,15 @@ public class PageInterceptor implements Interceptor {
                 Pager page = (Pager) metaStatementHandler
                         .getValue("delegate.boundSql.parameterObject.page");
                 String sql = boundSql.getSql();
+
                 // 重写sql
                 Long pageSize = page.getPageSize();
                 Long startIndex = (page.getCurrentPage()-1 )* pageSize;
-                String pageSql = pageSqlBuilder.buildPageSql(sql,startIndex ,pageSize);
+
+                if(StringUtils.isBlank(page.getOrderByClause())){
+                   page.setOrderByClause("");
+                }
+                String pageSql = pageSqlBuilder.buildPageSql(sql,startIndex ,pageSize, page.getOrderByClause());
                 metaStatementHandler.setValue("delegate.boundSql.sql", pageSql);
                 // 采用物理分页后，就不要mybatis的内存分页了，所以重置下面的两个参数
                 metaStatementHandler.setValue("delegate.rowBounds.offset", RowBounds.NO_ROW_OFFSET);

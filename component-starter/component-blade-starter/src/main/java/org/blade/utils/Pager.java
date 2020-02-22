@@ -19,6 +19,8 @@ public class Pager<T> {
 	private Long totalCount = 0L ;// 总记录数
 	private List<T> entities;
 
+	private String orderByClause;
+
 	public Pager(Long pageSize, Long currentPage) {
 		this.pageSize = pageSize;
 		this.currentPage = currentPage;
@@ -107,6 +109,14 @@ public class Pager<T> {
 	public void prePage() {
 		if (this.hasPrevious())
 			currentPage -= currentPage;
+	}
+
+	public String getOrderByClause() {
+		return orderByClause;
+	}
+
+	public void setOrderByClause(String orderByClause) {
+		this.orderByClause = orderByClause;
 	}
 }
 

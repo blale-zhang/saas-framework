@@ -14,6 +14,7 @@ import org.smr.ministore.security.conf.JwtHelper;
 import org.springframework.cloud.gateway.filter.GatewayFilter;
 import org.springframework.cloud.gateway.filter.factory.AbstractGatewayFilterFactory;
 import org.springframework.core.io.buffer.DataBuffer;
+import org.springframework.data.geo.Point;
 import org.springframework.data.redis.core.RedisTemplate;
 import org.springframework.http.HttpHeaders;
 import org.springframework.http.server.reactive.ServerHttpResponse;
@@ -70,11 +71,17 @@ public class AuthorizationGatewayFilterFactory extends AbstractGatewayFilterFact
 
                     Map userLoginInfo = redisTemplate.boundHashOps(loginUserKey).entries();
 
+
+                    //redisTemplate.opsForGeo().
+                    //Point point ;
                     String token = MapUtils.getString(userLoginInfo, GlobalConstant.TOKEN_KEY);
 
                     if(!jwtToken.equals( token )){
                         return responseNologin( exchange );
                     }
+
+                    //String organId = exchange.getRequest().getHeaders().getFirst("OrganId");
+
                     // 合法
                     // 将用户id作为参数传递下去
                     return chain.filter(exchange);

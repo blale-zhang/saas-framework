@@ -22,9 +22,9 @@
       <module fileurl="file://$PROJECT_DIR$/framework.iml" filepath="$PROJECT_DIR$/framework.iml" />
       <module fileurl="file://$PROJECT_DIR$/security-starter/security-app/security-app.iml" filepath="$PROJECT_DIR$/security-starter/security-app/security-app.iml" />
       <module fileurl="file://$PROJECT_DIR$/security-starter/security-core/security-core.iml" filepath="$PROJECT_DIR$/security-starter/security-core/security-core.iml" />
-      <module fileurl="file://$PROJECT_DIR$/security-starter/security-diy/security-diy.iml" filepath="$PROJECT_DIR$/security-starter/security-diy/security-diy.iml" />
-      <module fileurl="file://$PROJECT_DIR$/security-starter/security-diy-nomal/security-diy-nomal.iml" filepath="$PROJECT_DIR$/security-starter/security-diy-nomal/security-diy-nomal.iml" />
       <module fileurl="file://$PROJECT_DIR$/security-starter/security-diy.iml" filepath="$PROJECT_DIR$/security-starter/security-diy.iml" />
+      <module fileurl="file://$PROJECT_DIR$/security-starter/security-diy/security-diy (1).iml" filepath="$PROJECT_DIR$/security-starter/security-diy/security-diy (1).iml" />
+      <module fileurl="file://$PROJECT_DIR$/security-starter/security-diy-nomal/security-diy-nomal.iml" filepath="$PROJECT_DIR$/security-starter/security-diy-nomal/security-diy-nomal.iml" />
       <module fileurl="file://$PROJECT_DIR$/security-starter/security-web/security-web.iml" filepath="$PROJECT_DIR$/security-starter/security-web/security-web.iml" />
       <module fileurl="file://$PROJECT_DIR$/security-starter/securitydiy.iml" filepath="$PROJECT_DIR$/security-starter/securitydiy.iml" />
     </modules>

@@ -13,13 +13,10 @@ import java.util.concurrent.TimeUnit;
 /**
  * Created by Dvnuo on 2017/4/12.
  */
-@Component
 public class RedisUtils {
 
-    @Autowired
     private static StringRedisTemplate stringRedisTemplate;
 
-    @Autowired
     private static RedisTemplate<String, Object> redisTemplate ;
 
     /**

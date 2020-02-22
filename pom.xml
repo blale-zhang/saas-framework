@@ -178,14 +178,6 @@
                 <scope>import</scope>
             </dependency>
 
-
-            <!-- https://mvnrepository.com/artifact/org.springframework.boot/spring-boot-starter-actuator -->
-            <dependency>
-                <groupId>org.springframework.boot</groupId>
-                <artifactId>spring-boot-starter-actuator</artifactId>
-                <version>2.1.2.RELEASE</version>
-            </dependency>
-
             <!-- hystrix -->
             <dependency>
                 <groupId>org.springframework.cloud</groupId>
@@ -481,12 +473,6 @@
                 <artifactId>commons-io</artifactId>
                 <version>${commons.io.version}</version>
             </dependency>
-            <dependency>
-                <groupId>log4j</groupId>
-                <artifactId>log4j</artifactId>
-                <version>${log4j.version}</version>
-            </dependency>
-
             <!-- https://mvnrepository.com/artifact/commons-collections/commons-collections -->
             <dependency>
                 <groupId>commons-collections</groupId>
@@ -702,7 +688,7 @@
             <dependency>
                 <groupId>log4j</groupId>
                 <artifactId>log4j</artifactId>
-                <version>1.2.17</version>
+                <version>${log4j.version}</version>
             </dependency>
 
             <!-- https://mvnrepository.com/artifact/commons-lang/commons-lang -->
