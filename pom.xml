@@ -45,7 +45,7 @@
         <spring.boot.actuator.version>1.5.19.RELEASE</spring.boot.actuator.version>
 
         <!--<mysql.version>5.1.39</mysql.version>-->
-        <mysql.version>8.0.11</mysql.version>
+        <mysql.version>8.0.16</mysql.version>
         <commons.lang3.version>3.8</commons.lang3.version>
         <commons.collection.version>3.2.1</commons.collection.version>
         <commons.io.version>2.4</commons.io.version>
@@ -576,14 +576,14 @@
             <dependency>
                 <groupId>mysql</groupId>
                 <artifactId>mysql-connector-java</artifactId>
-                <version>5.1.30</version>
+                <version>8.0.16</version>
                 <scope>runtime</scope>
             </dependency>
 
             <dependency>
                 <groupId>mysql</groupId>
                 <artifactId>mysql-connector-java</artifactId>
-                <version>8.0.11</version>
+                <version>8.0.16</version>
             </dependency>
         </dependencies>
     </dependencyManagement>
