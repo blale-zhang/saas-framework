@@ -48,7 +48,7 @@
         <mysql.version>8.0.11</mysql.version>
         <commons.lang3.version>3.8</commons.lang3.version>
         <commons.collection.version>3.2.1</commons.collection.version>
-        <commons.io.version>2.4</commons.io.version>
+        <commons.io.version>2.7</commons.io.version>
         <log4j.version>1.2.17</log4j.version>
         <fastjson.version>1.2.38</fastjson.version>
         <dashboard.version>1.1.0.RELEASE</dashboard.version>
