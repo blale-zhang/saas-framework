@@ -65,7 +65,7 @@
         <pagehelper.version>4.1.6</pagehelper.version>
         <httpclient.version>4.5.2</httpclient.version>
         <dom4j.version>1.6.1</dom4j.version>
-        <poi.version>3.10.1</poi.version>
+        <poi.version>4.1.1</poi.version>
         <jxls.version>1.0.6</jxls.version>
         <jjwt.version>0.9.0</jjwt.version>
         <jsqlparser.version>0.9.5</jsqlparser.version>
